@@ -1,0 +1,65 @@
+___"Artists know that there is no creativity without a system of formal restraints."___ What Kathy Galloway said also applies to projects, the best and most creative work comes from a set of refrains that doesn’t  choke anyone and guides them to a better result. Here are ours.
+
+## Methodology overview
+Vinta works following an [Agile](http://www.agilemanifesto.org/)-like methodology:
+- Sprints, one-week long . Sprints are a lightweight process aligned to "Responding to change over following a plan".
+- Use of [Trello](https://trello.com/) as the main management tool. There we align expectations, because we want "Customer collaboration over contract negotiation".
+- Use of [GitHub](https://github.com/) for Git repository hosting and code review, along with a  continuous integration tool, like [CircleCI](http://circleci.com/) or [Travis CI](https://travis-ci.org), so  we ensure "Working software over comprehensive documentation".
+- Use of [Slack](https://slack.com/) for real-time communication, since we consider "Individuals and interactions over processes and tools".
+
+## Project Manager’s duties
+- A Project Manager's most important duty is to manage client's expectations and keep them realistic. We realize most of the problems from software development come from communication issues, and the Project Manager at Vinta is the 'Communication Person'. The Project Manager should always track the deliverables for the next sprint and, if any problems are to appear, features must be simplified, development strategies re-evaluated, and priorities re-defined, always sided  with the client. That's easier said than done in some cases, but surely brings benefits for us and the clients.
+- The Project Manager will be the main point of contact with the client. If developers come across any questions, they should refer to the Project Manager first. It's good for everyone to have an open channel so to communicate directly with the client, but the Project Manager should be aware of all project-related decisions. Thus, if any developer gets any new decision directly from the client, they should pass it on to the Project Manager. Preferably this kind communication should be made in a Slack channel or in a Sprint Meeting.
+- Project Manager will work on the project as a developer too.
+- Project Manager should manually test all features before validating them with the client.
+- Project Manager should remember developers to report daily on what they are working on.
+- Project Manager should turn off Slack "do not disturb" option so the client can reach them in case of emergencies.
+- One month prior to  the end of the contract, Project Manager should align with the client if an extension of hours is needed. , otherwise new projects take place.
+
+## Sprints
+- Managed on Trello ([See our Trello Guideline](guidelines/guideline_trello.md)).
+- One-week.
+- Friday to Thursday.
+- Never deploy to production on Fridays.
+- Weekly Sprint Meetings.
+- [Sprint Meeting checklist](checklists/sprint_meeting.md) must be followed.
+- [Daily development reports](development.md#daily-reporting).
+
+### Development
+Read [Development section](development.md#development) to understand how features should be implemented and what are the coding guidelines.
+
+## Team Augmentation Project
+Questions to ask a client before starting the project:
+
+- In which platform was the project built?
+- Was it some JS MVC framework?
+- Is Django the backend?
+- Django template or only Django as API?
+- Will we work on features, bugs, or both?
+- Which tool will be used to manage issues?
+- Uses Slack?
+- Who will be the main point of contact?
+- Do you follow any kind of Git process? Git flow?
+- How is the test coverage?
+- Are the continuous integration tools working?
+- Code patterns? Html? Js? Python?
+- Do you have a QA team?
+
+## Postmortem
+After the project ends, the Project Manager must write a postmortem and share it with the client. Language should be professional, but kind. A Postmortem serves as future lessons for Vinta to know where our process might need improvement. Here is what the Project Manager needs to answer in it:
+
+- Are you proud of finished deliverables (project work products)? If yes, what's so good about them? If not, what's wrong with them?
+- What was the single most frustrating part of the project?
+- What was the most professionally gratifying part of the project for you?
+- Which of our methods or processes worked particularly well?
+- Which of our methods or processes were difficult or frustrating to use?
+- Which libraries did we  use? Which were good? Which were bad?
+- Which tools did we use? Which were good? Which were bad?
+- Which APIs and external services did we use? Which were good? Which were bad?
+- Did we write tests? How much was the coverage?
+- Did you see any early warning signs that resulted in problems in the project? Please describe the signs you saw. What could we do in the future to better react to those signs?
+- Did we get timely feedback about deliverables?
+- Were there things you did that you thought were not under your responsibility? What were they?
+- Did project stakeholders, senior managers, customers, and sponsor(s) participate effectively? If not, how could we have improved their participation?
+- If you could wave a magic wand and change anything about the project, what would you change?
+- Any additional things you'd like to mention?

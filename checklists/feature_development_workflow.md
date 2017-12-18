@@ -1,0 +1,7 @@
+- [ ] Read the specs.
+- [ ] Follow [git-flow](http://nvie.com/posts/a-successful-git-branching-model/).
+- [ ] Develop feature and write automated tests.
+- [ ] As you progress and learn about feature and code, add items to feature checklist, such as code in need of review, tests to write, code to refactor, important edge case not covered in original checklist
+- [ ] Run tests locally and test manually.
+- [ ] Add "QA checklist". There, add things that feature reviewer must do when revising . Eg.: click this button, fill that form...
+- [ ] Do the PR, follow the [Pull request workflow](checklist/pull_request_workflow.md).
