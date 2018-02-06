@@ -11,10 +11,28 @@ Vinta works following an [Agile](http://www.agilemanifesto.org/)-like methodolog
 - A Project Manager's most important duty is to manage client's expectations and keep them realistic. We realize most of the problems from software development come from communication issues, and the Project Manager at Vinta is the 'Communication Person'. The Project Manager should always track the deliverables for the next sprint and, if any problems are to appear, features must be simplified, development strategies re-evaluated, and priorities re-defined, always sided  with the client. That's easier said than done in some cases, but surely brings benefits for us and the clients.
 - The Project Manager will be the main point of contact with the client. If developers come across any questions, they should refer to the Project Manager first. It's good for everyone to have an open channel so to communicate directly with the client, but the Project Manager should be aware of all project-related decisions. Thus, if any developer gets any new decision directly from the client, they should pass it on to the Project Manager. Preferably this kind communication should be made in a Slack channel or in a Sprint Meeting.
 - Project Manager will work on the project as a developer too.
-- Project Manager should manually test all features before validating them with the client.
 - Project Manager should remember developers to report daily on what they are working on.
 - Project Manager should turn off Slack "do not disturb" option so the client can reach them in case of emergencies.
-- One month prior to  the end of the contract, Project Manager should align with the client if an extension of hours is needed. , otherwise new projects take place.
+- One month prior to  the end of the contract, Project Manager should align with the client if an extension of hours is needed, otherwise new projects take place.
+
+### Daily Attibutions
+
+- Make sure process is being followed by everyone in the team: code is being reviewed, tests are being written, ...
+- Assert team is writing quality code.
+- Guarantee technical debt is not being overlooked and allocate accordingly when payment is urgent. Be emphatic when needed about this with the client.
+- Advise less experienced team members.
+- Watch for tools and processes that can improve team's and project's wellness and performance.
+- Create a health environment for people to grow. This includes making sure everyone: has active voice in decisions and feels safe to ask, learn and give opinions.
+- Guide team towards the best decisions.
+- Be tough when the team is heading in the wrong direction. When the team lacks consensus or when it feels appropriate, PM will have final say.
+- Delegate and trust the team to execute any kind of job. There's no such a thing as a task that can only be performed by a PM. 
+
+### Not team lead attributions:
+
+- Review every single piece of code.
+- QA every single functionality.
+- Solely assume responsibility during crisis.
+- Micromanage people's work.
 
 ## Sprints
 - Managed on Trello ([See our Trello Guideline](guidelines/guideline_trello.md)).
