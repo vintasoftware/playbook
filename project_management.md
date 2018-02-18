@@ -2,19 +2,18 @@ ___"Artists know that there is no creativity without a system of formal restrain
 
 ## Methodology overview
 Vinta works following an [Agile](http://www.agilemanifesto.org/)-like methodology:
-- Sprints, one-week long . Sprints are a lightweight process aligned to "Responding to change over following a plan".
+- Sprints, one-week long. Sprints are a lightweight process aligned to "Responding to change over following a plan".
 - Use of [Trello](https://trello.com/) as the main management tool. There we align expectations, because we want "Customer collaboration over contract negotiation".
 - Use of [GitHub](https://github.com/) for Git repository hosting and code review, along with a  continuous integration tool, like [CircleCI](http://circleci.com/) or [Travis CI](https://travis-ci.org), so  we ensure "Working software over comprehensive documentation".
 - Use of [Slack](https://slack.com/) for real-time communication, since we consider "Individuals and interactions over processes and tools".
 
 ## Project Manager’s duties
-- A Project Manager's most important duty is to manage client's expectations and keep them realistic. We realize most of the problems from software development come from communication issues, and the Project Manager at Vinta is the 'Communication Person'. The Project Manager should always track the deliverables for the next sprint and, if any problems are to appear, features must be simplified, development strategies re-evaluated, and priorities re-defined, always sided  with the client. That's easier said than done in some cases, but surely brings benefits for us and the clients.
+- A Project Manager's most important duty is to manage client's expectations and keep them realistic. We realize most of the problems in software development come from communication issues, and the Project Manager at Vinta is the 'Communication Person'. The Project Manager should always track the deliverables for the next sprint and, if any problems are to appear, features must be simplified, development strategies re-evaluated, and priorities re-defined, always sided with the client. That's easier said than done in some cases, but surely brings benefits for us and the clients.
 - The Project Manager will be the main point of contact with the client. If developers come across any questions, they should refer to the Project Manager first. It's good for everyone to have an open channel so to communicate directly with the client, but the Project Manager should be aware of all project-related decisions. Thus, if any developer gets any new decision directly from the client, they should pass it on to the Project Manager. Preferably this kind communication should be made in a Slack channel or in a Sprint Meeting.
 - Project Manager will work on the project as a developer too.
-- Project Manager should manually test all features before validating them with the client.
+- Project Manager should encourage everyone to manually test all features before validating them with the client.
 - Project Manager should remember developers to report daily on what they are working on.
-- Project Manager should turn off Slack "do not disturb" option so the client can reach them in case of emergencies.
-- One month prior to  the end of the contract, Project Manager should align with the client if an extension of hours is needed. , otherwise new projects take place.
+- Project Manager should alert everyone to turn off Slack "do not disturb" option so the client can reach them in case of emergencies.
 
 ## Sprints
 - Managed on Trello ([See our Trello Guideline](guidelines/guideline_trello.md)).
