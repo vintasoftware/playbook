@@ -12,7 +12,7 @@ Once a week we do a company-wide meeting so people can tell the whole team what 
 ```
 
 ## Open Source
-We are community people, open source contributions are wonderful  and everyone is encouraged to do some. Since a lot of our coding uses open-source tools, maintaining our own open-source projects seem reasonable. So we encourage people to contribute as projects demands. We find that is one way to leave our company's mark in the community as well is to always fork using [Vinta's Github account](https://github.com/vintasoftware).
+We are community people, open source contributions are wonderful  and everyone is encouraged to do some. Since a lot of our coding uses open-source tools, maintaining our own open-source projects seems reasonable. So we encourage people to contribute as projects demands. We find that is one way to leave our company's mark in the community as well is to always fork using [Vinta's Github account](https://github.com/vintasoftware).
 
 ## Conferences
 Community is not only about producing open-source software (and playbooks), conferences are part of it as well. People are encouraged to give back as much as they can. With the interest of developing further exchange with other professionals, Vinta will buy tickets for any technical conferences deemed worthy by the employees, and if one of ours approves a talk in a conference, whether it's local or international, she/he is granted a bonus for their further collaboration in sustaining the community we are a part of. Keeping an eye on conference's submission deadlines helps everyone in doing so.

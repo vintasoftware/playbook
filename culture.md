@@ -1,14 +1,14 @@
 ___“The only thing we have is one another. The only competitive advantage we have is the culture and values of the company."___ Howard Schultz said it about Starbucks and we unreservedly  agree. Here at Vinta we care a lot about having an ever-improving environment to work on. Check our guidelines so you can also go forward and create your own!
 
 ## Who are we? What do we do?
-Vinta is a software consultancy focused on web projects. We like to work with Python and JavaScript tools, but we have an open mind to experiment and play with other languages and tools. Django and React are our specialty and we love working with APIs.
+Vinta is a software consultancy focused on web projects. We like to work with Python and JavaScript tools, but we have an open mind to experiment and play with other languages and tools. Django and React are our specialties and we love working with APIs.
 
 ## Our philosophy
 - Programmers, not processes nor code, are the most important thing in software engineering.
 - The client should be always aware of what is happening, be it good or bad.
 - There is no such a thing as the best language or an only way to do things. Each project is unique, and requires its own tools.
 - Code should be clean and tested so programmers feel happy and confident to work on.
-- Refactoring is a recurrent need and should be regarded just like any feature in the backlog.
+- Refactoring is a recurrent need and should be regarded as any feature in the backlog.
 - Because of the above, automated tests are a must. As long as you write then, choose whatever process you like the most.
 - Code should be deployed early and often.
 - Simple beats complex.
