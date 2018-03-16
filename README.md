@@ -52,7 +52,12 @@ generate this with https://github.com/ekalinin/github-markdown-toc.go
     * [Feature implementation](development.md#feature-implementation)
     * [Code and feature review](development.md#code-and-feature-review)
 
-  * [Six - Checklists](checklists.md)
+  * [Six - Security](security.md)
+    * [2-factor Authentication](security.md#2-factor-authentication)
+    * [Password Managers](security.md#password-managers)
+    * [Encrypting Sensitive Messages](security.md#encrypting-sensitive-messages)
+
+  * [Seven - Checklists](checklists.md)
     * [Feature card creation](checklists/feature_card_creation.md)
     * [Bug card creation](checklists/bug_card_creation.md)
     * [Sprint meeting](checklists/sprint_meeting.md)
@@ -61,16 +66,16 @@ generate this with https://github.com/ekalinin/github-markdown-toc.go
     * [PR workflow](checklists/pull_request_workflow.md)
     * [PR review workflow](checklists/pull_request_review_workflow.md)
 
-  * [Seven - Guidelines](guidelines.md)
+  * [Eight - Guidelines](guidelines.md)
     * [Frontend](guidelines/guideline_frontend.md)
     * [Design](guidelines/guideline_design.md)
     * [Landing Pages](guidelines/guideline_landing_pages.md)
     * [Management with Trello](guidelines/guideline_trello.md)
     * [Presentation](guidelines/guideline_presentations.md)
 
-  * [Eight - Homemade Products](home_made.md#home-made-projects)
+  * [Nine - Homemade Products](home_made.md#home-made-projects)
     * [Fix My Django](home_made.md#fix-my-django)
 
-  * [Nine - Career Plan](career_plan.md#career-plan)
+  * [Ten - Career Plan](career_plan.md#career-plan)
     * [Some added information](career_plan.md#some-added-information)
     * [Levels](career_plan.md#levels)
