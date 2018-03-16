@@ -15,6 +15,25 @@ Vinta works following an [Agile](http://www.agilemanifesto.org/)-like methodolog
 - Project Manager should remember developers to report daily on what they are working on.
 - Project Manager should alert everyone to turn off Slack "do not disturb" option so the client can reach them in case of emergencies.
 
+### Daily Attibutions
+
+- Make sure process is being followed by everyone in the team: code is being reviewed, tests are being written, ...
+- Assert team is writing quality code.
+- Guarantee technical debt is not being overlooked and allocate accordingly when payment is urgent. Be emphatic when needed about this with the client.
+- Advise less experienced team members.
+- Watch for tools and processes that can improve the team's and project's wellness and performance.
+- Create a healthy environment for people to grow. This includes making sure everyone: has active voice in decisions and feels safe to ask, learn and give opinions.
+- Guide the team towards the best decisions.
+- Be tough when the team is heading in the wrong direction. When the team lacks consensus or when it feels appropriate, PM will have the final say.
+- Delegate and trust the team to execute any kind of job. There's no such thing as a task that can only be performed by a PM. 
+
+### Not team lead attributions:
+
+- Review every single piece of code.
+- QA every single functionality.
+- Solely assume responsibility during crisis.
+- Micromanage people's work.
+
 ## Sprints
 - Managed on Trello ([See our Trello Guideline](guidelines/guideline_trello.md)).
 - One-week.
