@@ -1,11 +1,6 @@
-In order to achieve our goal to deliver CTO-level Django services we are constantly upgrading our __company__, how we __manage our Projects__ and how we __develop software__. Also, we [contribute a lot to open source communities](https://vinta.com.br/opensource). So we decided to make our moves, and why we do them, public as well! All of you are free to use, copy, rename or improve on this playbook, but please [read our creative commons license first.](http://creativecommons.org/licenses/by-nc/4.0/) 
+In order to keep Vinta growing strong, we are constantly __upgrading our processes__, how we __manage our projects__ and how we __develop software.__ Also, we [contribute a lot to open source communities](https://vinta.com.br/opensource). So we decided to make our moves, and why we do them, public as well! All of you are free to use, copy, rename or improve on this playbook, but please [read our creative commons license first.](http://creativecommons.org/licenses/by-nc/4.0/) 
 
 Are you curious? Just start reading and [let us know](https://vinta.com.br/contact) what you think!
-
-<!--
-generate this with https://github.com/ekalinin/github-markdown-toc.go 
-./gh-md-toc \
--->
 
   * [One - Culture](culture.md#culture)
     * [Who we are? What we do?](culture.md#what-we-are)

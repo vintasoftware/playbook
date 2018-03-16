@@ -16,30 +16,30 @@ The use of our [boilerplate](https://github.com/vintasoftware/boilerplate) is st
 - That file should explain the basics how-to of the server (how to access app code, restart/stop the server and services).
 
 ## Principles
-- KISS: Keep it simple, Sweetie (not stupid!)
-- DRY: Don't Repeat Yourself
-- YAGNI: You aren't gonna need it
-- Small functions/methods
-- Avoid side effects
-- Design matters
-- UX matters even more
-- All code should be reviewed
-- All features must be manually tested before going to production
-- If there's no way to keep it simple, make sure there are comments
-- Commit as often as possible (try not to have an "and" in commit messages)
-- And again, Keep it simple
+- KISS: Keep it simple, Sweetie (not stupid!).
+- DRY: Don't Repeat Yourself.
+- YAGNI: You aren't gonna need it.
+- Small functions/methods.
+- Avoid side effects.
+- Design matters.
+- UX matters even more.
+- All code should be reviewed.
+- All features must be manually tested before going to production.
+- If there's no way to keep it simple, make sure there are comments.
+- Commit as often as possible (try not to have an "and" in commit messages).
+- And again, Keep it simple.
 
 
 ## Style Guides
 
 ### Python
-- [PEP8](https://www.python.org/dev/peps/pep-0008/)
+- [PEP8.](https://www.python.org/dev/peps/pep-0008/)
 
 ### JavaScript
-- [Airbnb JS Style Guide](https://github.com/airbnb/javascript)
+- [Airbnb JS Style Guide.](https://github.com/airbnb/javascript)
 
 ### HTML & Sass
-- [Frontend Guide](guidelines/guideline_frontend.md)
+- [Frontend Guide.](guidelines/guideline_frontend.md)
 
 ## Daily reporting
 We use the IN/OUT methodology for daily follow-up with project developers, as well as the Harvest app to track how much time has been  spent on the project. A quick report by the end of the day to the project manager also helps to keep the project on track.
