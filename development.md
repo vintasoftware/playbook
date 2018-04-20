@@ -17,18 +17,25 @@ The use of our [boilerplate](https://github.com/vintasoftware/boilerplate) is st
 
 ## Principles
 - KISS: Keep it simple, Sweetie (not stupid!).
+- If there's no way to keep it simple, make sure there are comments.
+- Functions/methods must have a single concern.
 - DRY: Don't Repeat Yourself.
-- YAGNI: You aren't gonna need it.
-- Small functions/methods.
-- Avoid side effects.
+- Reuse domain/business logic, because those must be always consistent.
+- But prefer duplication over the wrong abstraction.
+- Also, know that probably YAGNI: You aren't gonna need it.
+- Isolate code that changes often from code that doesn't.
+- Avoid side effects, but remember that complex is better than complicated.
 - Design matters.
 - UX matters even more.
 - All code should be reviewed.
 - All features must be manually tested before going to production.
-- If there's no way to keep it simple, make sure there are comments.
 - Commit as often as possible (try not to have an "and" in commit messages).
 - And again, Keep it simple.
-
+- Some in-depth resources related to those principles:
+  * [Zen of Python](https://www.python.org/dev/peps/pep-0020/)
+  * [The Wrong Abstraction](https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction)
+  * [The Wrong Abstraction, HN discussion](https://news.ycombinator.com/item?id=11032296)
+  * [Write code that is easy to delete, not easy to extend](https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to)
 
 ## Style Guides
 
