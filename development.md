@@ -18,24 +18,31 @@ The use of our [boilerplate](https://github.com/vintasoftware/boilerplate) is st
 ## Principles
 - KISS: Keep it simple, Sweetie (not stupid!).
 - If there's no way to keep it simple, make sure there are comments.
-- Functions/methods must have a single concern.
-- DRY: Don't Repeat Yourself.
+- Functions/methods/classes/modules must have a single concern.
+- Even commits must have a single concern, so commit as often as possible (try not to have an "and" in commit messages).
+- Every piece of knowledge must have a single, unambiguous, authoritative representation within a system. Stay DRY: Don't Repeat Yourself.
 - Reuse domain/business logic, because those must be always consistent.
 - But prefer duplication over the wrong abstraction.
-- Also, know that probably YAGNI: You aren't gonna need it.
-- Isolate code that changes often from code that doesn't.
+- After all, premature generalization, as well as premature optimization, is the root of all evil.
+- Because probably YAGNI: You aren't gonna need it.
+- Better to isolate code that changes often from code that doesn't.
+- And write code that is easy to delete, not easy to extend. Things change in unexpected ways.
 - Avoid side effects, but remember that complex is better than complicated.
 - Design matters.
 - UX matters even more.
 - All code should be reviewed.
 - All features must be manually tested before going to production.
-- Commit as often as possible (try not to have an "and" in commit messages).
-- And again, Keep it simple.
+- And again, keep it simple.
 - Some in-depth resources related to those principles:
-  * [Zen of Python](https://www.python.org/dev/peps/pep-0020/)
+  * [KISS principle](https://en.wikipedia.org/wiki/KISS_principle)
+  * [Separation of Concern vs Single Responsibility Principle](https://weblogs.asp.net/arturtrosin/separation-of-concern-vs-single-responsibility-principle-soc-vs-srp)
+  * [Don't repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+  * [Premature Generalization](http://wiki.c2.com/?PrematureGeneralization)
+  * [YAGNI](https://martinfowler.com/bliki/Yagni.html)
   * [The Wrong Abstraction](https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction)
   * [The Wrong Abstraction, HN discussion](https://news.ycombinator.com/item?id=11032296)
   * [Write code that is easy to delete, not easy to extend](https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to)
+  * [Zen of Python](https://www.python.org/dev/peps/pep-0020/)
 
 ## Style Guides
 
