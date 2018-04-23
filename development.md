@@ -27,9 +27,12 @@ The use of our [boilerplate](https://github.com/vintasoftware/boilerplate) is st
 - Because probably YAGNI: You aren't gonna need it.
 - Better to isolate code that changes often from code that doesn't.
 - And write code that is easy to delete, not easy to extend. Things change in unexpected ways.
-- Avoid side effects, but remember that complex is better than complicated.
-- Design matters.
-- UX matters even more.
+- Feature flags help with this. They decouple feature releases from merging branches and deploying. And help to decouple behaviors.
+- Decoupling is good if it gives you power to easily add, change, or remove code. If not, forget it.
+- Pure functions are always decoupled from state and time. Avoid side effects.
+- But remember that complex is better than complicated.
+- Know that design matters.
+- And UX matters even more.
 - All code should be reviewed.
 - All features must be manually tested before going to production.
 - And again, keep it simple.
@@ -42,6 +45,7 @@ The use of our [boilerplate](https://github.com/vintasoftware/boilerplate) is st
   * [The Wrong Abstraction](https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction)
   * [The Wrong Abstraction, HN discussion](https://news.ycombinator.com/item?id=11032296)
   * [Write code that is easy to delete, not easy to extend](https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to)
+  * [Feature Toggles (aka Feature Flags)](https://martinfowler.com/articles/feature-toggles.html)
   * [Zen of Python](https://www.python.org/dev/peps/pep-0020/)
 
 ## Style Guides
