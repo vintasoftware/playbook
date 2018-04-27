@@ -31,6 +31,7 @@ The use of our [boilerplate](https://github.com/vintasoftware/boilerplate) is st
 - Decoupling is good if it gives you power to easily add, change, or remove code. If not, forget it.
 - Pure functions are always decoupled from state and time. Avoid side effects.
 - But remember that complex is better than complicated.
+- Write readable code. This way, it's less likely to contain bugs, because the bugs are made more visible by readability.
 - Know that design matters.
 - And UX matters even more.
 - All code should be reviewed.
