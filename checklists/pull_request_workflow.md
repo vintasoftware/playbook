@@ -24,6 +24,7 @@ Look for the following problems:
 - [ ] YAGNI: You aren't gonna need it (PS: Fowler said "Yagni only applies to capabilities built into the software to support a presumptive feature, it does not apply to effort to make the software easier to modify").
 - [ ] Architecture errors, basically good separation of concerns and no leaky abstractions.
 - [ ] Unclear behavior.
+- [ ] Code that is not readable.
 - [ ] Performance (but fine if good enough).
 - [ ] Complicated constructions that need refactoring or comments.
 - [ ] Forgotten TODOs and noop lines.
