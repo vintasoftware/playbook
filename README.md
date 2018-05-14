@@ -1,4 +1,4 @@
-In order to keep Vinta growing strong, we are constantly __upgrading our processes__, how we __manage our projects__ and how we __develop software.__ Also, we [contribute a lot to open source communities](https://vinta.com.br/opensource). So we decided to make our moves, and why we do them, public as well! All of you are free to use, copy, rename or improve on this playbook, but please [read our creative commons license first.](http://creativecommons.org/licenses/by-nc/4.0/) 
+In order to keep Vinta growing strong, we are constantly __upgrading our processes__, how we __manage our projects__ and how we __develop software.__ Also, we [contribute a lot to open source communities](https://vinta.com.br/opensource). So we decided to make our moves, and why we do them, public as well! All of you are free to use, copy, rename or improve on this playbook, but please [read our creative commons license first.](http://creativecommons.org/licenses/by-nc/4.0/)
 
 Are you curious? Just start reading and [let us know](https://vinta.com.br/contact) what you think!
 
@@ -54,6 +54,7 @@ Are you curious? Just start reading and [let us know](https://vinta.com.br/conta
     * [Feature workflow](checklists/feature_development_workflow.md)
     * [PR workflow](checklists/pull_request_workflow.md)
     * [PR review workflow](checklists/pull_request_review_workflow.md)
+    * [Launch](checklists/launch.md)
 
   * [Eight - Guidelines](guidelines.md)
     * [Frontend](guidelines/guideline_frontend.md)
