@@ -37,3 +37,8 @@
 - Priorities should be always defined, together by both client and developer(s).
 
 - The client should validate the card before moving it to Done and pushing to production.
+
+
+## Productivity Tips
+- It's possible to paste a checklist from Playbook into Trello and have it parsed as a checklist there. See:
+![trello-checklist-creation](https://user-images.githubusercontent.com/397989/40010847-616da500-577c-11e8-95f3-dc3c0cf9f352.gif)
