@@ -69,3 +69,7 @@ Are you curious? Just start reading and [let us know](https://vinta.com.br/conta
   * [Ten - Career Plan](career_plan.md#career-plan)
     * [Preface](career_plan.md#preface)
     * [Levels](career_plan.md#levels)
+
+  * [Eleven - Why Choose Vinta](why_choose_vinta.md)
+    * [The Aspects We Look For](why_choose_vinta.md#the-aspects-we-look-for)
+    * [Other Way These Help](why_choose_vinta.md#other-way-these-help)
