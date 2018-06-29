@@ -25,7 +25,7 @@ Vinta works following an [Agile](http://www.agilemanifesto.org/)-like methodolog
 - Create a healthy environment for people to grow. This includes making sure everyone: has active voice in decisions and feels safe to ask, learn and give opinions.
 - Guide the team towards the best decisions.
 - Be tough when the team is heading in the wrong direction. When the team lacks consensus or when it feels appropriate, PM will have the final say.
-- Delegate and trust the team to execute any kind of job. There's no such thing as a task that can only be performed by a PM. 
+- Delegate and trust the team to execute any kind of job. There's no such thing as a task that can only be performed by a PM.
 
 ### Not team lead attributions:
 
@@ -43,8 +43,36 @@ Vinta works following an [Agile](http://www.agilemanifesto.org/)-like methodolog
 - [Sprint Meeting checklist](checklists/sprint_meeting.md) must be followed.
 - [Daily development reports](development.md#daily-reporting).
 
+## Sprint
+
 ### Development
 Read [Development section](development.md#development) to understand how features should be implemented and what are the coding guidelines.
+
+### Retrospective
+The retrospective is the moment to evaluate the work that was done on the previous sprint(s). Every person must think on their own and collaborate with the team to propose solutions. There's no right answer as to how often retrospectives should happen, they can be weekly, biweekly, monthly. The periodicity depends on the team's needs.
+
+There are different techniques that can be used such as **Daki Exercise**, **Stop, Start, Continue**, etc. However, the general idea is to have a clear vision of:
+- What the team learned
+- What was good
+- What was bad
+- What can improve
+
+#### Good Practices
+- Encourage the team to track topics they want to discuss at retrospectives.
+- During the retrospective, take notes to keep track of feedbacks and goals defined.
+- Open past notes and discuss how every feedback from the last retrospective was addressed.
+- Brainstorm and discuss new inputs for each topic. But keep discussions objective.
+- Don't sink into unnecessarily long dialogs. Some teams adopt a limited time frame.
+- Try to keep discussions about processes. Avoid long technical discussions.
+- Make sure topics discussed translates to actions.
+
+**DAKI Exercise**
+
+*D* for Drop: When team members want to drop or remove something that bothers them. For example, a team wants to remove (drop) weekly meeting with their manager because of micromanaging.
+*A* for Add: What does the team want to add to improve the process? Perhaps adding a weekly breakfast for the whole team or a company to share feelings/feedback with the rest of the people.
+*K* for Keep: When team members want to keep something. For example, the team decides to keep a stand up meeting with a song chosen by a team member.
+*I* for Improve: Something that a team wants to improve. A good example is when a team reduces the technical debt from a legacy code to avoid fixing bugs all day long.
+
 
 ## Team Augmentation Project
 Questions to ask a client before starting the project:
