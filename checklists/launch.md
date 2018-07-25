@@ -65,8 +65,8 @@ Before launching to production, assert following steps are guaranteed.
 - [ ] Check latest server OS version is being used.
 - [ ] Check latest server Python version is being used.
 - [ ] Set a Heroku "Standard" database or higher.
-- [ ] Configure database backups generation scripts.
-- [ ] Configure entire database server disk backup.
+- [ ] Configure database backup generation scripts.
+- [ ] Configure full disk backups for the database server. Make sure it's stored in another resource group (not production), it's locked against deletion it's and easy and fast to restore it.
 - [ ] Tune [PostgreSQL settings](http://pgtune.leopard.in.ua/).
 - [ ] Configure SSL for everything.
 - [ ] Configure SSL certificates autorenewal.
