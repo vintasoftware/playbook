@@ -24,7 +24,7 @@ At Vinta, we use a lot of tools to make our product the most reliable possible s
 ## Useful tutorials and guides
 These links were taken from our [Lessons Learned](https://www.vinta.com.br/lessons-learned/) page. They helped us to learn the dos and don'ts of tools we use daily.
 - Javascript
-    - [A Javascript review ((in case you haven't used it in a while)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
+    - [A Javascript review (in case you haven't used it in a while)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
     - [What are Javascript promises?](https://developers.google.com/web/fundamentals/primers/promises)
     - [A comprehensive guide on throttling and debouncing in JavaScript](https://codeburst.io/throttling-and-debouncing-in-javascript-646d076d0a44)
     - [What is the {...anything} you see around](https://gist.github.com/sebmarkbage/07bbe37bc42b6d4aef81)
