@@ -27,7 +27,7 @@ These links were taken from our [Lessons Learned](https://www.vinta.com.br/lesso
     - [A Javascript review (in case you haven't used it in a while)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
     - [What are Javascript promises?](https://developers.google.com/web/fundamentals/primers/promises)
     - [A comprehensive guide on throttling and debouncing in JavaScript](https://codeburst.io/throttling-and-debouncing-in-javascript-646d076d0a44)
-    - [What is the {...anything} you see around](https://gist.github.com/sebmarkbage/07bbe37bc42b6d4aef81)
+    - [What is the {...anything} you see around Javascript](https://gist.github.com/sebmarkbage/07bbe37bc42b6d4aef81)
 - Jest
     - [Mocking API calls with Jest](https://hackernoon.com/api-testing-with-jest-d1ab74005c0a)
     - [Jest (JavaScript testing library) cheatsheet](https://github.com/sapegin/jest-cheat-sheet/blob/master/Readme.md)
