@@ -25,6 +25,16 @@ First, every intern here develops a toy project. Then the person is integrated i
     - Redux
     - Redux Thunk
     - Normalizr
+    
+## Internship project on Trello
+We try to avoid overwhelming people that are beginning to learn a stack. So the first thing every intern does here is to receive this Trello board. The cards are already separated and ordered to maximize learning. The idea is to start with a Django app and then to rewrite the front using React. The lists are ordered according to priority of deliveries, it’s important to follow the order and develop every feature without parallelization, so that you’ll learn faster. **Remember to read the card named Project Specs first to get an overview of the project!** You can check it below:
+
+https://trello.com/b/oRHqnioo/template-pokebattle
+
+To copy the board, press <kbd>W</kbd> and click on **More > Copy Board**.
+
+## First step: become an intern  
+If you've read it until here, and enjoyed our way of thinking, [come forward and join us!](https://www.vinta.com.br/careers/)
 
 ## Interesting courses
 - Vertabelo
@@ -82,14 +92,3 @@ Some of these links were taken from our [Lessons Learned](https://www.vinta.com.
 - Miscellaneous
     - [Generate beautiful previews of your code](https://carbon.now.sh/)
     - [Useful tool to test webhooks locally](https://ngrok.com/)
-
-
-## Internship project on Trello
-We try to avoid overwhelming people that are beginning to learn a stack. So the first thing every intern does here is to receive this Trello board. The cards are already separated and ordered to maximize learning. The idea is to start with a Django app and then to rewrite the front using React. The lists are ordered according to priority of deliveries, it’s important to follow the order and develop every feature without parallelization, so that you’ll learn faster. **Remember to read the card named Project Specs first to get an overview of the project!** You can check it below:
-
-https://trello.com/b/oRHqnioo/template-pokebattle
-
-To copy the board, press <kbd>W</kbd> and click on **More > Copy Board**.
-
-## First step: become an intern  
-If you've read it until here, and enjoyed our way of thinking, [come forward and join us!](https://www.vinta.com.br/careers/)
