@@ -84,7 +84,7 @@ Some of these links were taken from our [Lessons Learned](https://www.vinta.com.
     - [Useful tool to test webhooks locally](https://ngrok.com/)
 
 
-## Trello board
+## Internship Project on Trello
 We try to avoid overwhelming people that are beginning to learn a stack. So the first thing every intern does here is to receive this Trello board. The cards are already separated and ordered to maximize learning. The idea is to start with a Django app and then to rewrite the front using React. The lists are ordered according to priority of deliveries, it’s important to follow the order and develop every feature without parallelization, so that you’ll learn faster. **Remember to read the card named Project Specs first to get an overview of the project!** You can check it [here](https://trello.com/b/oRHqnioo/template-pokebattle).
 
 To copy the board, press <kbd>W</kbd> and click on **More > Copy Board**.
