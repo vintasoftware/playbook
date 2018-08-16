@@ -63,7 +63,7 @@ Some of these links were taken from our [Lessons Learned](https://www.vinta.com.
         - [Good explanation on where to hold component data](https://medium.freecodecamp.org/where-do-i-belong-a-guide-to-saving-react-component-data-in-state-store-static-and-this-c49b335e2a00)
         - [How React.js works behind the scenes](https://www.youtube.com/watch?v=mLMfx8BEt8g)
         - [Better React forms with Formik](https://mead.io/formik/?utm_source=github&utm_campaign=formikrepo)
-    - Python
+- Python
         - [Possible things that might go wrong when you use mock](http://alexmarandon.com/articles/python_mock_gotchas/)
         - [Easy tutorial on publishing packages to PyPi](http://wittchen.io/2018/04/08/publishing-python-package-to-pypi/)
     - Django
