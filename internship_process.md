@@ -90,3 +90,6 @@ We try to avoid overwhelming people that are beginning to learn a stack. So the 
 [https://trello.com/b/oRHqnioo/template-pokebattle](https://trello.com/b/oRHqnioo/template-pokebattle).
 
 To copy the board, press <kbd>W</kbd> and click on **More > Copy Board**.
+
+## First step: become an intern  
+If you've read it until here, and enjoyed our way of thinking, [come forward and join us!](https://www.vinta.com.br/careers/)
