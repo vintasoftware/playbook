@@ -34,6 +34,8 @@ First, every intern here develops a toy project. Then the person is integrated i
     - [Modern Javascript](https://learn.tylermcginnis.com/p/modern-javascript)
     - [React Fundamentals](https://learn.tylermcginnis.com/p/reactjsfundamentals)
     - [Redux](https://learn.tylermcginnis.com/p/redux)
+- Fernando Masanori
+    - [Python para Zumbis](https://www.pycursos.com/python-para-zumbis/)
 - Gileno Filho
     - [Python 3 na Web com Django](https://www.udemy.com/python-3-na-web-com-django-basico-intermediario/) (free)
 
