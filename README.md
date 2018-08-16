@@ -73,3 +73,11 @@ Are you curious? Just start reading and [let us know](https://vinta.com.br/conta
   * [Eleven - Why Choose Vinta](why_choose_vinta.md)
     * [The Aspects We Look For](why_choose_vinta.md#the-aspects-we-look-for)
     * [Other Way These Help](why_choose_vinta.md#other-way-these-help)
+    
+  * [Twelve - How to become a junior at Vinta](internship_process.md)
+    * [Philosophy behind the whole process](internship_process.md#philosophy-behind-the-whole-process)
+    * [Steps of the process](internship_process.md#steps-of-the-process)
+    * [What you'll learn](internship_process.md#what-youll-learn)
+    * [Interesting courses](internship_process.md#interesting-courses)
+    * [Useful links](internship_process.md#useful-links)
+    * [Trello board](internship_process.md#trello-board)
