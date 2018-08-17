@@ -51,10 +51,10 @@ Are you curious? Just start reading and [let us know](https://vinta.com.br/conta
     * [Bug card creation](checklists/bug_card_creation.md)
     * [Sprint meeting](checklists/sprint_meeting.md)
     * [Landing Pages](checklists/landing_pages.md)
+    * [Launch](checklists/launch.md)
     * [Feature workflow](checklists/feature_development_workflow.md)
     * [PR workflow](checklists/pull_request_workflow.md)
     * [PR review workflow](checklists/pull_request_review_workflow.md)
-    * [Launch](checklists/launch.md)
 
   * [Eight - Guidelines](guidelines.md)
     * [Frontend](guidelines/guideline_frontend.md)
@@ -66,13 +66,13 @@ Are you curious? Just start reading and [let us know](https://vinta.com.br/conta
   * [Nine - Homemade Products](homemade.md#home-made-projects)
     * [Fix My Django](homemade.md#fix-my-django)
 
-  * [Ten - Career Plan](career_plan.md#career-plan)
-    * [Preface](career_plan.md#preface)
-    * [Levels](career_plan.md#levels)
-
-  * [Eleven - Why Choose Vinta](why_choose_vinta.md)
+  * [Ten - Why Choose Vinta](why_choose_vinta.md)
     * [The Aspects We Look For](why_choose_vinta.md#the-aspects-we-look-for)
     * [Other Way These Help](why_choose_vinta.md#other-way-these-help)
+
+  * [Eleven - Career Plan](career_plan.md#career-plan)
+    * [Preface](career_plan.md#preface)
+    * [Levels](career_plan.md#levels)
     
   * [Twelve - How to become a junior at Vinta](internship_process.md)
     * [Philosophy behind the whole process](internship_process.md#philosophy-behind-the-whole-process)
