@@ -1,3 +1,5 @@
+# Services Architecture
+
 We use Django to write the backend of our projects and we want to use its functionalities as much as we can to assist us getting the job done. Django has a very opinionated way on how things should be done and this is good. But one thing that it does not gets in the way is how and where to place business logic in your project. 
 
 There are many approaches available and you can read about them all around the internet. The one we adopt to our projects is to have a shared services module where all the business logic should be placed. This means that you are encouraged to use Django tools as long as the business logic is in the `services` module. For instance, you should use Django's class based views but instead of writing the [business] logic in the Django class you will write it as a function in the `services` module, import and call the function. Django related code (including code that glues `services` code so it adapts to Django) should be in the Django apps, everything else should go in the `services` module. 
