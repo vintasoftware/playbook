@@ -1,6 +1,6 @@
 # Services Architecture
 
-We use Django to write the backend of our projects and we want to use its functionalities as much as we can to assist us getting the job done. Django has a very opinionated way on how things should be done and this is good. But one thing that it does not gets in the way is how and where to place business logic in your project. 
+We use Django to write the backend of our projects and we want to use its functionalities as much as we can to assist us getting the job done. Django has a very opinionated way on how things should be done and this is good. But one thing that it does not do is to get in the way of how and where to place business logic in your project.
 
 There are many approaches available and you can read about them all around the internet. The one we adopt to our projects is to have a shared services module where all the business logic should be placed. This means that you are encouraged to use Django tools as long as the business logic is in the `services` module. For instance, you should use Django's class based views but instead of writing the [business] logic in the Django class you will write it as a function in the `services` module, import and call the function. Django related code (including code that glues `services` code so it adapts to Django) should be in the Django apps, everything else should go in the `services` module. 
 
@@ -39,7 +39,7 @@ services/
 
 - No business logic goes inside the a Django app. You import it from a service and call it.
 
-- When using a service you should never import (or chain) more than 3 level down in the module. Eg.: 
+- When using a service you should never import (or chain) more than 3 levels down in the module. Eg.: 
 
 ```
 from services.integrations import google_calendar  # good
@@ -51,7 +51,7 @@ google_calendar.credentials.get_credentials(user) # bad
 
 - Exceptions should be available at the root of the service. 
 
-Explanation: it would be misleading to do `from services.service_name import exception` as you might need exceptions from multiple services in the same module leading to the need of using alias. Also we don't want to use exceptions as `service_name.Exception`, for most cases the exception name is enough to identify what it means.
+Explanation: it would be misleading to do `from services.service_name import exception`. You might need exceptions from multiple services in a single module and this would lead to the need of aliases. Also we don't want to use exceptions as `service_name.Exception`, for most cases the exception name is enough to identify what it means.
 
 - All service tests should be in a folder on the top level of the service module.
 
@@ -59,9 +59,9 @@ Explanation: it would be misleading to do `from services.service_name import exc
 
 Explanation: although we will be calling this as standard functions, it should be clear that this code is going to run asynchronously.
 
-- All functions wrapped by `@celery_app.task` should be private (its name should start with `_`) and there should be (in the same module) a public interface to the task that calls `.delay`. This means there should never be a `.delay`  call in this code besides inside the tasks service. 
+- All functions wrapped by `@celery_app.task` should be private (its name should start with `_`) and there should be (in the same module) a public interface to the task that calls `.delay`. This means there should never be a `.delay`  call in the code besides inside the tasks service. 
 
-Explanation: it should be possible to run any pre-task-calling business logic as needed. Also, decoupling and simplifying tests (mocking). Also, provide a nicer interface for calling the task (eg.: pass entire objects) and leave passing of ids to tasks to the proxy function.
+Explanation: it should be possible to define a piece of code to run before the task is called (or prevent it from be called). This architecture also helps decoupling and simplifying tests (mocking). Another benefit is that it allows  better APIs as it can be designed for usability without the restrictions imposed by a Celery task (eg.: no passing of obejects that are complex to serialize).
 
 - Services that delay tasks should start with `delay_`.
 
