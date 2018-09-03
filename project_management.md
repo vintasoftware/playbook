@@ -14,6 +14,7 @@ Vinta works following an [Agile](http://www.agilemanifesto.org/)-like methodolog
 - Project Manager should encourage everyone to manually test all features before validating them with the client.
 - Project Manager should remember developers to report daily on what they are working on.
 - Project Manager should alert everyone to turn off Slack "do not disturb" option so the client can reach them in case of emergencies.
+- Project Manager should make sure there are no ownership gaps in the project. When everybody is responsible for some parts of the process, there might be gaps where no one acts. The project manager must be aware of those gaps and address them with the team. Critical aspects of the project such as support, deploys, QA, security, etc must have a person clearly responsible. Project Manager should also inform the client who's responsible for each aspect. This kind of ownership gives team members responsibility and autonomy.
 
 ### Daily Attibutions
 
