@@ -1,9 +1,0 @@
-# Fast route to work at Vinta
-
-Knowing how to select a good programmer is a very difficult task. There is not a single way that works for most companies and there is a lot of talk about why one way is better than the other. For us, the process is divided in three parts, the third being a small project. When we give them the project, every candidate gets the message that this is to evaluate good software practices, testing and problem solving skills. In order to mimic our open-scope environment best we set a initial deadline that can be rescheduled if more time is needed (when correctly reported, this saves both the candidate and us a lot of stress).
-
-## Specs for the project
-
-Here you can check the [specs of the project](https://docs.google.com/document/d/1yKhXF7oA3c3I5TwkzRMoG0CFnCMHvJgigGY4uhOhByA/edit?usp=sharing). It's in portuguese cause we don't want the candidate to misunderstand anything (that could lead to a final delivery that doesn't match the expectations and we'd miss the candidate only because of a misunderstanding). 
-
-If you can do the **whole** project (even the optional requirements, a delivery equivalent to the first and second described in the specs combined), you can apply for a spot [here!](https://vintasoftware.typeform.com/to/Xb6aIu)
