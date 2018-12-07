@@ -75,10 +75,14 @@ Are you curious? Just start reading and [let us know](https://vinta.com.br/conta
     * [Preface](career_plan.md#preface)
     * [Levels](career_plan.md#levels)
     
-  * [Twelve - How to become a junior at Vinta](internship_process.md)
+  * [Twelve - Hiring: how to become a junior at Vinta](internship_process.md)
     * [Philosophy behind the whole process](internship_process.md#philosophy-behind-the-whole-process)
     * [Steps of the process](internship_process.md#steps-of-the-process)
     * [What you'll learn](internship_process.md#what-youll-learn)
     * [Interesting courses](internship_process.md#interesting-courses)
     * [Useful links](internship_process.md#useful-links)
     * [Trello board](internship_process.md#trello-board)
+
+  * [Thirteen - Hiring: speeding-up your way to Vinta](speeding_up_your_way_to_vinta.md)
+    * [What you need to do?](speeding_up_your_way_to_vinta.md#what-you-need-to-do)
+    * [Specifications for the project](speeding_up_your_way_to_vinta.md#specifications-for-the-project)
