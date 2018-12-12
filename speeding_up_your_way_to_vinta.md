@@ -7,7 +7,7 @@ Explaining: knowing how to choose a good programmer is a very difficult task. Th
 ## What you need to do?
 
 * Read carefully every requirement on the specification;
-* Make sure you understood was is a necessary requirement and what is optional;
+* Make sure you understood what is a necessary requirement and what is optional;
 * Setup a github/bitbucket repository for your code;
 * Deploy your project on a host service (we recommend [heroku](https://heroku.com/));
 * When you finish the project and feel it's ready, [apply here!](https://vintasoftware.typeform.com/to/Xb6aIu)
