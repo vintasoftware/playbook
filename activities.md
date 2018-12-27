@@ -1,14 +1,37 @@
 ___As Nipun Mehta said: "When one foot walks, the other foot rests. Doing and being have to be in balance"___ .Part of our culture is what we do and how we do it. Here are some of our actions as a company to keep our culture alive and well.
 
 ## Weekly Meeting
-Once a week we do a company-wide meeting so people can tell the whole team what they've been doing and what can be improved. This meeting is timeboxed and should last at most 60 minutes. Everyone is stimulated to talk about the topics below and say at least one thing they've learned since the previous week:
+Once a week we do a company-wide meeting so teams can tell the whole company what they've been doing and what can be improved. We know meetings are usually a waste of time, so we share as much knowledge in as little time as possible. This meeting is split into two moments: 
+- a timeboxed one that lasts at most 45 minutes for projects to share what was learned;
+- an open one that can take as much time as needed for technical debates.
+The questions below help the teams know what lessons they should bring to the weekly:
 ```
-- What did you do?
-- What was good?
-- What was bad?
-- What can be improved?
-- What did you learn?
-- Suggestions?
+- Did you start any new process on your project this week?
+- What did the team do that was not project related?
+- Is there some issue that you want the whole company's opinion on?
+- What is about to happen? How does the future look for your project?
+- Did anyone do anything cool and worth noting? Kudos them!
+
+
+[Technical Debate]
+- Was there a technical challenge on the project this week? How did you solve it?
+
+- Is there any piece of code worth showing?
+```
+
+Aside from that, every three months the meeting has a different format to encompass a more high-end discussion between managers and mentors. Instead of the regular questions about the day-to-day of the project, the managers and anyone with at least one mentee are encouraged to bring answers to these questions:
+```
+**Mentors**
+- How is mentoring going? What is a good practice that you are doing and that you think other people should think about too?
+- Was there a link/content that you forwarded your mentee that you think it's useful to everyone?
+
+**Managers**
+- Was there an activity that you had a lot of trouble doing at first but now it's effortless?
+- Were there improvements in tracking metrics on your project? How was that?
+- What A/B tests performed were worth noting? What lessons did you learn about A/B testing by doing them?
+- Were there any changes in project architecture?
+- Is there any new tool was introduced to the project?
+- Is there any new framework or lib that was added to the project?
 ```
 
 ## Open Source
