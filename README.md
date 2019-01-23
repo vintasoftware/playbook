@@ -80,7 +80,3 @@ Are you curious? Just start reading and [let us know](https://vinta.com.br/conta
     * [How to become a junior at Vinta](hiring.md#how-to-become-a-junior-at-vinta)
     * [Hiring process](hiring.md#hiring-process)
     * [Go straight to the code](hiring.md#go-straight-to-the-code)
-
-  * [Thirteen - Hiring: speeding-up your way to Vinta](speeding_up_your_way_to_vinta.md)
-    * [What you need to do?](speeding_up_your_way_to_vinta.md#what-you-need-to-do)
-    * [Specifications for the project](speeding_up_your_way_to_vinta.md#specifications-for-the-project)
