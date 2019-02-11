@@ -4,4 +4,4 @@
 - [ ] As you progress and learn about feature and code, add items to feature checklist, such as code in need of review, tests to write, code to refactor, important edge case not covered in original checklist
 - [ ] Run tests locally and test manually.
 - [ ] Add "QA checklist". There, add things that feature reviewer must do when revising . Eg.: click this button, fill that form...
-- [ ] Do the PR, follow the [Pull request workflow](checklists/pull_request_workflow.md).
+- [ ] Do the PR, follow the [Pull request workflow](pull_request_workflow.md).
