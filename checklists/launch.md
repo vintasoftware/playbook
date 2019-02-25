@@ -45,14 +45,16 @@ Before launching to production, assert following steps are guaranteed.
 
 ## Third-party Checklist
 
-- [ ] Add all accesses of third-party tools to *LastPass*.
-- [ ] Add development env to *LastPass*.
-- [ ] Configure *Papertrail*, or other logging service.
-- [ ] Configure *Sentry* for backend, including Celery.
-- [ ] Configure *Sentry* for frontend.
-- [ ] Configure *Mailgun*, or other transactional email service.
-- [ ] Configure *Cloudflare* cache for frontend assets.
-- [ ] Configure *Uptime Robot*.
+- [ ] Add all accesses of third-party tools to *[LastPass](https://www.lastpass.com/)*.
+- [ ] Add development env to *[LastPass](https://www.lastpass.com/)*.
+- [ ] Configure *[Papertrail](https://papertrailapp.com)*, or other logging service.
+- [ ] On Papertrail, configure alerts for common errors like `"app/web" Internal Server Error`, `"app/worker" ERROR/`, `"error code=H" OR "Error R" OR "Error L"`
+- [ ] Configure [Librato](https://www.librato.com/) to track slow response time.
+- [ ] Configure *[Sentry](https://sentry.io/)* for backend, including Celery.
+- [ ] Configure *[Sentry](https://sentry.io/)* for frontend.
+- [ ] Configure *[Mailgun](https://www.mailgun.com/)*, or other transactional email service.
+- [ ] Configure *[Cloudflare](https://www.cloudflare.com/)* cache for frontend assets.
+- [ ] Configure *[Uptime Robot](https://uptimerobot.com/)*.
 - [ ] Setup [Google Tag Manager](https://developers.google.com/tag-manager/quickstart) container ID.
 - [ ] Update OAuth callback/deauthorize URLs in all third-party services.
 - [ ] Rotate OAuth keys of all third-party services.
