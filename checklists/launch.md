@@ -17,6 +17,7 @@ Before launching to production, assert following steps are guaranteed.
 
 ## Django Checklist
 
+- [ ] Follow [Django Deployment checklist](https://docs.djangoproject.com/en/dev/howto/deployment/checklist/)
 - [ ] Run `python manage.py check --deploy` in production
 - [ ] Anonymize the URLs for Admin, Celery Flower, etc.
 - [ ] Check redirections, especially if it's a new platform replacing an old one.
