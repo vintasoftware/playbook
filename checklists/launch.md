@@ -85,3 +85,7 @@ Before launching to production, assert following steps are guaranteed.
 - [ ] Check TTL. Set low when launching, set high after everything is fine.
 - [ ] Move API to a different subdomain *(`api.example.org`, for example)*. This allows a different server for the frontend.
 - [ ] Enforce or remove *www* subdomain (and set `PREPEND_WWW` in Django if necessary).
+
+## SEO Checklist
+- [ ] Follow [SEO For Web Engineers](https://www.johnwdefeo.com/articles/seo-for-engineers).
+= [ ] Follow [A technical guide to SEO](https://ma.ttias.be/technical-guide-seo/)
