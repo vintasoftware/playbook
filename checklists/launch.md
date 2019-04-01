@@ -88,4 +88,4 @@ Before launching to production, assert following steps are guaranteed.
 
 ## SEO Checklist
 - [ ] Follow [SEO For Web Engineers](https://www.johnwdefeo.com/articles/seo-for-engineers).
-= [ ] Follow [A technical guide to SEO](https://ma.ttias.be/technical-guide-seo/)
+- [ ] Follow [A technical guide to SEO](https://ma.ttias.be/technical-guide-seo/)
