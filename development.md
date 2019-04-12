@@ -52,13 +52,13 @@ The use of our [boilerplate](https://github.com/vintasoftware/boilerplate) is st
 ## Style Guides
 
 ### Python
-- [PEP8.](https://www.python.org/dev/peps/pep-0008/)
+- [PEP8](https://www.python.org/dev/peps/pep-0008/).
 
 ### JavaScript
-- [Airbnb JS Style Guide.](https://github.com/airbnb/javascript)
+- [Airbnb JS Style Guide](https://github.com/airbnb/javascript).
 
 ### HTML & Sass
-- [Frontend Guide.](guidelines/guideline_frontend.md)
+- [Frontend Guide](guidelines/guideline_frontend.md).
 
 ## Daily reporting
 We use the IN/OUT methodology for daily follow-up with project developers, as well as the Harvest app to track how much time has been  spent on the project. A quick report by the end of the day to the project manager also helps to keep the project on track.
@@ -79,18 +79,10 @@ Depending on the project, the client might have a project manager communicating 
 - Add a link to your Last Pass note to Trello’s documents column.
 
 ## Production and Staging services
-- ALWAYS have [Sentry](https://sentry.io/) configured and with correct e-mails to project developers.
-- Setup alerts and health checks for critical parts of the project:
-  - Setup the following [Papertrail](https://papertrailapp.com) alerts:
-    * Web errors: `"app/web" Internal Server Error`
-    * Worker errors: `"app/worker" ERROR/`
-    * Platform errors: `"error code=H" OR "Error R" OR "Error L"`
-  - Setup a [Librato](https://www.librato.com/) alert for slow response time.
-  - Setup a [Uptime Robot](https://uptimerobot.com/) alert for uptime.
+- Check the [Launch Checklist](checklists/launch.md).
 
 ## Feature implementation
 Once allocated to a feature, the developer should follow the [Feature development workflow](checklists/feature_development_workflow.md), which includes using [git-flow](http://nvie.com/posts/a-successful-git-branching-model/) and satisfying the [PR workflow](checklists/pull_request_workflow.md).
-
 
 ## Code and feature review
 All code is reviewed before being merged to master. The reviewer not only checks code quality, but also if the feature was implemented according to what the client expects. It's very important for the allocated reviewer to strictly follow the [PR review workflow](checklists/pull_request_review_workflow.md).
