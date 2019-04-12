@@ -1,3 +1,9 @@
+
+### External
+* [Dev Checklists](https://devchecklists.com/)
+
+### Internal
+
 * Creating cards on Trello:
   * [Feature card creation.](checklists/feature_card_creation.md)
   * [Bug card creation.](checklists/bug_card_creation.md)
