@@ -22,6 +22,7 @@ Are you curious? Just start reading and [let us know](https://vinta.com.br/conta
   * [Three - Project Management](project_management.md#project-management)
     * [Methodology overview](project_management.md#methodology-overview)
     * [Project Manager duties](project_management.md#project-managers-duties)
+    * [Tech Leadership](technical_leadership.md)
     * [Sprints](project_management.md#sprints)
     * [Team Augmentation Project](project_management.md#team-augmentation-project)
     * [Postmortem](project_management.md#postmortem)
