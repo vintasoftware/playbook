@@ -2,7 +2,7 @@ __" I am convinced that nothing we do is more important than hiring and developi
 
 ## Open spots and requirements
 
-Here is an overview of what positions we hire. The requirements, work-routine, work-benefits and everything else is described (in Portuguese) in the [career section of our website](https://www.vinta.com.br/careers/). 
+Here is an overview of what positions we hire. The requirements, work-routine, work-benefits and everything else is described (in Portuguese) in the [career section of our website](https://www.vinta.com.br/careers/).
 
 * Developer: Works to create technical solutions to our clients in the best way possible. All developers here are full-stack and have full ownership of the code-base. Discussing architecture, developing in Python/JS and defending processes that implement quality are the central tasks for this spot.
 
@@ -39,7 +39,7 @@ First, every intern here develops a toy project. Then the person is integrated i
     - Redux
     - Redux Thunk
     - Normalizr
-    
+
 ### Internship project on Trello
 We try to avoid overwhelming people that are beginning to learn a stack. So the first thing every intern does here is to receive this Trello board. The cards are already separated and ordered to maximize learning. The idea is to start with a Django app and then to rewrite the front using React. The lists are ordered according to the priority of deliveries, it’s important to follow the order and develop every feature without parallelization so that you’ll learn faster. **Remember to read the card named Project Specs first to get an overview of the project!** You can check it below:
 
@@ -47,7 +47,7 @@ https://trello.com/b/oRHqnioo/template-pokebattle
 
 To copy the board, press <kbd>W</kbd> and click on **More > Copy Board**.
 
-### First step: become an intern  
+### First step: become an intern
 If you've read it until here and enjoyed our way of thinking, [come forward and join us!](https://www.vinta.com.br/careers/)
 
 ### Interesting courses
@@ -133,6 +133,6 @@ Explaining: knowing how to choose a good programmer is a very difficult task. Th
 
 ### Specifications for the project
 
-Here you can check the [requirements of the project](https://docs.google.com/document/d/1Evi-kghklIcwJ33SFqPyGREB4OVfNJXX4EOfrWuhhwY/edit?usp=sharing). It's in Portuguese cause we don't want the candidate to misunderstand anything (that could lead to a final delivery that doesn't match the expectations and we'd miss the candidate only because of a misunderstanding). 
+Here you can check the [requirements of the project](https://docs.google.com/document/d/1Evi-kghklIcwJ33SFqPyGREB4OVfNJXX4EOfrWuhhwY/edit?usp=sharing). It's in Portuguese cause we don't want the candidate to misunderstand anything (that could lead to a final delivery that doesn't match the expectations and we'd miss the candidate only because of a misunderstanding).
 
 

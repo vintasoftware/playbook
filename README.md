@@ -62,7 +62,7 @@ Are you curious? Just start reading and [let us know](https://vinta.com.br/conta
     * [Backend](guidelines/guidelines_django.md)
     * [Design](guidelines/guideline_design.md)
     * [Landing Pages](guidelines/guideline_landing_pages.md)
-    * [Management with Trello](guidelines/guideline_trello.md)
+    * [Management with Asana](guidelines/guideline_asana.md)
     * [Presentation](guidelines/guideline_presentations.md)
 
   * [Nine - Homemade Products](homemade.md#home-made-projects)
@@ -75,7 +75,7 @@ Are you curious? Just start reading and [let us know](https://vinta.com.br/conta
   * [Eleven - Career Plan](career_plan.md#career-plan)
     * [Preface](career_plan.md#preface)
     * [Levels](career_plan.md#levels)
-    
+
   * [Twelve - Hiring](hiring.md)
     * [Open spots and requirements](hiring.md#open-spots-and-requirements)
     * [How to become a junior at Vinta](hiring.md#how-to-become-a-junior-at-vinta)

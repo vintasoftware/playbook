@@ -7,8 +7,8 @@
 
 - [ ] Create Pull Request (but don't assign it yet).
 - [ ] Describe how to test PR: urls and other needs.
-- [ ] Refer to issue(s)/Trello card(s) the PR solves.
-- [ ] Refer back to PR on Trello card(s).
+- [ ] Refer to issue(s)/Asana card(s) the PR solves.
+- [ ] Refer back to PR on Asana card(s).
 - [ ] Fix any conflicts that might appear. Merge target branch into PR branch.
 - [ ] Add screenshot of new behavior if applicable.
 - [ ] Add description including context and chosen implementation strategy.

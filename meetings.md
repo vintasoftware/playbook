@@ -12,5 +12,5 @@ Use some app to make sure you are scheduling meetings for  the correct programme
 You should configure your calendar to send you notifications one day before (e-mail) and 30 minutes before (preferably on your phone). [Here is how](https://support.google.com/calendar/answer/37242?hl=en) to configure the default notification scheme for your calendar. This is important so you don't miss the meeting and have time to check if everything is well.
 
 ## After the meeting
-- Review your notes and add tasks to Trello. Remember if you said you would send something later to client and make sure it happens.
-- Make sure there's a written version of the things discussed and decided for further reference. This should also be made accessible to the client (Trello cards help here as well).
+- Review your notes and add tasks to Asana. Remember if you said you would send something later to client and make sure it happens.
+- Make sure there's a written version of the things discussed and decided for further reference. This should also be made accessible to the client (Asana cards help here as well).
