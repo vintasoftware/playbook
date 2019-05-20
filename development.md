@@ -65,7 +65,7 @@ In some projects we use the IN/OUT methodology for daily follow-up with project 
 
 Depending on the project, the client might have a project manager communicating in his/her behalf. Whenever that's the case, the  daily report should be sent to either the project manager or to the client, at their discretion. Among the things that should be addressed are: features developed, bugs fixed, PRs submitted, PRs merged, PRs reviewed, deployments, problems encountered. Example:
 
-- Merged PR on views authentication [link to Trello card].
+- Merged PR on views authentication [link to Asana card].
 - Fixed header responsiveness bug on home page.
 - Deployed to staging.
 
@@ -76,7 +76,6 @@ Depending on the project, the client might have a project manager communicating 
 
 ## Config project files
 - Create a Last Pass Secure note with your `.env` file.
-- Add a link to your Last Pass note to Trello’s documents column.
 
 ## Production and Staging services
 - Check the [Launch Checklist](checklists/launch.md).
