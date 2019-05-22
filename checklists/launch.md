@@ -43,6 +43,11 @@ Before launching to production, assert following steps are guaranteed.
 - [ ] Check email templates are correct.
 - [ ] Save metadata of every email sent, use [Anymail signals](http://anymail.readthedocs.io/en/stable/sending/signals/).
 - [ ] Check CORS settings, use [django-cors-headers](https://github.com/ottoyiu/django-cors-headers).
+- [ ] Have a high delta between choices:
+```
+PLAN_TYPES = Choices((0, 'free', _('Free')), (100, 'basic', _('Basic')),
+                     (200, 'premium', _('Premium')), (300, 'multimedia', _('Multimedia')))
+```
 
 ## Third-party Checklist
 

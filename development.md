@@ -85,3 +85,8 @@ Once allocated to a feature, the developer should follow the [Feature developmen
 
 ## Code and feature review
 All code is reviewed before being merged to master. The reviewer not only checks code quality, but also if the feature was implemented according to what the client expects. It's very important for the allocated reviewer to strictly follow the [PR review workflow](checklists/pull_request_review_workflow.md).
+
+## General tips
+- Clear old sessions periodically
+- Evaluate ALL 500 errors and make regression tests if necessary
+- Provide fixtures to setup base data to the project
