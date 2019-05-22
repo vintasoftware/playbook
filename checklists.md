@@ -8,6 +8,7 @@
   * [Feature card creation.](checklists/feature_card_creation.md)
   * [Bug card creation.](checklists/bug_card_creation.md)
 * Meetings:
+  * [How to prepare for meetings.](checklists/meeting_preparation.md)
   * [Sprint meeting.](checklists/sprint_meeting.md)
 * Development:
   * [Landing Pages.](checklists/landing_pages.md)
