@@ -11,6 +11,7 @@
   * [How to prepare for meetings.](checklists/meeting_preparation.md)
   * [Sprint meeting.](checklists/sprint_meeting.md)
 * Development:
+  * [Developer Onboarding.](checklists/developer_onboarding.md)
   * [Landing Pages.](checklists/landing_pages.md)
   * [Feature workflow.](checklists/feature_development_workflow.md)
 * Pull Request:
