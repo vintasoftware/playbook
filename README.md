@@ -25,6 +25,7 @@ Are you curious? Just start reading and [let us know](https://vinta.com.br/conta
     * [Tech Leadership](technical_leadership.md)
     * [Sprints](project_management.md#sprints)
     * [Team Augmentation Project](project_management.md#team-augmentation-project)
+    * [Communication FAQ](communication_faq.md)
     * [Postmortem](project_management.md#postmortem)
 
   * [Four - Meetings](meetings.md)
