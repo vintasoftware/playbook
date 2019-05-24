@@ -65,6 +65,7 @@ Are you curious? Just start reading and [let us know](https://vinta.com.br/conta
     * [Landing Pages](guidelines/guideline_landing_pages.md)
     * [Management with Asana](guidelines/guideline_asana.md)
     * [Presentation](guidelines/guideline_presentations.md)
+    * [Mentoring](guidelines/guideline_mentoring.md)
 
   * [Nine - Homemade Products](homemade.md#home-made-projects)
     * [Fix My Django](homemade.md#fix-my-django)
