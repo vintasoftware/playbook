@@ -7,7 +7,27 @@ Vinta works following an [Agile](http://www.agilemanifesto.org/)-like methodolog
 - Use of [GitHub](https://github.com/) for Git repository hosting and code review, along with a  continuous integration tool, like [CircleCI](http://circleci.com/) or [Travis CI](https://travis-ci.org), so  we ensure "Working software over comprehensive documentation".
 - Use of [Slack](https://slack.com/) for real-time communication, since we consider "Individuals and interactions over processes and tools".
 
-## Project Manager’s duties
+## Product Managers duties
+Usually, the product manager role is filled by someone on the client's side. These are our expectations:
+- Keep the business and the development team closer.
+  - Communicate strategic decisions to the development team and help it to update priorities accordingly.
+- Be responsible for the product's decisions making, asking for advice when necessary.
+  - Produce feedback for UI/UX deliverables. Also accepting input from the design team.
+- Be responsible for communication with the technical team.
+- Produce insights for mid and long-term product strategy (quarter-based).
+  - By getting inputs from all stakeholders, including the development/design team.
+  - By analyzing risks and tradeoffs.
+- Keep Roadmap updated considering technical challenges and product strategy.
+  - Together with the development team.
+  - Warn team about changes ASAP to avoid development work loss.
+- Be aware of the development team needs, such as new developers, designers, QAs, etc.
+- Planning and syncing project major releases among development and business teams.
+- Provide and analyze metrics and data from development team aiming to support product strategy.
+- Validate technical team decisions that impact product strategy.
+- Find, analyze, and sync strategic partners.
+- Analyze regularly competitors features/flows.
+
+## Project Managers duties
 - A Project Manager's most important duty is to manage client's expectations and keep them realistic. We realize most of the problems in software development come from communication issues, and the Project Manager at Vinta is the 'Communication Person'. The Project Manager should always track the deliverables for the next sprint and, if any problems are to appear, features must be simplified, development strategies re-evaluated, and priorities re-defined, always sided with the client. That's easier said than done in some cases, but surely brings benefits for us and the clients.
 - The Project Manager will be the main point of contact with the client. It's good for everyone to have an open communication channel directly with the client, but the Project Manager should be aware of all project-related decisions. However, regarding assigned tasks, each developer is free to discuss and validate it directly with the client. Should the client ask the developer to do another task, this needs to be tracked and communicated to the Project Manager. Maybe the manager knows better the priority, even better than the client, so s/he needs to step in.
 - Project Manager will work on the project as a developer too.
