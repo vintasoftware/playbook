@@ -20,12 +20,11 @@ Usually, the product manager role is filled by someone on the client's side. The
 - Keep Roadmap updated considering technical challenges and product strategy.
   - Together with the development team.
   - Warn team about changes ASAP to avoid development work loss.
-- Be aware of the development team's needs, such as new developers, designers, QAs, etc.
-- Planning and syncing project's big releases among development and business teams.
+- Be aware of the development team needs, such as new developers, designers, QAs, etc.
+- Planning and syncing project major releases among development and business teams.
 - Provide and analyze metrics and data from development team aiming to support product strategy.
 - Validate technical team decisions that impact product strategy.
-- Find, analyze, and sync strategic partners for SS.
-- Be aware of strategic services opportunities.
+- Find, analyze, and sync strategic partners.
 - Analyze regularly competitors features/flows.
 
 ## Project Managers duties
