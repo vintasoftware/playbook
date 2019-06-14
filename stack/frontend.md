@@ -1,0 +1,92 @@
+# Frontend Libs
+
+- Recommended
+  - React
+    - Routing
+      - react-router -
+    - Styling
+      - styled-components -
+    - Forms
+      - formik -
+      - redux-form -
+  - Redux
+    - Async Actions / Side Effects
+      - redux-thunk -
+      - redux-saga -
+    - Caching
+      - redux-persist -
+  - Requests
+    - axios -
+    - fetch (builtin) -
+  - Formatters
+    - prettier - Autoformats the code using its own rules (limited configuration)
+  - Linters
+    - ESLint
+      - Parsers
+        - babel-eslint - Aids eslint to identify and lint babel features correctly
+      - Configs
+        - eslint-config-prettier - Adds the prettier rules to eslint, raising errors when the code differs from prettier's expected output.
+      - Plugins
+        - eslint-plugin-prettier - Turns off formatting-related rules that might conflic with prettier.
+        - eslint-plugin-airbnb - Adds Airbnb's config (already contains react, import and jsx-a11y configurations).
+        - eslint-plugin-jest - Adds support to jest.
+        - eslint-plugin-promise - Adds rules for promise-related cases.
+  - Tests
+    - jest - Facebook's javascript test runner
+    - babel-jest - Jest addon that adds support to babel features
+    - enzyme - Airbnb's javascript testing utility for react that makes it easier to test your react components' output.
+    - enzyme-adapter-react-\* - Adds support to enzyme for your current react version (replace \* with the version major number).
+    - enzyme-to-json - Adds a serializer that converts enzyme wrappers to a format compatible with jest snapshot testing.
+    - redux-mock-store - A mock wrapper for the redux store.
+    - sinon - A testing lib with standalone test spies, stubs and mocks.
+  - Schema Validation
+    - yup -
+  - Data Normalization
+    - normalizr -
+  - Utils
+    - lodash -
+  - Dates
+    - moment -
+    - moment-timezone -
+  - Environment
+    - dotenv -
+  - Documentation
+    - storybook -
+  - Webpack
+    - html-webpack-plugin -
+- Currently Testing:
+  - React
+    - Animation
+      - react-pose -
+    - Lists
+      - react-sortable-hoc -
+  - Immutability
+    - immutable-js -
+    - immer - 
+- To Analyze:
+  - React
+    - Lists
+      - react-virtuoso -
+      - react-virtualized -
+    - Table
+      - react-data-grid
+    - Tests
+      - react-testing-library
+    - Form
+      - react-form -
+      - formsy-react -
+      - use-form-react -
+      - react-reactive-form -
+    - File Upload
+      - uppy -
+      - react-filepond -
+  - Redux
+    - Async Actions
+      - debounce-action -
+    - Selectors
+      - reselect -
+- Not Recommended:
+  - Requests
+    - got -
+  - Table
+    - react-table - 
