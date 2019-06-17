@@ -37,7 +37,7 @@ Usually, the product manager role is filled by someone on the client's side. The
 - Project Manager should make sure there are no ownership gaps in the project. When everybody is responsible for some parts of the process, there might be gaps where no one acts. The project manager must be aware of those gaps and address them with the team. Critical aspects of the project such as support, deploys, QA, security, etc must have a person clearly responsible. Project Manager should also inform the client who's responsible for each aspect. This kind of ownership gives team members responsibility and autonomy.
 - Project Manager should ensure the project's documentation is up-to-date and make sure it's shared with the Client.
 
-### Daily Attibutions
+### Daily Attributions
 
 - Make sure process is being followed by everyone in the team: code is being reviewed, tests are being written, ...
 - Assert team is writing quality code.
