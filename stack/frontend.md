@@ -3,13 +3,14 @@
 - Recommended
   - React
     - Routing
-      - react-router -
+      - react-router - Declarative routing for React
+      - react-router-dom - DOM bindings for React Router
     - Styling
-      - styled-components -
-      - @xstyled/styled-components - 
+      - styled-components - Allows you to write actual CSS code to style your components. It also removes the mapping between components and styles
+      - @xstyled/styled-components - Consistent theme based CSS for styled-components 
     - Forms
-      - formik -
-      - redux-form -
+      - formik - A small library that helps you with the 3 most annoying parts of form development: getting values in and out of form state, validation/error messages and handling form submission
+      - redux-form - 
   - Redux
     - Async Actions / Side Effects
       - redux-thunk -
