@@ -10,11 +10,11 @@
       - @xstyled/styled-components - Consistent theme based CSS for styled-components 
     - Forms
       - formik - A small library that helps you with the 3 most annoying parts of form development: getting values in and out of form state, validation/error messages and handling form submission
-      - redux-form - 
+      - redux-form - A Higher Order Component using react-redux to keep form state in a Redux store
   - Redux
     - Async Actions / Side Effects
-      - redux-thunk -
-      - redux-saga -
+      - redux-thunk - A middleware for redux which lets you write async logic that interacts with the store
+      - redux-saga - A library that aims to make application side effects easier to manage, more efficient to execute, easy to test, and better at handling failures.
     - Caching
       - redux-persist -
   - Requests
