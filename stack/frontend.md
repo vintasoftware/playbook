@@ -14,12 +14,12 @@
   - Redux
     - Async Actions / Side Effects
       - redux-thunk - A middleware for redux which lets you write async logic that interacts with the store
-      - redux-saga - A library that aims to make application side effects easier to manage, more efficient to execute, easy to test, and better at handling failures.
+      - redux-saga - A library that aims to make application side effects easier to manage, more efficient to execute, easy to test, and better at handling failures
     - Caching
-      - redux-persist -
+      - redux-persist - Uses the localStorage to persist and rehydrate a redux store
   - Requests
-    - axios -
-    - fetch (builtin) -
+    - axios - Promise based HTTP client for the browser and node.js
+    - fetch (builtin) - Provides an interface for fetching resources (including across the network)
   - Formatters
     - prettier - Autoformats the code using its own rules (limited configuration)
   - Linters
@@ -33,6 +33,7 @@
         - eslint-plugin-airbnb - Adds Airbnb's config (already contains react, import and jsx-a11y configurations).
         - eslint-plugin-jest - Adds support to jest.
         - eslint-plugin-promise - Adds rules for promise-related cases.
+        - eslint-plugin-sonarjs - SonarJS rules for ESLint to detect bugs and suspicious patterns in your code
   - Tests
     - jest - Facebook's javascript test runner
     - babel-jest - Jest addon that adds support to babel features
