@@ -28,7 +28,7 @@
         - babel-eslint - Aids eslint to identify and lint babel features correctly
       - Configs
         - eslint-config-prettier - Adds the prettier rules to eslint, raising errors when the code differs from prettier's expected output.
-        - eslint-plugin-airbnb - Adds Airbnb's config (already contains react, import and jsx-a11y configurations).
+        - eslint-config-airbnb - Adds Airbnb's config (already contains react, import and jsx-a11y configurations).
       - Plugins
         - eslint-plugin-prettier - Turns off formatting-related rules that might conflic with prettier.
         - eslint-plugin-jest - Adds support to jest.
