@@ -1,4 +1,4 @@
-# Frontend Libs
+# Frontend Tech Stack
 
 - Recommended
   - React
