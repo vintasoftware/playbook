@@ -1,0 +1,95 @@
+# Frontend Tech Stack
+
+- Recommended
+  - React
+    - Routing
+      - react-router - Declarative routing for React
+      - react-router-dom - DOM bindings for React Router
+    - Styling
+      - styled-components - Allows you to write actual CSS code to style your components. It also removes the mapping between components and styles
+      - @xstyled/styled-components - Consistent theme based CSS for styled-components 
+    - Forms
+      - formik - A small library that helps you with the 3 most annoying parts of form development: getting values in and out of form state, validation/error messages and handling form submission
+      - redux-form - A Higher Order Component using react-redux to keep form state in a Redux store
+  - Redux
+    - Async Actions / Side Effects
+      - redux-thunk - A middleware for redux which lets you write async logic that interacts with the store
+      - redux-saga - A library that aims to make application side effects easier to manage, more efficient to execute, easy to test, and better at handling failures
+    - Caching
+      - redux-persist - Uses the localStorage to persist and rehydrate a redux store
+  - Requests
+    - axios - Promise based HTTP client for the browser and node.js
+    - fetch (builtin) - Provides an interface for fetching resources (including across the network)
+  - Formatters
+    - prettier - Autoformats the code using its own rules (limited configuration)
+  - Linters
+    - ESLint
+      - Parsers
+        - babel-eslint - Aids eslint to identify and lint babel features correctly
+      - Configs
+        - eslint-config-prettier - Adds the prettier rules to eslint, raising errors when the code differs from prettier's expected output.
+        - eslint-config-airbnb - Adds Airbnb's config (already contains react, import and jsx-a11y configurations).
+      - Plugins
+        - eslint-plugin-prettier - Turns off formatting-related rules that might conflic with prettier.
+        - eslint-plugin-jest - Adds support to jest.
+        - eslint-plugin-promise - Adds rules for promise-related cases.
+        - eslint-plugin-sonarjs - SonarJS rules for ESLint to detect bugs and suspicious patterns in your code
+  - Tests
+    - jest - Facebook's javascript test runner
+    - babel-jest - Jest addon that adds support to babel features
+    - enzyme - Airbnb's javascript testing utility for react that makes it easier to test your react components' output.
+    - enzyme-adapter-react-\* - Adds support to enzyme for your current react version (replace \* with the version major number).
+    - enzyme-to-json - Adds a serializer that converts enzyme wrappers to a format compatible with jest snapshot testing.
+    - redux-mock-store - A mock wrapper for the redux store.
+    - sinon - A testing lib with standalone test spies, stubs and mocks.
+  - Schema Validation
+    - yup -
+  - Data Normalization
+    - normalizr -
+  - Utils
+    - lodash -
+  - Dates
+    - moment -
+    - moment-timezone -
+  - Environment
+    - dotenv -
+  - Documentation
+    - storybook -
+  - Webpack
+    - html-webpack-plugin -
+- Currently Testing:
+  - React
+    - Animation
+      - react-pose -
+    - Lists
+      - react-sortable-hoc -
+  - Immutability
+    - immutable-js -
+    - immer - 
+- To Analyze:
+  - React
+    - Lists
+      - react-virtuoso -
+      - react-virtualized -
+    - Table
+      - react-data-grid
+    - Tests
+      - react-testing-library
+    - Form
+      - react-form -
+      - formsy-react -
+      - use-form-react -
+      - react-reactive-form -
+    - File Upload
+      - uppy -
+      - react-filepond -
+  - Redux
+    - Async Actions
+      - debounce-action -
+    - Selectors
+      - reselect -
+- Not Recommended:
+  - Requests
+    - got -
+  - Table
+    - react-table - 
