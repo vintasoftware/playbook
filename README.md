@@ -83,3 +83,7 @@ Are you curious? Just start reading and [let us know](https://vinta.com.br/conta
     * [How to become a junior at Vinta](hiring.md#how-to-become-a-junior-at-vinta)
     * [Hiring process](hiring.md#hiring-process)
     * [Go straight to the code](hiring.md#go-straight-to-the-code)
+
+  * [Thirteen - Tech Stacks](stacks.md)
+    * [Backend](stacks/backend.md)
+    * [Frontend](stacks/frontend.md)
