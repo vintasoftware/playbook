@@ -40,6 +40,6 @@
 ## After Presentation Questions Tips
 
 - If you want you can tell the room manager to that you will not be taking questions after the presentation.
-- If someone asks as question that you did not understand it's fine to ask them to re-state the question.
+- If someone asks a question that you did not understand, it's fine to ask them to restate the question.
 - If you don't know how to respond to a question it's ok to say you don't know the answer. A good idea is to ask the person to chat privately after the presentation. Eg.: "I don't have experience with that but would love to hear your opinions, can we chat after the talk?"
 
