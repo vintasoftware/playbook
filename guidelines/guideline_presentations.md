@@ -28,7 +28,7 @@
     - [1 + 1 = 1 or Record Deduplication with Python](https://www.youtube.com/watch?v=4O87RdBgRJ4)
 - Story telling. Start by giving context about a story and move through your topics as you tell that story.  
     - [Pluggable Libs Through Design Patterns](https://www.youtube.com/watch?v=PfgEU3W0kyU)
-    - [Software Art Thou: Lilly Ryan - Scientific Hooliganism](https://www.youtube.com/watch?v=kOIVrWJqGJw)
+    - [Scientific Hooliganism](https://www.youtube.com/watch?v=kOIVrWJqGJw)
     - [hunter2: A Symphony of Password Horror](https://www.youtube.com/watch?v=QLuMLoD4jzY)
 - List of topics. You can just have a list of topics organized in a well thought sequence. Ideally, those are organized in way that things connect toghether.
     - [How to make a good library API PyCon 2017](https://www.youtube.com/watch?v=4mkFfce46zE)
