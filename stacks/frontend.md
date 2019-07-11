@@ -46,7 +46,7 @@
 
 - [jest](https://jestjs.io/) - Facebook's javascript test runner
 - [babel-jest](https://github.com/babel/babel-jest) - Jest addon that adds support to babel features
-- [jest-styled-components]() -
+- [jest-styled-components](https://github.com/styled-components/jest-styled-components) - A set of utilities for testing Styled Components with Jest.
 - [enzyme](https://airbnb.io/enzyme/) - Airbnb's javascript testing utility for react that makes it easier to test your react components' output.
 - [enzyme-adapter-react-\*](https://github.com/airbnb/enzyme/tree/master/packages/enzyme-adapter-react-16) - Adds support to enzyme for your current react version (replace \* with the version major number).
 - [enzyme-to-json](https://github.com/adriantoine/enzyme-to-json) - Adds a serializer that converts enzyme wrappers to a format compatible with jest snapshot testing.
