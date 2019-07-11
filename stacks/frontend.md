@@ -46,11 +46,13 @@
 
 - [jest](https://jestjs.io/) - Facebook's javascript test runner
 - [babel-jest](https://github.com/babel/babel-jest) - Jest addon that adds support to babel features
+- [jest-styled-components]() -
 - [enzyme](https://airbnb.io/enzyme/) - Airbnb's javascript testing utility for react that makes it easier to test your react components' output.
 - [enzyme-adapter-react-\*](https://github.com/airbnb/enzyme/tree/master/packages/enzyme-adapter-react-16) - Adds support to enzyme for your current react version (replace \* with the version major number).
 - [enzyme-to-json](https://github.com/adriantoine/enzyme-to-json) - Adds a serializer that converts enzyme wrappers to a format compatible with jest snapshot testing.
 - [redux-mock-store](https://github.com/dmitry-zaets/redux-mock-store) - A mock wrapper for the redux store.
 - [sinon](https://sinonjs.org/) - A testing lib with standalone test spies, stubs and mocks.
+
 
 ### Schema Validation
 
