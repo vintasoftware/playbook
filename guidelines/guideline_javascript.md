@@ -1,6 +1,5 @@
 
 <!-- Things to consider:
-
 VALIDATE: Maybe we should make a lib eslint-config-vinta?
 VALIDATE: Should we always use const (except for async and generators) or function?
 VALIDATE: Where do we stand on using Hooks, Context Providers, Lazy/Suspense?
@@ -10,7 +9,7 @@ VALIDATE: Should we add react-testing-library?
 
 ## 1. Linting and Formatting
 
-We use [React](https://reactjs.org/) as the primary library for frontend development. We believe that our JavaScript projects should always be well written and organized - so we care a lot about readability, following patterns, and good practices. In order to guarantee that a project is up to our standards, we configure `linters` and `code formatters` into it.
+We use [React](https://reactjs.org/) as the primary library for frontend development. We believe that our JavaScript projects should always be well written and tidy - so we care a lot about readability, attention to patterns, and good practices. In order to guarantee that a project is up to our standards, we setup `linters` and `code formatters`.
 
 ### 1.1 Use our ESLint shareable configurations
 
@@ -170,7 +169,7 @@ We follow a very simple and clean project structure and try to keep concerns sep
   2. lifecycle methods: `displayName`, `propTypes`, `contextTypes`, `childContextTypes`, `mixins`, `statics`, `defaultProps`, `constructor`, `getDefaultProps`, `state`, `getInitialState`, `getChildContext`, `getDerivedStateFromProps`, `componentWillMount`, `UNSAFE_componentWillMount`, `componentDidMount`, `componentWillReceiveProps`, `UNSAFE_componentWillReceiveProps`, `shouldComponentUpdate`, `componentWillUpdate`, `UNSAFE_componentWillUpdate`, `getSnapshotBeforeUpdate`, `componentDidUpdate`, `componentDidCatch`, `componentWillUnmount` (in this order)
   3. Custom methods
   4. `render` method
-- Avoid using `UNSAFE` methods, even in React 15. Unless there is no other way to implement something without them, and only if you're not using React 16+.
+- Avoid using `UNSAFE` methods, even in React 15. Unless there is no other way to implement something without them and only if you're not using React 16+.
 
 ### 3.4 Composition
 
@@ -184,7 +183,7 @@ We follow a very simple and clean project structure and try to keep concerns sep
 ### 3.6 Props & PropTypes
 
 - Follow the ESLint rules [react/prop-types](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md), [react/no-unused-prop-types](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md), and [react/forbid-prop-types](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md).
-  - `react/prop-types` checks if every prop that is being used in the component is being defined in its `propTypes` object.
+  - `react/prop-types` checks if every prop being used in the component is defined under `propTypes` object.
     - This rule can be configured to ignore certain prop names. To do so, check its [documentation](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md).
   - `react/no-unused-prop-types` checks if there are any prop types set in the component's `propTypes` object that are not being used inside its code.
   - `react/forbid-prop-types` forbids the use of the following types:
@@ -222,7 +221,7 @@ import DefaultSpecifier, { Specifier1, Specifier2 } from 'source'
 import * as NamespaceSpecifier from 'source'
 ```
 
-A file's import section can be a mess if you're not careful. It's important to keep the `sources` and `specifiers` well grouped and sorted. So we follow a few rules to keep things organized:
+A file's import section can be quite the mess if you're not careful. It's important to keep  `sources` and `specifiers` well grouped and sorted. So we follow a few rules to keep things organized:
 
 - Group imports by `source` type:
   - **Builtin**: The source is a builtin node module.
