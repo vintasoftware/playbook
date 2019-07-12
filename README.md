@@ -60,7 +60,7 @@ Are you curious? Just start reading and [let us know](https://vinta.com.br/conta
 
   * [Eight - Guidelines](guidelines.md)
     * [Frontend](guidelines/guideline_frontend.md)
-    * [Backend](guidelines/guidelines_django.md)
+    * [Backend](guidelines/guideline_django.md)
     * [Design](guidelines/guideline_design.md)
     * [Landing Pages](guidelines/guideline_landing_pages.md)
     * [Management with Asana](guidelines/guideline_asana.md)
@@ -83,3 +83,7 @@ Are you curious? Just start reading and [let us know](https://vinta.com.br/conta
     * [How to become a junior at Vinta](hiring.md#how-to-become-a-junior-at-vinta)
     * [Hiring process](hiring.md#hiring-process)
     * [Go straight to the code](hiring.md#go-straight-to-the-code)
+
+  * [Thirteen - Tech Stacks](stacks.md)
+    * [Backend](stacks/backend.md)
+    * [Frontend](stacks/frontend.md)
