@@ -12,52 +12,28 @@ VALIDATE: Should we add react-testing-library?
 
 We use [React](https://reactjs.org/) as the primary library for frontend development. We believe that our JavaScript projects should always be well written and organized - so we care a lot about readability, following patterns, and good practices. In order to guarantee that a project is up to our standards, we configure `linters` and `code formatters` into it.
 
-### 1.1 Use ESLint with Prettier
-
-- Prettier will focus on fixing your code's formatting. Here's how we configure it in our projects:
-
-    ```json
-    // .prettierrc.json
-    {
-      "printWidth": 100,
-      "useTabs": false,
-      "tabWidth": 2,
-      "semi": true,
-      "singleQuote": true,
-      "trailingComma": "es5",
-      "jsxBracketSameLine": true,
-      "arrowParens": "avoid",
-      "bracketSpacing": true
-    }
-    ```
-
-- Follow prettier's [recommended configuration](https://prettier.io/docs/en/integrating-with-linters.html#recommended-configuration) to work with ESlint. This enables ESLint to accept Prettier's rules when linting.
-- ESLint will focus on rules that won't meddle with Prettier's standards.
-- Configure ESLint to extend `eslint-config-airbnb`, but also use prettier's React rules:
-
-    ```json
-    {
-      "extends": [
-          "airbnb",
-          "plugin:prettier/recommended",
-          "prettier/react"
-        ],
-        ...
-    }
-    ```
-
-- Install the following plugins:
-  - [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
-  - [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest)
-  - [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs)
+### 1.1 Use our ESLint shareable configurations
 
 ## 2. Project Structure
 
-## 3. JavaScript Basics
+We follow a very simple and clean project structure and try to keep concerns separated while keeping our folder structures as flat as possible. See the example below:
 
-## 4. React Components
+```
++ apps
+  + app-name
+    + components
+      + ComponentName
+        - AuxiliarLocalComponent.js
+        - ComponentName.js
+        - Container.js
+        - index.js
+    + services
+      + service-name
+```
 
-### 4.1 JSX Splitting
+## 3. React Components
+
+### 3.1 JSX Splitting
 
 - Try to split big components into smaller more readable ones whenever deemed necessary.
 - Avoid splitting JSX into variables or methods inside another component:
@@ -126,7 +102,7 @@ We use [React](https://reactjs.org/) as the primary library for frontend develop
 
 **Why?** So consistency and readability for JSX can be mantained. When writing a component, the only places where JSX should be present are: *after a return, for functional components*, and *inside the render method (also after a return) for class components*.
 
-### 4.2 Conditional Rendering
+### 3.2 Conditional Rendering
 
 - Use ternaries (`?:`), `if/else` or `switch/case` to handle conditional rendering cases.
 - Avoid writing complex condition checks inside the JSX. Separate them into new functions, methods, or variables instead.
@@ -161,10 +137,33 @@ We use [React](https://reactjs.org/) as the primary library for frontend develop
 - Avoid using big chunks of JSX code inside multiple conditions. Separate them into smaller components instead.
 <!-- TODO: Add example -->
 
-- Avoid writing checks that can evaluate to `0`, as React will render it. Try to evaluate them to `false`, `undefined`, `null` or `''` instead.
-<!-- TODO: Add example -->
+- Avoid writing checks that can evaluate to `0`, as React will render it. Try to evaluate them to `false`, `undefined`, `null` or `''` instead. For instance, the example below can render either a list of items or `0`, since `itemList.length` returns a number:
 
-### 4.3 Lifecycle methods
+  ```javascript
+  // Bad
+  const Component = ({ itemList }) => (
+    itemList.length ? (
+      <div>
+        {itemList.map(item => (
+          <div>{item.name}</div>
+        ))}
+      </div>
+    ) : 'Nothing Found.'
+  )
+
+  // Good
+  const Component = ({ itemList }) => (
+    itemList.length > 0 ? (
+      <div>
+        {itemList.map(item => (
+          <div>{item.name}</div>
+        ))}
+      </div>
+    ) : 'Nothing Found.'
+  )
+  ```
+
+### 3.3 Lifecycle methods
 
 - Follow the ESLint rule [react/sort-comp](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md) from `eslint-plugin-react` to organize your class components. The default order is:
   1. static methods and properties
@@ -173,16 +172,21 @@ We use [React](https://reactjs.org/) as the primary library for frontend develop
   4. `render` method
 - Avoid using `UNSAFE` methods, even in React 15. Unless there is no other way to implement something without them, and only if you're not using React 16+.
 
-### 4.4 Composition
+### 3.4 Composition
 
-### 4.5 Styling
+### 3.5 Styling
 
-### 4.6 Props & PropTypes
+- Use [Styled Components](https://www.styled-components.com/) instead of pure `CSS`, `CSS Modules` or `SASS`.
+- Keep the styling structure simple by using your styled components in the same file they were created.
+- If there's need to export or extend an existing styled component, treat it as a normal component and only export one per file.
+<!-- TODO: Add topics about styled-systems or xstyled? -->
+
+### 3.6 Props & PropTypes
 
 - Follow the ESLint rules [react/prop-types](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md), [react/no-unused-prop-types](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md), and [react/forbid-prop-types](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md).
   - `react/prop-types` checks if every prop that is being used in the component is being defined in its `propTypes` object.
     - This rule can be configured to ignore certain prop names. To do so, check its [documentation](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md).
-  - `react/no-unused-prop-types` checks if there are any prop types set in the component's `propTypes` object that are not being used inside the its code.
+  - `react/no-unused-prop-types` checks if there are any prop types set in the component's `propTypes` object that are not being used inside its code.
   - `react/forbid-prop-types` forbids the use of the following types:
     1. `PropTypes.any` - Use the actual expected type instead. Not to be confused with `PropTypes.anyOf`, as this one should be allowed.
     2. `PropTypes.object` - use `PropTypes.shape` instead, and define the prop-type for each key inside that object (repeat for nested objects).
@@ -192,7 +196,7 @@ We use [React](https://reactjs.org/) as the primary library for frontend develop
 - Separate a group of props that is known to be repeated in several parts of the code, then import it instead of rewriting the types again:
   <!-- TODO: Discuss where to fit this in the project structure -->
   ```javascript
-  const ComponentItem = PropTypes.shape({
+  const ComponentPropTypes = PropTypes.shape({
     name: PropTypes.string,
     value: PropTypes.string,
     quantity: PropTypes.number,
@@ -200,18 +204,18 @@ We use [React](https://reactjs.org/) as the primary library for frontend develop
   })
 
   Component.propTypes = {
-    items: PropTypes.arrayOf(ComponentItem)
+    items: PropTypes.arrayOf(ComponentPropTypes)
   }
 
-  export { ComponentItem }
+  export { ComponentPropTypes }
   export default Component
   ```
 
-### 4.7 State Management
+### 3.7 State Management
 
-### 4.8 Imports
+### 3.8 Imports
 
-A import expression is formed by one or more `specifier` from a single `source`:
+An import expression is formed by one or more `specifier` from a single `source`:
 
 ```javascript
 import DefaultSpecifier, { Specifier1, Specifier2 } from 'source'
@@ -228,7 +232,7 @@ A file's import section can be a mess if you're not careful. It's important to k
   - **Sibling**: The source is an internal file in the same directory of the one that is importing it.
 - Sort sources in each group alphabetically.
 - Sort specifiers alphabetically.
-- While using React, keep the `React` and `PropTypes` imports always on top. Here's an example of how these rules can be applied:
+- When using React, keep the `React` and `PropTypes` imports always on top. Here's an example of how these rules can be applied:
 
   ```javascript
   // main React imports
@@ -244,9 +248,9 @@ A file's import section can be a mess if you're not careful. It's important to k
   import { bindActionCreators } from 'redux';
 
   // Internal
-  import { withDebounce } from 'app/components/debounce';
-  import LoginForm from 'app/components/login';
-  import { RANDOM_KEY, TYPES } from 'app/constants';
+  import LoginForm from 'apps/login/components/LoginForm';
+  import { RANDOM_KEY, TYPES } from 'constants';
+  import { withDebounce } from 'helpers/debounce';
 
   // Parent
   import App from '../app';
@@ -255,30 +259,77 @@ A file's import section can be a mess if you're not careful. It's important to k
   import Page from './page';
   ```
 
-### 4.9 Exports
+### 3.9 Exports
 
-### 4.10 Portals
+### 3.10 Portals
 <!-- Only valid for React 16+ - Use react-portal to work with React 15 -->
 
-### 4.11 Fragments
-<!-- Only valid for React 16+ -->
+### 3.11 Fragments
 
-## 5. Redux
+- Use [Fragments](https://reactjs.org/docs/fragments.html) instead of creating extra **unnecessary** elements to render a component that returns more than one element at the same level.
 
-### 5.1 Selectors
+```javascript
+// Bad
+return (
+  <div>
+    <div>Element 1</div>
+    <div>Element 2</div>
+  </div>
+)
 
-### 5.2 Connecting Components
+// Good
+return (
+  <>
+    <div>Element 1</div>
+    <div>Element 2</div>
+  </>
+)
+```
 
-### 5.3 Actions
+- Prefer using the fragments shorthand `</>` instead of `<React.Fragment />`, unless it receives props:
 
-#### 5.3.1 Async Actions
+```javascript
+// Bad
+return (
+  <React.Fragment>
+    <div>Element 1</div>
+    <div>Element 2</div>
+  </React.Fragment>
+)
 
-### 5.4 Reducers
+// Good
+return (
+  <React.Fragment key={item.id}>
+    <div>Element 1</div>
+    <div>Element 2</div>
+  </React.Fragment>
+)
 
-### 6. Forms
+// Also good
+return (
+  <>
+    <div>Element 1</div>
+    <div>Element 2</div>
+  </>
+)
+```
 
-## 7. Tests
+## 4. Redux
 
-### 7.1 Jest
+### 4.1 Selectors
 
-### 7.2 Enzyme
+### 4.2 Connecting Components
+
+### 4.3 Actions
+
+#### 4.3.1 Async Actions
+
+### 4.4 Reducers
+
+### 5. Forms
+
+## 6. Tests
+
+### 6.1 Jest
+
+### 6.2 Enzyme
