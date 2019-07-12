@@ -34,7 +34,7 @@
 ### Linters
 
 - **ESLint**
-  - [babel-eslint]() - Helps eslint to identify and lint babel features correctly
+  - [babel-eslint](https://github.com/babel/babel-eslint) - Helps eslint to identify and lint babel features correctly
   - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) - Adds the prettier rules to eslint, raising errors when the code differs from prettier's expected output.
   - [eslint-config-airbnb](https://github.com/airbnb/javascript) - Adds Airbnb's config (already contains react, import and jsx-a11y configurations).
   - [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier) - Turns off formatting-related rules that might conflic with prettier.
