@@ -1,8 +1,6 @@
 
 <!-- Things to consider:
-VALIDATE: Maybe we should make a lib eslint-config-vinta?
 VALIDATE: Should we always use const (except for async and generators) or function?
-VALIDATE: Where do we stand on using Hooks, Context Providers, Lazy/Suspense?
 VALIDATE: Cleaner code with async/await instead of promises?
 VALIDATE: Should we add react-testing-library?
 -->
@@ -11,12 +9,15 @@ VALIDATE: Should we add react-testing-library?
 
 We use [React](https://reactjs.org/) as the primary library for frontend development. We believe that our JavaScript projects should always be well written and tidy - so we care a lot about readability, attention to patterns, and good practices. In order to guarantee that a project is up to our standards, we setup `linters` and `code formatters`.
 
-### 1.1 Use our ESLint shareable configurations
+### 1.1 Use our ESLint & Prettier shareable configurations
+
+Our configurations will handle most readability and best practices cases for you. [Check it out here](https://github.com/vintasoftware/eslint-config-vinta).
 
 ## 2. Project Structure
 
 We follow a very simple and clean project structure and try to keep concerns separated while keeping our folder structures as flat as possible. See the example below:
 
+<!-- TODO: Check the rest of this structure -->
 ```
 + apps
   + app-name
@@ -103,7 +104,7 @@ We follow a very simple and clean project structure and try to keep concerns sep
 
 ### 3.2 Conditional Rendering
 
-- Use ternaries (`?:`), `if/else` or `switch/case` to handle conditional rendering cases.
+- Use ternaries (`?:`) or `if/else` to handle conditional rendering cases.
 - Avoid writing complex condition checks inside the JSX. Separate them into new functions, methods, or variables instead.
 
   ```javascript
@@ -182,14 +183,10 @@ We follow a very simple and clean project structure and try to keep concerns sep
 
 ### 3.6 Props & PropTypes
 
-- Follow the ESLint rules [react/prop-types](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md), [react/no-unused-prop-types](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md), and [react/forbid-prop-types](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md).
-  - `react/prop-types` checks if every prop being used in the component is defined under `propTypes` object.
+- Follow the ESLint rules [react/prop-types](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md), and [react/no-unused-prop-types](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md).
+  - `react/prop-types` checks if every prop being used in the component is defined under the `Component.propTypes` object.
     - This rule can be configured to ignore certain prop names. To do so, check its [documentation](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md).
   - `react/no-unused-prop-types` checks if there are any prop types set in the component's `propTypes` object that are not being used inside its code.
-  - `react/forbid-prop-types` forbids the use of the following types:
-    1. `PropTypes.any` - Use the actual expected type instead. Not to be confused with `PropTypes.anyOf`, as this one should be allowed.
-    2. `PropTypes.object` - use `PropTypes.shape` instead, and define the prop-type for each key inside that object (repeat for nested objects).
-    3. `PropTypes.array` - use `PropTypes.arrayOf` instead, and define the types that are accepted by the array.
 
 <!-- TODO: Discuss if this is worth mentioning -->
 - Separate a group of props that is known to be repeated in several parts of the code, then import it instead of rewriting the types again:
@@ -231,18 +228,16 @@ A file's import section can be quite the mess if you're not careful. It's import
   - **Sibling**: The source is an internal file in the same directory of the one that is importing it.
 - Sort sources in each group alphabetically.
 - Sort specifiers alphabetically.
-- When using React, keep the `React` and `PropTypes` imports always on top. Here's an example of how these rules can be applied:
+- When using React, keep the `React` and `PropTypes` imports always on top of the external group. Here's an example of how these rules can be applied:
 
   ```javascript
-  // main React imports
-  import React from 'react';
-  import PropTypes from 'prop-types';
-
   // Builtin
   import fs from 'fs';
   import path from 'path';
 
   // External
+  import React from 'react';
+  import PropTypes from 'prop-types';
   import { connect } from 'react-redux';
   import { bindActionCreators } from 'redux';
 
@@ -258,60 +253,64 @@ A file's import section can be quite the mess if you're not careful. It's import
   import Page from './page';
   ```
 
+> See ESLint rule: [import/order](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md)
+
 ### 3.9 Exports
 
 ### 3.10 Portals
-<!-- Only valid for React 16+ - Use react-portal to work with React 15 -->
+
+- Use [Portals](https://reactjs.org/docs/portals.html) when working with components like modals and toasts (basically any component that needs to be always on top).
+- The [react-portal](https://github.com/tajo/react-portal) lib makes it easier to work with portals (and also makes it possible to use portals with React 15).
 
 ### 3.11 Fragments
 
 - Use [Fragments](https://reactjs.org/docs/fragments.html) instead of creating extra **unnecessary** elements to render a component that returns more than one element at the same level.
 
-```javascript
-// Bad
-return (
-  <div>
-    <div>Element 1</div>
-    <div>Element 2</div>
-  </div>
-)
+  ```javascript
+  // Bad
+  return (
+    <div>
+      <div>Element 1</div>
+      <div>Element 2</div>
+    </div>
+  )
 
-// Good
-return (
-  <>
-    <div>Element 1</div>
-    <div>Element 2</div>
-  </>
-)
-```
+  // Good
+  return (
+    <>
+      <div>Element 1</div>
+      <div>Element 2</div>
+    </>
+  )
+  ```
 
 - Prefer using the fragments shorthand `</>` instead of `<React.Fragment />`, unless it receives props:
 
-```javascript
-// Bad
-return (
-  <React.Fragment>
-    <div>Element 1</div>
-    <div>Element 2</div>
-  </React.Fragment>
-)
+  ```javascript
+  // Bad
+  return (
+    <React.Fragment>
+      <div>Element 1</div>
+      <div>Element 2</div>
+    </React.Fragment>
+  )
 
-// Good
-return (
-  <React.Fragment key={item.id}>
-    <div>Element 1</div>
-    <div>Element 2</div>
-  </React.Fragment>
-)
+  // Good
+  return (
+    <React.Fragment key={item.id}>
+      <div>Element 1</div>
+      <div>Element 2</div>
+    </React.Fragment>
+  )
 
-// Also good
-return (
-  <>
-    <div>Element 1</div>
-    <div>Element 2</div>
-  </>
-)
-```
+  // Also good
+  return (
+    <>
+      <div>Element 1</div>
+      <div>Element 2</div>
+    </>
+  )
+  ```
 
 ## 4. Redux
 
@@ -324,11 +323,3 @@ return (
 #### 4.3.1 Async Actions
 
 ### 4.4 Reducers
-
-### 5. Forms
-
-## 6. Tests
-
-### 6.1 Jest
-
-### 6.2 Enzyme
