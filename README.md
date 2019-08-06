@@ -57,6 +57,7 @@ Are you curious? Just start reading and [let us know](https://vinta.com.br/conta
     * [Feature workflow](checklists/feature_development_workflow.md)
     * [PR workflow](checklists/pull_request_workflow.md)
     * [PR review workflow](checklists/pull_request_review_workflow.md)
+    * [Wiki](checklists/wiki.md)
 
   * [Eight - Guidelines](guidelines.md)
     * [Frontend](guidelines/guideline_frontend.md)
