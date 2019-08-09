@@ -1,10 +1,10 @@
+We use [React](https://reactjs.org/) as the primary library for frontend development. We believe that our JavaScript projects should always be well written and tidy - so we care a lot about readability, attention to patterns, and good practices.
+
 ## 1. Linting and Formatting
 
-We use [React](https://reactjs.org/) as the primary library for frontend development. We believe that our JavaScript projects should always be well written and tidy - so we care a lot about readability, attention to patterns, and good practices. In order to guarantee that a project is up to our standards, we setup `linters` and `code formatters`.
+In order to guarantee that a project is up to our standards, we use our own ESLint & Prettier configurations. They handle most readability and best practices cases for you. [Check them out here](https://github.com/vintasoftware/eslint-config-vinta).
 
-### 1.1 Use our ESLint & Prettier shareable configurations
-
-We have our own ESLint & Prettier shareable configurations! It will handle most readability and best practices cases for you. [Check it out here](https://github.com/vintasoftware/eslint-config-vinta).
+*Since `eslint-config-vinta` guarantees that our good practices are being respected, this guideline brings a collection of practices that ESLint can't fix automatically.*
 
 ## 2. React Components
 
@@ -75,11 +75,11 @@ We have our own ESLint & Prettier shareable configurations! It will handle most 
   )
   ```
 
-**Why?** So consistency and readability for JSX can be mantained. When writing a component, the only places where JSX should be present are: *after a return, for functional components*, and *inside the render method (also after a return) for class components*.
+- Consistency and readability for JSX should be mantained. When writing a component, the only places where JSX should be present are: *after a return, for functional components*, and *inside the render method (also after a return) for class components*.
 
 ### 2.2 Conditional Rendering
 
-- Use ternaries (`?:`) or `if/else` to handle conditional rendering cases.
+- Use ternaries (`?:`) or `if/else` to handle *small* conditional rendering cases.
 - Avoid writing complex condition checks inside the JSX. Separate them into new functions, methods, or variables instead.
 
   ```javascript
@@ -182,23 +182,19 @@ We have our own ESLint & Prettier shareable configurations! It will handle most 
   4. `render` method
 - Avoid using `UNSAFE` methods, even in React 15. Unless there is no other way to implement something without them and only if you're not using React 16+.
 
-### 2.4 Composition
-
-- Use [Higher-Order Components](https://reactjs.org/docs/higher-order-components.html)
-
-### 2.5 Styling
+### 2.4 Styling
 
 - Use [Styled Components](https://www.styled-components.com/) instead of pure `CSS`, `CSS Modules` or `SASS`.
 - Keep the styling structure simple by using your styled components in the same file they were created.
 - If there's need to export or extend an existing styled component, treat it as a normal component and only export one per file.
 
-### 2.6 Props & PropTypes
+### 2.5 Props & PropTypes
 
 - Follow the ESLint rules [react/prop-types](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md), and [react/no-unused-prop-types](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md).
-- `react/prop-types` checks if every prop being used in the component is defined under the `Component.propTypes` object. This rule can be configured to ignore certain prop names. To do so, check its [documentation](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md).
+- `react/prop-types` checks if every prop being used in the component is defined under the `Component.propTypes` object. This rule can be configured to ignore certain prop names; to do so, check its [documentation](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md).
 - `react/no-unused-prop-types` checks if there are any prop types set in the component's `propTypes` object that are not being used inside its code.
 
-- Separate a group of props that is known to be repeated in several parts of the code, then import it instead of rewriting the types again:
+- Separate a group of props that are known to be repeated in several parts of the code, then import them instead of rewriting the types again:
 
   ```javascript
   const ComponentPropTypes = PropTypes.shape({
@@ -216,14 +212,12 @@ We have our own ESLint & Prettier shareable configurations! It will handle most 
   export default Component
   ```
 
-### 2.7 State Management
-
-### 2.8 Portals
+### 2.6 Portals
 
 - Use [Portals](https://reactjs.org/docs/portals.html) when working with components like modals and toasts (basically any component that needs to be always on top).
 - The [react-portal](https://github.com/tajo/react-portal) lib makes it easier to work with portals (and also makes it possible to use portals with React 15).
 
-### 2.9 Fragments
+### 2.7 Fragments
 
 - Use [Fragments](https://reactjs.org/docs/fragments.html) instead of creating extra **unnecessary** elements to render a component that returns more than one element at the same level.
 
@@ -333,7 +327,7 @@ A file's import section can be quite the mess if you're not careful. It's import
   import Page from './page';
   ```
 
-> See ESLint rule: [import/order](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md)
+  > See ESLint rule: [import/order](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md). This rule will help with the imports sorting by section, but not alphabetically.
 
 <!--
 ## 4. Redux
