@@ -14,6 +14,7 @@
   * [Developer Onboarding.](checklists/developer_onboarding.md)
   * [Landing Pages.](checklists/landing_pages.md)
   * [Feature workflow.](checklists/feature_development_workflow.md)
+  * [Wiki](checklists/wiki.md)
 * Pull Request:
   * [PR workflow.](checklists/pull_request_workflow.md)
   * [PR review workflow.](checklists/pull_request_review_workflow.md)
