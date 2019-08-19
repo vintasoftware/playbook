@@ -53,7 +53,7 @@ Are you curious? Just start reading and [let us know](https://vinta.com.br/conta
     * [Bug card creation](checklists/bug_card_creation.md)
     * [Sprint meeting](checklists/sprint_meeting.md)
     * [Landing Pages](checklists/landing_pages.md)
-    * [Launch](checklists/launch.md)
+    * <a href="https://devchecklists.com/production-launch-checklist/" target="blank">Production Launch</a>
     * [Feature workflow](checklists/feature_development_workflow.md)
     * [PR workflow](checklists/pull_request_workflow.md)
     * [PR review workflow](checklists/pull_request_review_workflow.md)

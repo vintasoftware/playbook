@@ -18,7 +18,7 @@ Security is no easy topic to talk about. There are many ways to explore vulnerab
 
 ## Application Security
 - [Sqreen](https://www.sqreen.com/)
-- [Launch checklist](checklists/launch.md) that we run periodically, to check things like Django settings, oAuth keys rotations, SSL health, etc.
+- <a href="https://devchecklists.com/production-launch-checklist/" target="blank">Launch checklist</a> that we run periodically, to check things like Django settings, oAuth keys rotations, SSL health, etc.
 - Unprivileged run (we mostly use PaaS like Heroku)
 - Avoiding downloads of production data, and if it's needed, it must be anonimyzed before download
 - Exception monitoring with [Sentry](https://sentry.io/)
