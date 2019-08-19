@@ -78,7 +78,7 @@ Depending on the project, the client might have a project manager communicating 
 - Create a Last Pass Secure note with your `.env` file.
 
 ## Production and Staging services
-- Check the <a href="https://devchecklists.com/production-launch-checklist/" target="blank">Launch Checklist</a>
+- Check the <a href="https://devchecklists.com/production-launch-checklist/" target="_blank">Launch Checklist</a>
 
 ## Feature implementation
 Once allocated to a feature, the developer should follow the [Feature development workflow](checklists/feature_development_workflow.md), which includes using [git-flow](http://nvie.com/posts/a-successful-git-branching-model/) and satisfying the [PR workflow](checklists/pull_request_workflow.md).

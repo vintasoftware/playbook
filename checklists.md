@@ -18,4 +18,4 @@
 * Pull Request:
   * [PR workflow.](checklists/pull_request_workflow.md)
   * [PR review workflow.](checklists/pull_request_review_workflow.md)
-* <a href="https://devchecklists.com/production-launch-checklist/" target="blank">Production Launch</a>
+* <a href="https://devchecklists.com/production-launch-checklist/" target="_blank">Production Launch</a>
