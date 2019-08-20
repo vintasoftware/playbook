@@ -18,9 +18,4 @@
 * Pull Request:
   * [PR workflow.](checklists/pull_request_workflow.md)
   * [PR review workflow.](checklists/pull_request_review_workflow.md)
-* Launch:
-  * [Frontend Checklist](checklists/launch.md#frontend-checklist)
-  * [Django Checklist](checklists/launch.md#django-checklist)
-  * [Third-party Checklist](checklists/launch.md#third-party-checklist)
-  * [Server Checklist](checklists/launch.md#server-checklist)
-  * [DNS Checklist](checklists/launch.md#dns-checklist)
+* <a href="https://devchecklists.com/production-launch-checklist/" target="_blank">Production Launch</a>
