@@ -22,14 +22,14 @@ In order to guarantee that a project is up to our standards, we use our own ESLi
         <input type="text" name="password" />
         <button type="submit">Login</button>
       <form>
-    )
+    );
 
     return (
       <div>
         <div>Login</div>
         {form}
       </div>
-    )
+    );
   }
 
   // Also bad
@@ -41,7 +41,7 @@ In order to guarantee that a project is up to our standards, we use our own ESLi
           <input type="text" name="password" />
           <button type="submit">Login</button>
         <form>
-      )
+      );
     }
 
     render() {
@@ -50,7 +50,7 @@ In order to guarantee that a project is up to our standards, we use our own ESLi
           <div>Login</div>
           {this.renderForm()}
         </div>
-      )
+      );
     }
   }
   ```
@@ -65,14 +65,14 @@ In order to guarantee that a project is up to our standards, we use our own ESLi
       <input type="text" name="password" />
       <button type="submit">Login</button>
     <form>
-  )
+  );
 
   const Login = () => (
     <div>
       <div>Login</div>
       <LoginForm />
     </div>
-  )
+  );
   ```
 
 - Consistency and readability for JSX should be mantained. When writing a component, the only places where JSX should be present are: *after a return, for functional components*, and *inside the render method (also after a return) for class components*.
@@ -92,11 +92,11 @@ In order to guarantee that a project is up to our standards, we use our own ESLi
         'Nothing found.'
       )}
     </div>
-  )
+  );
 
   // Good
   const ConditionalComponent = ({ items }) => {
-    const hasTags = items && items.filter((i) => i.type === 'TAG').length > 0
+    const hasTags = items && items.filter((i) => i.type === 'TAG').length > 0;
     return (
       <div>
         {hasTags ? (
@@ -105,7 +105,7 @@ In order to guarantee that a project is up to our standards, we use our own ESLi
           'Nothing found.'
         )}
       </div>
-    )
+    );
   }
   ```
 
@@ -123,7 +123,7 @@ In order to guarantee that a project is up to our standards, we use our own ESLi
         <button onClick={onClick}>Open form</button>
       )}
     </div>
-  )
+  );
 
   // Good
   const Component = ({ isFormOpen, onClick }) => (
@@ -134,13 +134,13 @@ In order to guarantee that a project is up to our standards, we use our own ESLi
         <button onClick={onClick}>Open form</button>
       )}
     </div>
-  )
+  );
 
   const FormComponent = () => (
     <form>
       {/* Big form structure here */}
     </form>
-  )
+  );
   ```
 
 - Avoid writing checks that can evaluate to `0`, as React will render it. Try to replace them to `false`, `undefined`, `null` or `''` instead. For example, the component below can render either a list of items or `0`, since `itemList.length` returns a number:
@@ -157,7 +157,7 @@ In order to guarantee that a project is up to our standards, we use our own ESLi
         </div>
       )
     </>
-  )
+  );
 
   // Good
   const Component = ({ itemList }) => (
@@ -170,7 +170,7 @@ In order to guarantee that a project is up to our standards, we use our own ESLi
         </div>
       )
     </>
-  )
+  );
   ```
 
 ### 2.3 Lifecycle methods
@@ -201,21 +201,31 @@ In order to guarantee that a project is up to our standards, we use our own ESLi
     name: PropTypes.string,
     value: PropTypes.string,
     quantity: PropTypes.number,
-    categories: PropTypes.arrayOf(PropTypes.string)
-  })
+    categories: PropTypes.arrayOf(PropTypes.string),
+  });
 
   Component.propTypes = {
-    items: PropTypes.arrayOf(ComponentPropTypes)
-  }
+    items: PropTypes.arrayOf(ComponentPropTypes),
+  };
 
-  export { ComponentPropTypes }
-  export default Component
+  export { ComponentPropTypes };
+  export default Component;
   ```
 
 ### 2.6 Portals
 
 - Use [Portals](https://reactjs.org/docs/portals.html) when working with components like modals and toasts (basically any component that needs to be always on top).
-- The [react-portal](https://github.com/tajo/react-portal) lib makes it easier to work with portals (and also makes it possible to use portals with React 15).
+- The [react-portal](https://github.com/tajo/react-portal) lib makes it easier to work with portals (and also makes it possible to use portals with React 15). Creating a portal with this is as simple as writing:
+
+  ```javascript
+    import { Portal } from 'react-portal';
+
+    const Modal = ({ children }) => (
+      <Portal>
+        {children}
+      </Portal>
+    );
+  ```
 
 ### 2.7 Fragments
 
@@ -228,7 +238,7 @@ In order to guarantee that a project is up to our standards, we use our own ESLi
       <div>Element 1</div>
       <div>Element 2</div>
     </div>
-  )
+  );
 
   // Good
   return (
@@ -236,7 +246,7 @@ In order to guarantee that a project is up to our standards, we use our own ESLi
       <div>Element 1</div>
       <div>Element 2</div>
     </>
-  )
+  );
   ```
 
 - Prefer using the fragments shorthand `</>` instead of `<React.Fragment />`, unless it receives props:
@@ -248,7 +258,7 @@ In order to guarantee that a project is up to our standards, we use our own ESLi
       <div>Element 1</div>
       <div>Element 2</div>
     </React.Fragment>
-  )
+  );
 
   // Good
   return (
@@ -256,7 +266,7 @@ In order to guarantee that a project is up to our standards, we use our own ESLi
       <div>Element 1</div>
       <div>Element 2</div>
     </React.Fragment>
-  )
+  );
 
   // Also good
   return (
@@ -264,7 +274,7 @@ In order to guarantee that a project is up to our standards, we use our own ESLi
       <div>Element 1</div>
       <div>Element 2</div>
     </>
-  )
+  );
   ```
 
 - Avoid using fragments if there's no reason to:
@@ -275,12 +285,12 @@ In order to guarantee that a project is up to our standards, we use our own ESLi
     <>
       <div>Element 1</div>
     </>
-  )
+  );
 
   // Good
   return (
     <div>Element 1</div>
-  )
+  );
   ```
 
 ## 3. Imports
@@ -288,8 +298,8 @@ In order to guarantee that a project is up to our standards, we use our own ESLi
 An import expression is formed by one or more `specifier` from a single `source`:
 
 ```javascript
-import DefaultSpecifier, { Specifier1, Specifier2 } from 'source'
-import * as NamespaceSpecifier from 'source'
+import DefaultSpecifier, { Specifier1, Specifier2 } from 'source';
+import * as NamespaceSpecifier from 'source';
 ```
 
 A file's import section can be quite the mess if you're not careful. It's important to keep  `sources` and `specifiers` well grouped and sorted. So we follow a few rules to keep things organized:
