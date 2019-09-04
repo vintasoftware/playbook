@@ -78,7 +78,11 @@ In order to guarantee that a project is up to our standards, we use our own ESLi
 - Consistency and readability for JSX should be mantained. When writing a component, the only places where JSX should be present are: *after a return, for functional components*, and *inside the render method (also after a return) for class components*.
 
 ### 2.2 Conditional Rendering
-
+<!--
+Add example for ternaries with more than one condition
+Only for small cases:
+  - Add case for guard clauses
+-->
 - Use ternaries (`?:`) or `if/else` to handle *small* conditional rendering cases.
 - Avoid writing complex condition checks inside the JSX. Separate them into new functions, methods, or variables instead.
 
@@ -107,9 +111,11 @@ In order to guarantee that a project is up to our standards, we use our own ESLi
       </div>
     );
   }
+
+  // TODO: Add "better" case with guard clauses
   ```
 
-- Avoid using big chunks of JSX code inside conditions. Separate them into smaller components instead.
+- Avoid using big chunks of JSX code within conditionals. Separate them into smaller components instead.
 
   ```javascript
   // Bad
@@ -183,13 +189,17 @@ In order to guarantee that a project is up to our standards, we use our own ESLi
 - Avoid using `UNSAFE` methods, even in React 15. Unless there is no other way to implement something without them and only if you're not using React 16+.
 
 ### 2.4 Styling
-
+<!-- TODO (Jota): Add examples for styled components: mobile first, themes, nested components -->
 - Use [Styled Components](https://www.styled-components.com/) instead of pure `CSS`, `CSS Modules` or `SASS`.
 - Keep the styling structure simple by using your styled components in the same file they were created.
 - If there's need to export or extend an existing styled component, treat it as a normal component and only export one per file.
 
 ### 2.5 Props & PropTypes
-
+<!--
+  - Add types.js for reusable proptypes?
+  - functions with "handle" or "on"
+  - render props start with "render"
+-->
 - Follow the ESLint rules [react/prop-types](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md), and [react/no-unused-prop-types](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md).
 - `react/prop-types` checks if every prop being used in the component is defined under the `Component.propTypes` object. This rule can be configured to ignore certain prop names; to do so, check its [documentation](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md).
 - `react/no-unused-prop-types` checks if there are any prop types set in the component's `propTypes` object that are not being used inside its code.
@@ -319,7 +329,7 @@ A file's import section can be quite the mess if you're not careful. It's import
   import fs from 'fs';
   import path from 'path';
 
-  // External
+  // External (node_modules libs)
   import React from 'react';
   import PropTypes from 'prop-types';
   import { connect } from 'react-redux';
@@ -340,6 +350,8 @@ A file's import section can be quite the mess if you're not careful. It's import
   > See ESLint rule: [import/order](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md). This rule will help with the imports sorting by section, but not alphabetically.
 
 <!--
+## PROJECT ARCHITECTURE?
+
 ## 4. Redux
 
 ### 4.1 Selectors
