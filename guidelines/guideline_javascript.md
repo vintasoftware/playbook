@@ -78,41 +78,73 @@ In order to guarantee that a project is up to our standards, we use our own ESLi
 - Consistency and readability for JSX should be mantained. When writing a component, the only places where JSX should be present are: *after a return, for functional components*, and *inside the render method (also after a return) for class components*.
 
 ### 2.2 Conditional Rendering
-<!--
-Add example for ternaries with more than one condition
-Only for small cases:
-  - Add case for guard clauses
--->
-- Use ternaries (`?:`) or `if/else` to handle *small* conditional rendering cases.
+
+- Use ternaries (`?:`) or `if/else` to handle *multiple, but small,* conditional rendering cases.
+
+```javascript
+  // Good
+  const ConditionalComponent = ({ items, isLoading }) => {
+    const hasTags = items && items.filter((i) => i.type === 'TAG').length > 0;
+    return (
+      isLoading ? (
+        <Loading />
+      ) : hasTags ? (
+        <TagList items={items} />
+      ) : (
+        'Nothing found.'
+      )
+    );
+  }
+
+  // Better
+  const ConditionalComponent = ({ items, isLoading }) => {
+    const hasTags = items && items.filter((i) => i.type === 'TAG').length > 0;
+
+    if (isLoading) {
+      return <Loading />;
+    }
+
+    if (!hasTags) {
+      return 'Nothing found.';
+    }
+
+    return <TagList items={items} />;
+  }
+```
+
 - Avoid writing complex condition checks inside the JSX. Separate them into new functions, methods, or variables instead.
 
   ```javascript
   // Bad
   const ConditionalComponent = ({ items }) => (
-    <div>
-      {items && items.filter((i) => i.type === 'TAG').length > 0 ? (
-        <TagList items={items} />
-      ) : (
-        'Nothing found.'
-      )}
-    </div>
+    items && items.filter((i) => i.type === 'TAG').length > 0 ? (
+      <TagList items={items} />
+    ) : (
+      'Nothing found.'
+    )
   );
 
   // Good
   const ConditionalComponent = ({ items }) => {
     const hasTags = items && items.filter((i) => i.type === 'TAG').length > 0;
     return (
-      <div>
-        {hasTags ? (
-          <TagList items={items} />
-        ) : (
-          'Nothing found.'
-        )}
-      </div>
+      hasTags ? (
+        <TagList items={items} />
+      ) : (
+        'Nothing found.'
+      )
     );
   }
 
-  // TODO: Add "better" case with guard clauses
+  // Better
+  const ConditionalComponent = ({ items }) => {
+    const hasTags = items && items.filter((i) => i.type === 'TAG').length > 0;
+    if (!hasTags) {
+      return 'Nothing found.';
+    }
+
+    return <TagList items={items} />;
+  }
   ```
 
 - Avoid using big chunks of JSX code within conditionals. Separate them into smaller components instead.
@@ -195,11 +227,7 @@ Only for small cases:
 - If there's need to export or extend an existing styled component, treat it as a normal component and only export one per file.
 
 ### 2.5 Props & PropTypes
-<!--
-  - Add types.js for reusable proptypes?
-  - functions with "handle" or "on"
-  - render props start with "render"
--->
+
 - Follow the ESLint rules [react/prop-types](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md), and [react/no-unused-prop-types](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md).
 - `react/prop-types` checks if every prop being used in the component is defined under the `Component.propTypes` object. This rule can be configured to ignore certain prop names; to do so, check its [documentation](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md).
 - `react/no-unused-prop-types` checks if there are any prop types set in the component's `propTypes` object that are not being used inside its code.
@@ -221,6 +249,10 @@ Only for small cases:
   export { ComponentPropTypes };
   export default Component;
   ```
+
+- If the case above happens a lot, it's wise to create a `types.js` file to store the PropTypes.
+
+- Use the prefix `render` when naming a [Render Prop](https://reactjs.org/docs/render-props.html)
 
 ### 2.6 Portals
 
