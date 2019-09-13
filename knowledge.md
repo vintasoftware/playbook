@@ -1,4 +1,4 @@
-# Homemade Projects
+# Things we built
 
 We love open-source and are always trying to give back to the community. That's why besides this playbook you are reading, we also have other open-source products.
 
@@ -86,3 +86,9 @@ The Web's Most Awesome Directory of Boilerplate Projects
 
 ## [Python linters and Code Analysis](https://github.com/vintasoftware/python-linters-and-code-analysis)
 A curated list made for the DjangoCon US talk [Preventing headaches with linters and automated checks](https://2017.djangocon.us/talks/preventing-headaches-with-linters-and-automated-checks/) by Flávio Juvenal.
+
+# Conferences
+Community is not only about producing open-source software (and playbooks), conferences are part of it as well. People are encouraged to give back as much as they can. With the interest of developing further exchange with other professionals, Vinta will buy tickets for any technical conferences deemed worthy by the employees, and if one of ours approves a talk in a conference, whether it's local or international, she/he is granted a bonus for their further collaboration in sustaining the community we are a part of. Keeping an eye on conference's submission deadlines helps everyone in doing so.
+
+# Blog posts
+We keep our blog updated. It helps twofold, we train people on how to write passing on what they've learned, and people from the community see Vinta as a reference, checking us for tips often. That's why whoever learns anything gets incentives to write it down. We count on everyone to keep an eye and say: "I think that's worth a blogpost!" whether in our day-to-day or in a weekly meeting.
