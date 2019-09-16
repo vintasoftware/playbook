@@ -10,6 +10,7 @@ Are you curious? Just start reading and [let us know](https://vinta.com.br/conta
 
   * [Two - Guidelines](guidelines.md)
     * [Development](guidelines.md#development)
+    * [Design](guidelines/design_process.md)
     * [Security](guidelines.md#security)
     * [Checklist index](guidelines.md#checklist-index)
     * [Agile process guidelines](guidelines.md#agile-process-guidelines)
