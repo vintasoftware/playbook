@@ -131,6 +131,7 @@ Every once in a while it's necessary to transfer security sensitive information 
   * [Landing Pages.](checklists/landing_pages.md)
   * [Feature workflow.](checklists/feature_development_workflow.md)
   * [Wiki](checklists/wiki.md)
+  * [Daily Deploy](checklists/daily_deploy.md)
 * Pull Request:
   * [PR workflow.](checklists/pull_request_workflow.md)
   * [PR review workflow.](checklists/pull_request_review_workflow.md)
@@ -218,6 +219,19 @@ There are different techniques that can be used such as **Daki Exercise**, **Sto
 - What was good
 - What was bad
 - What can improve
+
+### Deployment
+
+It is proven that a high deploy frequency is a good DevOps practice and gives a lot of benefits in the Agile process. Google considers multiple deploys per day as a [factor to consider a team as an Elite Performer](https://cloud.google.com/blog/products/devops-sre/the-2019-accelerate-state-of-devops-elite-performance-productivity-and-scaling.).
+
+Deploying more frequently:
+ - Represents having smaller changes, which means less risk.
+ - Decreases the time between a feature being ready and being live.
+ - Encourages better feature QA, since features will spend less time on Staging until they launch to Production.
+ - Increases code review quality, since changes tend to be smaller.
+ - Incentivizes breaking up bigger tasks in smaller ones that can be deployed as soon as they are ready.
+ 
+ Visit our [Daily Deploy Checklist](checklists/daily_deploy.md), that describes a process for Daily Deployment at Vinta.
 
 #### Good Practices
 - Encourage the team to track topics they want to discuss at retrospectives.
