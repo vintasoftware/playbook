@@ -91,7 +91,8 @@
   - [react-pose](https://popmotion.io/pose/) -
 - **Lists**
   - [react-sortable-hoc](https://github.com/clauderic/react-sortable-hoc) -
-
+- **Stripe**
+  - [react-stripe-elements](https://github.com/stripe/react-stripe-elements) - React components for Stripe.js and Stripe Elements.
 ### Requests
 
 - [ky](https://github.com/sindresorhus/ky) - A tiny and elegant HTTP client based on the browser Fetch API.
