@@ -222,7 +222,7 @@ There are different techniques that can be used such as **Daki Exercise**, **Sto
 
 ### Deployment
 
-It is proven that a high deploy frequency is a good DevOps practice and gives a lot of benefits in the Agile process. Google considers multiple deploys per day as a [factor to consider a team as an Elite Performer](https://cloud.google.com/blog/products/devops-sre/the-2019-accelerate-state-of-devops-elite-performance-productivity-and-scaling.).
+It is proven that a high deploy frequency is a good DevOps practice and improves productivity of Agile teams. Google considers multiple deploys per day as a [factor to consider a team as an Elite Performer](https://cloud.google.com/blog/products/devops-sre/the-2019-accelerate-state-of-devops-elite-performance-productivity-and-scaling.).
 
 Deploying more frequently:
  - Represents having smaller changes, which means less risk.
@@ -230,6 +230,8 @@ Deploying more frequently:
  - Encourages better feature QA, since features will spend less time on Staging until they launch to Production.
  - Increases code review quality, since changes tend to be smaller.
  - Incentivizes breaking up bigger tasks in smaller ones that can be deployed as soon as they are ready.
+ - Facilitates bugs detection.
+ - Means less pressure on the team, regarding deadlines. The team might feel pressured to rush development or QA to meet deadlines if the deploy granularity is too low and the gap between `ready` and `live` is bigger. For instance, in Weekly Deploys, an one day delay means that the change won't be live for another week. That problem is mitigated if there were Daily Deploys.
  
  Visit our [Daily Deploy Checklist](checklists/daily_deploy.md), that describes a process for Daily Deployment at Vinta.
 
