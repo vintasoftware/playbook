@@ -1,6 +1,6 @@
 __" I am convinced that nothing we do is more important than hiring and developing people. At the end of the day, you bet on people not on strategies."__ We agree with Lawrence Bossidy regarding the importance of hiring and the effort that should be put into it. Here are some of the traits we look for in candidates for different levels of seniority and how someone might apply to Vinta.
 
-#Career Paths
+# Career Paths
 
 ## Tech Leadership
 Technical Leadership is a relatively new role in the world of software development. There's little structured content about it available in either books or blog posts. Most content is presented as reports on the goals and experiences of individuals or companies. This is a natural process as the industry adapts and learns what combination of attributions are best suited for the role, quite similar to what happened to the now much less obscure role of DevOps engineer. In the spirit of learning from feedback and collaboration, we want to be part of the debate by sharing what it means to be a Tech Leader at Vinta.
