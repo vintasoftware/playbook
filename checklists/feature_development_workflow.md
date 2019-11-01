@@ -1,7 +1,13 @@
-- [ ] Read the specs.
-- [ ] Follow [git-flow](http://nvie.com/posts/a-successful-git-branching-model/).
-- [ ] Develop feature and write automated tests.
-- [ ] As you progress and learn about feature and code, add items to feature checklist, such as code in need of review, tests to write, code to refactor, important edge case not covered in original checklist
-- [ ] Run tests locally and test manually.
-- [ ] Add "QA checklist". There, add things that feature reviewer must do when revising . Eg.: click this button, fill that form...
-- [ ] Do the PR, follow the [Pull request workflow](pull_request_workflow.md).
+- [ ] Read all
+- [ ] Ask questions, in case there are any
+- [ ] Do I need to anonymize any data?
+- [ ] Does this feature require migrations of old data?
+- [ ] List steps that need to be completed to finish card in the Feature Checklist
+- [ ] Implement feature with toggle
+- [ ] Write tests
+- [ ] Write QA Checklist
+- [ ] Manual QA
+- [ ] Check BrowserStack (if required)
+- [ ] Update lastpass .env (if required)
+- [ ] Add metric
+- [ ] Open PR attaching this card's link

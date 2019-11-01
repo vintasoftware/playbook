@@ -31,7 +31,6 @@
 - Explain which div you're closing, when you have 4+ nesting levels.
 
 ## Sass
-- Follow [Frontend Boilerplate](https://github.com/vintasoftware/frontend-boilerplate) about which partial file new code goes on.
 - Use a temporary `shame.scss` file for all last minute hacky code.
 - Componentize to decouple.
 - Don't try to mock the HTML.
