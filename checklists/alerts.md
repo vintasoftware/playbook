@@ -25,7 +25,7 @@
 ## Uptime Robot
 
 - [ ] Django web application (production and staging) - [How to create this alert](https://blog.uptimerobot.com/need-only-the-down-or-up-notifications-you-are-covered/)
-- [ ] Flower (production and staging) - [How to create this alert](https://blog.uptimerobot.com/need-only-the-down-or-up-notifications-you-are-covered/)
+- [ ] Celery Flower (production and staging) - [How to create this alert](https://blog.uptimerobot.com/need-only-the-down-or-up-notifications-you-are-covered/)
 - [ ] Frontend application (production and staging) - [How to create this alert](https://blog.uptimerobot.com/need-only-the-down-or-up-notifications-you-are-covered/)
 - [ ] Third-party services - [How to create this alert](https://blog.uptimerobot.com/need-only-the-down-or-up-notifications-you-are-covered/)
 
@@ -41,7 +41,6 @@
 ## CodeClimate
 
 - [ ] Code issues - [How to create this alert](https://docs.codeclimate.com/docs/user-email-preferences)
-- [ ] Maintainability improvements - [How to create this alert](https://docs.codeclimate.com/docs/user-email-preferences)
 
 ## Sqreen
 
