@@ -13,21 +13,21 @@
 
 ## New Relic
 
-- [ ] Response time (web) - <a href="#alert-5">[5]</a>
-- [ ] Database transaction time - <a href="#alert-5">[5]</a>
-- [ ] Error percentage - <a href="#alert-5">[5]</a>
-- [ ] Third-party services downtime / high response time - <a href="#alert-5">[5]</a>
-- [ ] Key transactions response time - <a href="#alert-6">[6]</a>
-- [ ] Key transactions error percentage - <a href="#alert-6">[6]</a>
-- [ ] Application web transaction time deviation baseline - <a href="#alert-7">[7]</a>
-- [ ] Application transaction database time deviation baseline - <a href="#alert-7">[7]</a>
+- [ ] Response time (web) above some threshold - <a href="#alert-5">[5]</a>
+- [ ] Database transaction time above some threshold - <a href="#alert-5">[5]</a>
+- [ ] Error percentage above some threshold - <a href="#alert-5">[5]</a>
+- [ ] Third-party services downtime / high response time above some threshold - <a href="#alert-5">[5]</a>
+- [ ] Key transactions response time above some threshold - <a href="#alert-6">[6]</a>
+- [ ] Key transactions error percentage above some threshold - <a href="#alert-6">[6]</a>
+- [ ] Application web transaction time deviation baseline above some threshold - <a href="#alert-7">[7]</a>
+- [ ] Application transaction database time deviation baseline above some threshold - <a href="#alert-7">[7]</a>
 
 ## Uptime Robot
 
-- [ ] Django web application (production and staging) - <a href="#alert-8">[8]</a>
-- [ ] Celery Flower (production and staging) - <a href="#alert-8">[8]</a>
-- [ ] Frontend application (production and staging) - <a href="#alert-8">[8]</a>
-- [ ] Third-party services - <a href="#alert-8">[8]</a>
+- [ ] Django web application (production and staging) up/down - <a href="#alert-8">[8]</a>
+- [ ] Celery Flower (production and staging) up/down - <a href="#alert-8">[8]</a>
+- [ ] Frontend application (production and staging) up/down - <a href="#alert-8">[8]</a>
+- [ ] Third-party services up/down - <a href="#alert-8">[8]</a>
 
 ## CircleCI
 
@@ -44,14 +44,14 @@
 
 ## Sqreen
 
-- [ ] Incidents - <a href="#alert-12">[12]</a>
+- [ ] Incidents (dependencies vulnerabilities and attacks to the system) - <a href="#alert-12">[12]</a>
 
 ## Monit
 
 - [ ] Machine status change (start, stop, restart) - <a href="#alert-13">[13]</a>
-- [ ] Memory usage - <a href="#alert-13">[13]</a>
-- [ ] CPU usage - <a href="#alert-13">[13]</a>
-- [ ] Disk usage - <a href="#alert-13">[13]</a>
+- [ ] Memory usage above some threshold - <a href="#alert-13">[13]</a>
+- [ ] CPU usage above some threshold - <a href="#alert-13">[13]</a>
+- [ ] Disk usage above some threshold - <a href="#alert-13">[13]</a>
 
 ## How to create alerts
 
