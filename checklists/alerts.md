@@ -40,18 +40,18 @@
 
 ## CodeClimate
 
-- [ ] Code issues - <a href="#alert-11">11</a>
+- [ ] Code issues - <a href="#alert-11">[11]</a>
 
 ## Sqreen
 
-- [ ] Incidents - <a href="#alert-12">12</a>
+- [ ] Incidents - <a href="#alert-12">[12]</a>
 
 ## Monit
 
-- [ ] Machine status change (start, stop, restart) - <a href="#alert-13">13</a>
-- [ ] Memory usage - <a href="#alert-13">13</a>
-- [ ] CPU usage - <a href="#alert-13">13</a>
-- [ ] Disk usage - <a href="#alert-13">13</a>
+- [ ] Machine status change (start, stop, restart) - <a href="#alert-13">[13]</a>
+- [ ] Memory usage - <a href="#alert-13">[13]</a>
+- [ ] CPU usage - <a href="#alert-13">[13]</a>
+- [ ] Disk usage - <a href="#alert-13">[13]</a>
 
 ## How to create alerts
 
