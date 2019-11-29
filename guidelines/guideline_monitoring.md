@@ -221,7 +221,7 @@ Even though, code coverage decrease is not desirable, we shouldn’t be too stri
 
 ### 6.1. What alerts should be set
 
-Having intermittent alerts set might not be ideal, as this could spam a lot of work in progress. Notifying on pull-requests and master branch is the way to go as these are the most important points of tracking.
+Having intermittent alerts set might not be ideal, as this could spam a lot of work in progress. Notifying on pull requests and master branch is the way to go as these are the most important points of tracking.
 
 - Coverage change on pull requests
 
