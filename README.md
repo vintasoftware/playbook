@@ -4,7 +4,8 @@ Are you curious? Just start reading and [let us know](https://vinta.com.br/conta
 
   * [One - Culture & Values](culture-n-values.md)
     * [Who we are](culture-n-values.md#who-we-are)
-    * [Our philosophy](culture-n-values.md#our-philosophy)
+    * [Things we will not tolerate](culture-n-values.md#things-we-will-not-tolerate)
+    * [Why estimates aren't worth it](culture-n-values.md#why-estimates-arent-worth-it)
     * [Why we believe in open source](culture-n-values.md#why-we-believe-in-open-source)
     * [What inspires us](culture-n-values.md#what-inspires-us)
 

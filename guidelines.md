@@ -1,29 +1,30 @@
+ * [Development](guidelines.md#development)
+ * [Design](guidelines/design_process.md)
+ * [Security](guidelines.md#security)
+ * [Checklist index](guidelines.md#checklist-index)
+ * [Agile process guidelines](guidelines.md#agile-process-guidelines)
+
 # Development
 
 ## Style Guides
-
-### Python
-- [PEP8](https://www.python.org/dev/peps/pep-0008/).
-
-### JavaScript
-- [Airbnb JS Style Guide](https://github.com/airbnb/javascript).
-
-### HTML & Sass
-- [Frontend Guide](guidelines/guideline_frontend.md).
+- [PEP8](https://www.python.org/dev/peps/pep-0008/)
+- [Airbnb JS style guide](https://github.com/airbnb/javascript)
+- [Vinta frontend style guide](guidelines/guideline_frontend.md)
 
 ## Development principles
-- KISS: Keep it simple, Sweetie (not stupid!).
+- [Zen of Python.](https://www.python.org/dev/peps/pep-0020/)
+- [KISS](https://en.wikipedia.org/wiki/KISS_principle): Keep it simple, Sweetie (not stupid!).
 - If there's no way to keep it simple, make sure there are comments.
-- Functions/methods/classes/modules must have a single concern.
+- Functions/methods/classes/modules must have a single concern. [Separation of Concern vs Single Responsibility Principle.](https://weblogs.asp.net/arturtrosin/separation-of-concern-vs-single-responsibility-principle-soc-vs-srp)
 - Even commits must have a single concern, so commit as often as possible (try not to have an "and" in commit messages).
-- Every piece of knowledge must have a single, unambiguous, authoritative representation within a system. Stay DRY: Don't Repeat Yourself.
+- Every piece of knowledge must have a single, unambiguous, authoritative representation within a system. [Stay DRY: Don't repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
 - Reuse domain/business logic, because those must be always consistent.
-- But prefer duplication over the wrong abstraction.
-- After all, premature generalization, as well as premature optimization, is the root of all evil.
-- Because probably YAGNI: You aren't gonna need it.
+- But prefer duplication over [the wrong abstraction](https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction). [See this interesting HN discussion.](https://news.ycombinator.com/item?id=11032296)
+- After all, [premature generalization](http://wiki.c2.com/?PrematureGeneralization), as well as premature optimization, is the root of all evil.
+- Because probably [YAGNI](https://martinfowler.com/bliki/Yagni.html): You aren't gonna need it.
 - Better to isolate code that changes often from code that doesn't.
-- And write code that is easy to delete, not easy to extend. Things change in unexpected ways.
-- Feature flags help with this. They decouple feature releases from merging branches and deploying. And help to decouple behaviors.
+- [Write code that is easy to delete, not easy to extend](https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to) Things change in unexpected ways.
+- [Feature Toggles (aka Feature Flags)](https://martinfowler.com/articles/feature-toggles.html). They decouple feature releases from merging branches and deploying. And help to decouple behaviors.
 - Decoupling is good if it gives you power to easily add, change, or remove code. If not, forget it.
 - Pure functions are always decoupled from state and time. Avoid side effects.
 - But remember that complex is better than complicated.
@@ -33,17 +34,6 @@
 - All code should be reviewed.
 - All features must be manually tested before going to production.
 - And again, keep it simple.
-- Some in-depth resources related to those principles:
-  * [KISS principle](https://en.wikipedia.org/wiki/KISS_principle)
-  * [Separation of Concern vs Single Responsibility Principle](https://weblogs.asp.net/arturtrosin/separation-of-concern-vs-single-responsibility-principle-soc-vs-srp)
-  * [Don't repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
-  * [Premature Generalization](http://wiki.c2.com/?PrematureGeneralization)
-  * [YAGNI](https://martinfowler.com/bliki/Yagni.html)
-  * [The Wrong Abstraction](https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction)
-  * [The Wrong Abstraction, HN discussion](https://news.ycombinator.com/item?id=11032296)
-  * [Write code that is easy to delete, not easy to extend](https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to)
-  * [Feature Toggles (aka Feature Flags)](https://martinfowler.com/articles/feature-toggles.html)
-  * [Zen of Python](https://www.python.org/dev/peps/pep-0020/)
 
 ## Environments
 
@@ -60,7 +50,7 @@
 ### Config project files
 - Create a Last Pass Secure note with your `.env` file.
 
-## Production and Staging services
+### Production and Staging services
 - Check the <a href="https://devchecklists.com/production-launch-checklist/" target="_blank">Launch Checklist</a>
 
 ## Libs and Tools we use
@@ -74,11 +64,6 @@ Once allocated to a feature, the developer should follow the [Feature developmen
 
 ## Code and feature review
 All code is reviewed before being merged to master. The reviewer not only checks code quality, but also if the feature was implemented according to what the client expects. It's very important for the allocated reviewer to strictly follow the [PR review workflow](checklists/pull_request_review_workflow.md).
-
-## * [Frontend](guidelines/guideline_frontend.md)
-## * [Landing Pages](guidelines/guideline_landing_pages.md)
-## * [Management with Asana](guidelines/guideline_asana.md)
-## * [Presentation](guidelines/guideline_presentations.md)
 
 # Security
 
@@ -115,11 +100,7 @@ Every once in a while it's necessary to transfer security sensitive information 
 - [The SaaS CTO Security Checklist](https://www.sqreen.com/checklists/saas-cto-security-checklist)
 
 # Checklist index
-## External
-* [Dev Checklists](https://devchecklists.com/)
-
-## Internal
-
+* [DevChecklists](https://devchecklists.com/)
 * Creating cards on Asana:
   * [Feature card creation.](checklists/feature_card_creation.md)
   * [Bug card creation.](checklists/bug_card_creation.md)
@@ -132,10 +113,10 @@ Every once in a while it's necessary to transfer security sensitive information 
   * [Feature workflow.](checklists/feature_development_workflow.md)
   * [Wiki](checklists/wiki.md)
   * [Daily Deploy](checklists/daily_deploy.md)
+  * <a href="https://devchecklists.com/production-launch-checklist/" target="_blank">Production Launch</a>
 * Pull Request:
   * [PR workflow.](checklists/pull_request_workflow.md)
   * [PR review workflow.](checklists/pull_request_review_workflow.md)
-* <a href="https://devchecklists.com/production-launch-checklist/" target="_blank">Production Launch</a>
 
 # Agile Process Guidelines
 
@@ -246,7 +227,7 @@ Deploying more frequently:
 
 **DAKI Exercise**
 
-*D* for Drop: When team members want to drop or remove something that bothers them. For example, a team wants to remove (drop) weekly meeting with their manager because of micromanaging.
-*A* for Add: What does the team want to add to improve the process? Perhaps adding a weekly breakfast for the whole team or a company to share feelings/feedback with the rest of the people.
-*K* for Keep: When team members want to keep something. For example, the team decides to keep a stand up meeting with a song chosen by a team member.
-*I* for Improve: Something that a team wants to improve. A good example is when a team reduces the technical debt from a legacy code to avoid fixing bugs all day long.
+- __D__ for Drop: When team members want to drop or remove something that bothers them. For example, a team wants to remove (drop) weekly meeting with their manager because of micromanaging.
+- __A__ for Add: What does the team want to add to improve the process? Perhaps adding a weekly breakfast for the whole team or a company to share feelings/feedback with the rest of the people.
+- __K__ for Keep: When team members want to keep something. For example, the team decides to keep a stand up meeting with a song chosen by a team member.
+- __I__ for Improve: Something that a team wants to improve. A good example is when a team reduces the technical debt from a legacy code to avoid fixing bugs all day long.
