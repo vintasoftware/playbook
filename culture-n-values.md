@@ -15,7 +15,7 @@ Vinta is a software consultancy focused on web projects. We like to work with Py
 - There is no such a thing as the best language or an only way to do things. Each project is unique, and requires its own tools.
 - Code should be clean and tested so programmers feel happy and confident to work on.
 - Refactoring is a recurrent need and should be regarded as any feature in the backlog.
-- Because of the above, automated tests are a must. As long as you write then, choose whatever process you like the most.
+- Because of the above, automated tests are a must. As long as you write them, choose whatever process you like the most.
 - Code should be deployed early and often.
 - Simple beats complex.
 - However complex it is, there is always a simple way to explain it so everyone can understand.
