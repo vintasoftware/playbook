@@ -27,4 +27,4 @@ Are you curious? Just start reading and [let us know](https://vinta.com.br/conta
     * [Internal growth](career.md#internal-growth)
     * [Open spots and requirements](career.md#open-spots-and-requirements)
     * [Our hiring process](career.md#our-hiring-process)
-    * [Internship at Vinta](career.md#ointernship-at-vinta)
+    * [Internship at Vinta](career.md#internship-at-vinta)
