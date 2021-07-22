@@ -1,7 +1,0 @@
-- [ ] Title describes action
-- [ ] Detailed description of the feature
-- [ ] This card cannot be broken into smaller ones
-- [ ] Added images & reference documents, if there are any
-- [ ] Assign members to card
-- [ ] Add labels to card
-- [ ] Set a due date

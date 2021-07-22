@@ -2,11 +2,11 @@ In order to keep Vinta growing strong, we are constantly __upgrading our process
 
 Are you curious? Just start reading and [let us know](https://vinta.com.br/contact) what you think!
 
-  * [One - Culture & Values](culture-n-values.md)
-    * [Who we are](culture-n-values.md#who-we-are)
-    * [Things we will not tolerate](culture-n-values.md#things-we-will-not-tolerate)
-    * [Why we believe in open source](culture-n-values.md#why-we-believe-in-open-source)
-    * [What inspires us](culture-n-values.md#what-inspires-us)
+  * [One - Culture & Values](culture.md)
+    * [Who we are](culture.md#who-we-are)
+    * [Things we will not tolerate](culture.md#things-we-will-not-tolerate)
+    * [Why we believe in open source](culture.md#why-we-believe-in-open-source)
+    * [What inspires us](culture.md#what-inspires-us)
 
   * [Two - Guidelines](guidelines.md)
     * [Development](guidelines.md#development)
