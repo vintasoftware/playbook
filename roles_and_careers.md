@@ -1,6 +1,128 @@
-__" I am convinced that nothing we do is more important than hiring and developing people. At the end of the day, you bet on people not on strategies."__ We agree with Lawrence Bossidy regarding the importance of hiring and the effort that should be put into it. Here are some of the traits we look for in candidates for different levels of seniority and how someone might apply to Vinta.
+# Technical career paths
 
-# Tech Leadership
+Pushing careers onto people follows dissatisfaction. The traditional big old-school corporate career ladder is built in such a way that requires the most technically experienced people to fit  into management roles if they want to keep growing in their career. This approach forces people that excel in their technical jobs into roles that frequently don’t align with their desired career path or skills, often leading to frustration for both employee and company. 
+
+This is why at Vinta we adopt a "Y" shaped career structure for developers and designers. We want to enable people to keep growing and earning more money even if they choose not to go down the management road.
+
+We name these two possible career paths: Expert and Lead.
+
+**Everyone starts on the "Expert" path.** Acquiring the traits of an expert is essential to becoming a great lead. Leads need a lot of experience because they are the ones who will have the ultimate say in technical decisions. Our advice is to specially in the beginning of the career, focus 100% on developing the skills of the expert path. As you grow, you will learn more about what is the job of a lead, and if you are interested in this other path you should then start working on its specific traits.
+
+**You own your career.** It’s our value that you decide for yourself your next career steps - no one knows better what you want for your future than yourself, so you are accountable for your own career development. Vinta will provide you with guidance, tooling and structure through mentors, 1:1 with your manager and leadership, skip levels sessions, and quarter feedbacks for you to grow, but ultimately you are the one in charge to take the first step to sync with your leaders, collect feedback and assess the skills you need to develop in order to move to the next level. We can’t achieve excellence in service if we wait on others. 
+
+**You need to be vocal.** Communicate to your leaders what career path you want to pursue, actively ask and offer to take on activities that will help you grow in that direction, dedicate time to investigate how you work, take notes of your difficulties and consult people on the ideas you have. Ask your mentor for advice on how to develop the skills you are lacking. It's also important that your peers recognize your skills, so don't be shy in showing them the things you do.
+
+Leadership roles require exceptional self management, accountability and alignment skills. These are very important traits for every professional but are inherently required for good leaders. If you chose a lead career path, one of the ways you can show that you are a good fit for the role is by managing your own career development. We expect that you keep working on improving technically while you continuously learn and take on leadership activities. 
+
+While you can always keep taking on more ownership and practicing tech leadership skills, there are a limited number of leadership roles in a company. Be patient, if you keep doing a good job and keep aligning expectations, eventually an opportunity will arise.
+
+# Product Managers
+
+Usually, the product manager role is filled by someone on the client's side. These are our expectations:
+- Keep the business and the development team closer.
+  - Communicate strategic decisions to the development team and help it to update priorities accordingly.
+- Be responsible for the product's decisions making, asking for advice when necessary.
+  - Produce feedback for UI/UX deliverables. Also accepting input from the design team.
+- Be responsible for communication with the technical team.
+- Produce insights for mid and long-term product strategy (quarter-based).
+  - By getting inputs from all stakeholders, including the development/design team.
+  - By analyzing risks and tradeoffs.
+- Keep Roadmap updated considering technical challenges and product strategy.
+  - Together with the development team.
+  - Warn team about changes ASAP to avoid development work loss.
+- Be aware of the development team needs, such as new developers, designers, QAs, etc.
+- Planning and syncing project major releases among development and business teams.
+- Provide and analyze metrics and data from development team aiming to support product strategy.
+- Validate technical team decisions that impact product strategy.
+- Find, analyze, and sync strategic partners.
+- Analyze regularly competitors features/flows
+
+# Project Managers
+
+- A Project Manager's most important duty is to manage client's expectations and keep them realistic. We realize most of the problems in software development come from communication issues, and the Project Manager at Vinta is the 'Communication Person'. The Project Manager should always track the deliverables for the next sprint and, if any problems are to appear, features must be simplified, development strategies re-evaluated, and priorities re-defined, always sided with the client. That's easier said than done in some cases, but surely brings benefits for us and the clients.
+- The Project Manager will be the main point of contact with the client. It's good for everyone to have an open communication channel directly with the client, but the Project Manager should be aware of all project-related decisions. However, regarding assigned tasks, each developer is free to discuss and validate it directly with the client. Should the client ask the developer to do another task, this needs to be tracked and communicated to the Project Manager. Maybe the manager knows better the priority, even better than the client, so s/he needs to step in.
+- Project Manager should encourage everyone to manually test all features before validating them with the client.
+- Project Manager should remember developers to report daily on what they are working on.
+- Project Manager should make sure there are no ownership gaps in the project. When everybody is responsible for some parts of the process, there might be gaps where no one acts. The project manager must be aware of those gaps and address them with the team. Critical aspects of the project such as support, deploys, QA, security, etc must have a person clearly responsible. Project Manager should also inform the client who's responsible for each aspect. This kind of ownership gives team members responsibility and autonomy.
+- Project Manager should ensure the project's documentation is up-to-date and make sure it's shared with the Client.
+
+# Developer Expert
+
+Being a software developer expert is far from just knowing how to write code. Although time on the market and having a lot of experience in diverse scenarios is required, there are many other skills that are just as important - and also required- for a person to be successful in this position. It’s important to know and work on each of these skills from early on in your career, most of them are not something you can learn from a book, they need constant practice and improvement.
+
+Here is the breakdown of the most important activities Vinta expects from a person in the role (or in the path to become) a software developer expert.
+
+## Self Management
+Ace self management. It’s not possible to be great on any of the other topics in this document if you depend on someone else constantly pushing you. Self management means that you are capable of understanding what is expected from you (syncing and communication) and that you are able to find and use all available tooling to help you accomplish the task. 
+
+Know what is your “one job” - and get it done first. Exploration and experimentation are great for self improvement but they can only happen once you’ve managed to accomplish what was agreed with your direct leaders. While working on a task, experts exhaust their possibilities and dig deeper on topics in order to find a solution. At the same time, they know when it’s time to ask for help and benefit from the shared knowledge of the company. 
+
+Good reporting skills are a must. Managers should not need to ask you about the status of your tasks, you should proactively report progress, particularly if things are not going according to the plan.
+
+## Communication and People Skills
+The fact that you are seeking a technical role does not exempt you from having great people skills. In fact these are required and one of the main traits a professional of any area should work on. 
+
+Clear and honest communication, politeness, humbleness, and regard are all abilities that will make your and the whole team job much easier and pleasant. 
+
+Additionally, great communication enables proper decision-making. Tech Leads need assistance from experts to translate technical challenges into the language of trade-offs and product vision to support product leadership in correcting course and prioritizing tasks. Developing software is a team work exercise, there’s no way you can develop great products without great communication among your developer peers, designers, managers, customers and users.
+
+## People Development
+As you grow in your career it’s expected that you not only develop your own skills but that you also help others grow. It’s important to notice that you don’t need to wait before you are a senior developer to do this. 
+
+Everyone has a different career path, there’s always someone who can learn from you and often it’s a person you consider “more experienced” than you. 
+
+There are limitless ways you can help other people growing, some examples are: sharing articles, pair programming, giving talks, reviewing code, and giving feedback.
+
+## Risk Awareness and Mitigation
+Mind about risk, and mind even more about mitigating them. A big part of the job of a software engineer is evaluating risk. There are infinite ways to write code to get a task done, our job is to evaluate the possibilities and choose the one that better fits the constraints at that particular moment (also considering that they might change in the future). 
+
+Each project also has its own inherent risks that are constantly changing as it grows in team size, user base and data size. Every decision has pros, cons and a risk. We need to weigh everything in, decide how we want to proceed and communicate all of this to peers and stakeholders so they are also aware of what motivated that decision. 
+
+Mitigation is a mandatory concern: there’s no such a thing as zero risk. There’s a risk involved in making a change and there’s also a risk in not making a change. It’s important that regardless of the path you choose you will set up guardrails to prevent the risks and also to mitigate the losses in case the odds are against us.
+
+## Problem Solving Attitude
+Point problems alongside their solutions. It’s practically impossible to attest the correctness of any minimally complex software. There will always be bugs, unpredictable user behavior, and uncovered edge cases.
+
+There’s always something to improve in the test suit, code linting, tooling, documentation and deploy pipeline. Experienced developers understand that this is all part of the process and invest energy pushing the team into improving these things. 
+
+Complaining produces no productive outcome and brings down team morale. A better attitude is to report the issues early on when you find them and bring attention to the things you consider risky. An even better attitude is to run a quick assessment and propose solutions as you report the problems.
+
+## Code Ownership
+All developers in the team own the development process. Everyone is responsible to ensure the quality of the code, the documentation, logging, the use of development assisting tools, the code review process, tests, the bugs and even the unknown unknowns. 
+
+experts deeply care about the codebase they are working on and are constantly looking for problems (and potential problems) and doing improvements regardless of who wrote the code. 
+
+Experts not only fix what is broken - they build into the architecture, pipelines, and tooling measures to prevent developers from making mistakes and to get alerted when things break. They are constantly asking questions like: "what could have I done to prevent this problem from happening?", "why wasn’t this caught during the code review?", "why wasn’t this knowledge passed along?",  "why was there no test to catch this case?". Experts own the code and are accountable when things go well and when they go bad.
+
+## Product Ownership
+Developers are co-owners of the product alongside all the other stakeholders (even though each of them will have more or less say in the final decisions). Code only exists in the context of a product that has multiple stakeholders. It’s expected that all code decisions are made in this context and with the product success in mind.  
+
+So owning the code is not enough. Developers should constantly communicate the software development related risks involved in each decision from other areas of the product such as design, sales and business. When it’s appropriate, developers should also provide opinions and feedback to these other areas.
+
+## Activity and Project Accountability
+Experts harness the power of accountability. It's often necessary that certain key activities and projects are delegated to specific members of the team. Often these are things that are primarily owned by the Tech Lead but that the execution can be offloaded to other team members. 
+
+Experts understand the importance of being accountable for the success of these tasks and that they need to provide visibility on progress to the leadership. Demand is quite unpredictable for Tech Leads and they need to trust team members to keep up with the operation tasks and projects so they can focus on other things on their plate.
+
+## Technical Excellence
+Experts are encouraged to dig deep on areas of interest (backend, frontend, devops, security, …) but this should come with a broad understanding of the whole development process and being able to act on these on their day to day tasks. 
+
+Because software development is an ever (and rapidly) changing area, they also need to keep up with these changes by reading, attending/watching conference talks, keeping up with major tool releases and practicing new skills. 
+
+Recognition is also key here: it's important that team members and the customer recognize you as a reference in your areas of expertise. Both should feel confident that we have the required competences to achieve the project's technical challenges.
+
+## Software Discipline
+Software discipline is a broad term that encapsulates many practices that, when applied, tend to produce good software. They are skills that often can’t be enforced by anyone other than the programmer that is writing the code. Some examples are: TDD, writing comprehensible documentation, refactoring and logging. 
+
+Developer Experts are expected to have these practices internalized in their modus operandi of writing software. Keeping up with the market best practices is also encompassed here.
+
+## Architecture
+Experts are mindful towards architecture. Architecture comprehends many things from data structure to how files are organized in the project. Developer Experts are familiar with the paradigms of software development such as Object Orienting, Functional and Parallel, as well as to software design principles, practices and patterns. This knowledge base provides the solid foundations and tooling for you to take good decisions and build robust products and code bases that last. 
+
+Managing software complexity is also key here, all architecture decisions should push for reduced complexity and make code easier for less experienced developers and newcomers.
+
+# Tech Lead
+
 Technical Leadership is a relatively new role in the world of software development. There's little structured content about it available in either books or blog posts. Most content is presented as reports on the goals and experiences of individuals or companies. This is a natural process as the industry adapts and learns what combination of attributions are best suited for the role, quite similar to what happened to the now much less obscure role of DevOps engineer. In the spirit of learning from feedback and collaboration, we want to be part of the debate by sharing what it means to be a Tech Leader at Vinta.
 
 For us, Tech Leaders are accountable for various monitoring and guidance activities for a wide-range of perspectives, from systems to individuals. They need to have technology and architecture fluency to support business goals from a technical standpoint, as well as to keep up with co-workers' individual needs and goals. There are two big cornerstones to the role: People and Technology. I'd say they are equally important and will probably require about the same mental effort on daily activities. 
@@ -79,130 +201,11 @@ Crises will eventually arise in all projects. It's important that Tech Leaders a
 ### Tackle Tasks
 Last but not least, Tech Leaders should keep actively working in project tasks. The hard part of this is actually choosing the right kind of task that will fit the schedule. Tech Leaders need to be very smart so they keep up with technical work without leaving aside all the other important activities. It's normally a good idea to look for challenging tasks with a stretched deadline. What is the best kind of task will vary according to the current project needs, but the key thing is to keep working on things that you enjoy and that you will be proud of at the end of the day. There's no such thing as a non technical Tech Leader. 
 
-# Career Levels
+# Development Internship
 
-We believe in creating the best learning environment possible here at Vinta. In order to do so, we need to show a clear way ahead for all employees. We also know that everyone grows in their own way so there is no point in creating a line for people to follow, we need to go wider than that. That's why our levels are an unordered list of treats we think our employees need in order to become experts in our field. The overall is this:
-
-* We have four levels (Junior Developer, Developer, Senior Developer, Leader Developer);
-* Each level is divided in a number of sub-levels:
-    * Junior Developer: 3 sub-levels.
-    * Developer: 6 sub-levels.
-    * Senior Developer: 10 sub-levels.
-    * Leader Developer: ∞ sub-levels.
-* We review salaries at the end of experience period (when someone starts at Vinta) and every 6 months after that.
-* We evaluate subjectively alongside the employee (it's not a top-down assessment, it's a mutual evaluation). Points are evaluated granularly, so every effort counts.
-* Each point can be evaluated as a Strenght, In process, Weakness or In need of Validation.
-* Each employee has a personal spreadsheet where his/her plan is listed.
-* To reach level X+1, the employee needs:
-    * Strengths judged important from level X-1 and lower.
-    * Substantial amount of Strengths in his own level.
-    * Some Strengths from level X+1.
-* Points can be added or removed in the future, this is a snapshot, not set in stone.
-
-## Levels
-
-* Junior Programmer:
-   * Minimum of 1 year of experience with web development.
-   * Masters the basics of at least one of the stacks: Frontend or Backend.
-   * Comfortable with routine features.
-   * Can post and solve internal easy picks (playbook/boilerplate/site).
-   * Can communicate in English (slack and meetings).
-   * Gives talks in local events.
-   * Writes simple blogposts.
-   * Can post and solve opensource easy picks.
-   * Gives internal talks at Pyzzas.
-   * Posts relevant content in Lessons Learned.
-   * Keeps in track allocated activities.
-
-* Programmer:
-   * Minimum of three years of experience with web development.
-   * Masters one of our Stacks: Frontend or Backend.
-   * Helps less-experienced Developers.
-   * Identifies and solves internal issues (playbook/boilerplate/site).
-   * Can give opinions and argument about technical decisions and project architecture.
-   * Is responsive in cases of emergencies.
-   * Can organize ideas and make complex arguments in English.
-   * Gives talks at Regional/National conferences.
-   * Writes intermediate blogposts.
-   * Comfortable in contributing, submitting fixes and improvements on opensource tools he/she uses.
-   * Can specify features with team and client.
-   * Capable of self-management, organizing activities and keeping them on track.
-
-* Senior Programmer:
-   * Minimum of four years of experience with web development.
-   * Can work well with management and development activities.
-   * Comfortable in managing client's expectations.
-   * Keeps team motivated and learning.
-   * Conceives and implements new processes within Vinta.
-   * Gives talks at International conferences.
-   * Writes advanced blogposts.
-   * Maintains Vinta's internal libs, either by finding bugs, listing possible improvements, coding on the lib or delegating accordingly.
-   * Capable of mapping demands on development process and suggesting improvements.
-   * Capable of giving well-referenced opinions about technical and architectural project decisions.
-   * Can anticipate client demands about team size and possible opportunities for Vinta to aggregate more value on project.
-   * Comfortable in crisis management.
-   * Deep understanding of at least one web development area (API, SPA, SQL, etc.).
-
-* Leader Programmer:
-   * Minimum of six years of experience with web development.
-   * Comfortable in leading big projects, with interdisciplinary teams.
-   * Attracts projects to Vinta due to market and community presence.
-   * Has relevant contributions in large-scale opensource projects.
-   * Is nationally recognized by the community as an expert in one area of knowledge.
-   * Talks to outside of the company and dictates development tendencies.
-
-# Internal Growth
-
-## Pyzza Internal talks
-Every 15 days we gather some people to discuss a topic of interest. This is a very good moment for people to hone their presentation skills, study about something they like, and spread their diverse learnings around the company. It's also another good moment for those "I think that's worth a blogpost!" quotes. Beer and pizza are on us!
-
-## Courses and Books
-Just name it, Vinta will buy technical books and courses (online and offline) for anyone. It helps to sustain  the learning atmosphere we’ve come to believe in.  A delightful not-too-farfetched chaos theory bit: a book read turns into a blogpost, that turns into a better delivery for our client, that turns into a new client.
-
-# Open spots and requirements
-
-Here is an overview of what positions we hire. The requirements, work-routine, work-benefits and everything else is described (in Portuguese) in the [career section of our website](https://www.vinta.com.br/careers/).
-
-* Developer: Works to create technical solutions to our clients in the best way possible. All developers here are full-stack and have full ownership of the code-base. Discussing architecture, developing in Python/JS and defending processes that implement quality are the central tasks for this spot.
-
-* Senior Developer: Beyond what the regular developer works, this spot is also responsible for the technical growth of the team, the ever-lasting search for processual and architectural improvements in the project, and the product concerns of the project.
-
-* UX designer: Works to guarantee that value is delivered the best way possible to the end user of our client. Discussing, mocking interfaces and conducting research are the main directives for this spot.
-
-* Intern: This spot's only concern is to learn and be available and fit for hire in the shortest time possible. Our training process described below in this section ensure that happens within six months.
-
-# Our Hiring Process
-
-The hiring process for developers is divided into three steps aimed at measuring technical prowess, communication skills, and management abilities. The designer hiring process works slightly different, if you want to know more about that, please send an email to contact@vinta.com.br The steps are as following:
-
-* Interview: here we have an open conversation with the candidate, that's the best way we found so far to evaluate culture-fitness and professional experience;
-
-* Pairing: This step focuses on the ability to explain your technical process and problems and common difficulties and problems that happen along the way;
-
-* Project: in this step, we send the specs for a project that needs to be delivered in a fortnight. Our point here is to evaluate good practices and expectation-management on the client side.
-
-## Go straight to the code
-
-You can implement a project and get a head-start on everyone else!
-
-Explaining: knowing how to choose a good programmer is a very difficult task. There is not a single way that works for most companies and there is a lot of talk about why one way is better than the other. For us, the process is divided into three parts, the third being a small project. When the project is given to a candidate, we also state that it’s to evaluate **good software practices, testing, and problem-solving skills**. In order to mimic our open-scope environment, we set an initial deadline that can be rescheduled if more time is needed (when correctly reported, this saves both the candidate and us a lot of stress).
-
-### What you need to do?
-
-* Read carefully every requirement on the specification;
-* Make sure you understood what is a necessary requirement and what is optional;
-* Setup a github/bitbucket repository for your code;
-* Deploy your project on a host service (we recommend [heroku](https://heroku.com/));
-* When you finish the project and feel it's ready, [apply here!](https://vintasoftware.typeform.com/to/Xb6aIu)
-
-### Specifications for the project
-
-Here you can check the [requirements of the project](https://docs.google.com/document/d/1Evi-kghklIcwJ33SFqPyGREB4OVfNJXX4EOfrWuhhwY/edit?usp=sharing). It's in Portuguese cause we don't want the candidate to misunderstand anything (that could lead to a final delivery that doesn't match the expectations and we'd miss the candidate only because of a misunderstanding).
-
-# Internship at Vinta
 We know it’s tough to start working at the tech industry. At Vinta, we developed our process to prepare anyone for a full-stack job using Python and Javascript. We've compiled all the courses, relevant content, philosophy, activities, and tips from our interns to help you go all the way through our tech stack.
 
-## Philosophy behind the whole process
+## Philosophy behind the process
 We always hire interns with a clear goal (we also make that goal clear to them from day one), that is to hire them as juniors in a year time. The whole process is designed to maximize learning opportunities, knowledge sharing, and professional development. In order to do that, we believe three things are essential:
 - Code best practices and development process should be a concern from day one;
 - The person’s only focus should be on learning and growing professionally, so books, online courses, and more experienced developers should always be available;
