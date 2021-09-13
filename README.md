@@ -24,9 +24,9 @@ Are you curious? Just start reading and [let us know](https://vinta.com.br/conta
     * [Release Notes](processes_and_frameworks.md#release-notes)
 
   * [Three - Roles and Careers](roles_and_careers.md)
-    * [Technical career paths](roles_and_careers.md#technical-career-paths)
     * [Product Managers](roles_and_careers.md#product-managers)
     * [Project Managers](roles_and_careers.md#project-managers)
+    * [Technical career paths](roles_and_careers.md#technical-career-paths)
     * [Developer Expert](roles_and_careers.md#developer-expert)
     * [Tech Lead](roles_and_careers.md#tech-lead)
     * [Development Internship](roles_and_careers.md#development-internship)
