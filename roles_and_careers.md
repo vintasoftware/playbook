@@ -1,22 +1,4 @@
-# Technical career paths
-
-Pushing careers onto people follows dissatisfaction. The traditional big old-school corporate career ladder is built in such a way that requires the most technically experienced people to fit  into management roles if they want to keep growing in their career. This approach forces people that excel in their technical jobs into roles that frequently don’t align with their desired career path or skills, often leading to frustration for both employee and company. 
-
-This is why at Vinta we adopt a "Y" shaped career structure for developers and designers. We want to enable people to keep growing and earning more money even if they choose not to go down the management road.
-
-We name these two possible career paths: Expert and Lead.
-
-**Everyone starts on the "Expert" path.** Acquiring the traits of an expert is essential to becoming a great lead. Leads need a lot of experience because they are the ones who will have the ultimate say in technical decisions. Our advice is to specially in the beginning of the career, focus 100% on developing the skills of the expert path. As you grow, you will learn more about what is the job of a lead, and if you are interested in this other path you should then start working on its specific traits.
-
-**You own your career.** It’s our value that you decide for yourself your next career steps - no one knows better what you want for your future than yourself, so you are accountable for your own career development. Vinta will provide you with guidance, tooling and structure through mentors, 1:1 with your manager and leadership, skip levels sessions, and quarter feedbacks for you to grow, but ultimately you are the one in charge to take the first step to sync with your leaders, collect feedback and assess the skills you need to develop in order to move to the next level. We can’t achieve excellence in service if we wait on others. 
-
-**You need to be vocal.** Communicate to your leaders what career path you want to pursue, actively ask and offer to take on activities that will help you grow in that direction, dedicate time to investigate how you work, take notes of your difficulties and consult people on the ideas you have. Ask your mentor for advice on how to develop the skills you are lacking. It's also important that your peers recognize your skills, so don't be shy in showing them the things you do.
-
-Leadership roles require exceptional self management, accountability and alignment skills. These are very important traits for every professional but are inherently required for good leaders. If you chose a lead career path, one of the ways you can show that you are a good fit for the role is by managing your own career development. We expect that you keep working on improving technically while you continuously learn and take on leadership activities. 
-
-While you can always keep taking on more ownership and practicing tech leadership skills, there are a limited number of leadership roles in a company. Be patient, if you keep doing a good job and keep aligning expectations, eventually an opportunity will arise.
-
-# Product Managers
+# Product Manager
 
 Usually, the product manager role is filled by someone on the client's side. These are our expectations:
 - Keep the business and the development team closer.
@@ -37,7 +19,7 @@ Usually, the product manager role is filled by someone on the client's side. The
 - Find, analyze, and sync strategic partners.
 - Analyze regularly competitors features/flows
 
-# Project Managers
+# Project Manager
 
 - A Project Manager's most important duty is to manage client's expectations and keep them realistic. We realize most of the problems in software development come from communication issues, and the Project Manager at Vinta is the 'Communication Person'. The Project Manager should always track the deliverables for the next sprint and, if any problems are to appear, features must be simplified, development strategies re-evaluated, and priorities re-defined, always sided with the client. That's easier said than done in some cases, but surely brings benefits for us and the clients.
 - The Project Manager will be the main point of contact with the client. It's good for everyone to have an open communication channel directly with the client, but the Project Manager should be aware of all project-related decisions. However, regarding assigned tasks, each developer is free to discuss and validate it directly with the client. Should the client ask the developer to do another task, this needs to be tracked and communicated to the Project Manager. Maybe the manager knows better the priority, even better than the client, so s/he needs to step in.
@@ -45,6 +27,24 @@ Usually, the product manager role is filled by someone on the client's side. The
 - Project Manager should remember developers to report daily on what they are working on.
 - Project Manager should make sure there are no ownership gaps in the project. When everybody is responsible for some parts of the process, there might be gaps where no one acts. The project manager must be aware of those gaps and address them with the team. Critical aspects of the project such as support, deploys, QA, security, etc must have a person clearly responsible. Project Manager should also inform the client who's responsible for each aspect. This kind of ownership gives team members responsibility and autonomy.
 - Project Manager should ensure the project's documentation is up-to-date and make sure it's shared with the Client.
+
+# Technical career paths
+
+Pushing careers onto people follows dissatisfaction. The traditional big old-school corporate career ladder is built in such a way that requires the most technically experienced people to fit  into management roles if they want to keep growing in their career. This approach forces people that excel in their technical jobs into roles that frequently don’t align with their desired career path or skills, often leading to frustration for both employee and company. 
+
+This is why at Vinta we adopt a "Y" shaped career structure for developers and designers. We want to enable people to keep growing and earning more money even if they choose not to go down the management road.
+
+We name these two possible career paths: Expert and Lead.
+
+**Everyone starts on the "Expert" path.** Acquiring the traits of an expert is essential to becoming a great leader. Leaders need a lot of experience because they are the ones who will have the ultimate say in technical decisions. Our advice is to specially in the beginning of the career, focus 100% on developing the skills of the expert path. As you grow, you will learn more about what is the job of a lead, and if you are interested in this other path you should then start working on its specific traits.
+
+**You own your career.** It’s our value that you decide for yourself your next career steps - no one knows better what you want for your future than yourself, so you are accountable for your own career development. Vinta will provide you with guidance, tooling and structure through mentors, 1:1 with your manager and leadership, skip levels sessions, and quarter feedbacks for you to grow, but ultimately you are the one in charge to take the first step to sync with your leaders, collect feedback and assess the skills you need to develop in order to move to the next level. We can’t achieve excellence in service if we wait on others. 
+
+**You need to be vocal.** Communicate to your leaders what career path you want to pursue, actively ask and offer to take on activities that will help you grow in that direction, dedicate time to investigate how you work, take notes of your difficulties and consult people on the ideas you have. Ask your mentor for advice on how to develop the skills you are lacking. It's also important that your peers recognize your skills, so don't be shy in showing them the things you do.
+
+**Leadership roles require exceptional self management, accountability and alignment skills**. These are very important traits for every professional but are inherently required for good leaders. If you chose a lead career path, one of the ways you can show that you are a good fit for the role is by managing your own career development. We expect that you keep working on improving technically while you continuously learn and take on leadership activities. 
+
+While you can always keep taking on more ownership and practicing tech leadership skills, there are a limited number of leadership roles in a company. Be patient, if you keep doing a good job and keep aligning expectations, eventually an opportunity will arise.
 
 # Developer Expert
 
