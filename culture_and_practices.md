@@ -176,7 +176,7 @@ As a mentor, you should help your mentee navigate the company processes, practic
 
 # Security
 
-Security is not something you can do every once in a while, it's a mindset that needs to be baked into your day to day job. It's impossible to ensure a system or an organization has zero risk of having a security flaw, so the best way to reduce the odds of having an issue is to educate ourselves on how security works, what are the risks and how to defend ourselves and our applications from attacks. This document provides a broad overview of these topics for you to start thinking about security.
+Security is not something you can do every once in a while, it's a mindset that needs to be baked into your day to day job. It's impossible to ensure a system or an organization has zero risk of having a security flaw, so the best way to reduce the odds of having an issue is to educate ourselves on how security works, what are the risks and how to defend ourselves and our applications from attacks. Here is an overview of these topics for you to start thinking about security.
 
 ## A system is as secure as its weakest component
 Attackers often don't need a big flaw in the main system in order to gain access to critical resources of the system. In reality these attacks often start from less important side components of the system exactly because they are often not monitored and carelessly designed. But starting from these seemingly unimportant components attackers can pave their way to the core of application.
@@ -193,7 +193,7 @@ Phishing are most commonly email messages that appear to have a trusted source b
 - Never click on any links, always copy paste it on the browser and double check the domain;
 
 ## Leakage threats
-Another common attack are messages  from people that claim to possess some personal or company information and threaten to leak it in case you don't pay a certain amount of money. Although it's possible that the leak is true, most often those are fake claims from people trying to make a quick buck from a leaked email list. In case you receive a message like this, make sure you report it to the company leadership so actions can be taken on a per case basis.
+Another common attack are messages from people that claim to possess some personal or company information and threaten to leak it in case you don't pay a certain amount of money. Although it's possible that the leak is true, most often those are fake claims from people trying to make a quick buck from a leaked email list. In case you receive a message like this, make sure you report it to the company leadership so actions can be taken on a per case basis.
 
 ## Work Equipment
 Work equipment is one of the main targets for attackers looking for a breach. Project source code, communication tools and infrastructure access keys are all stored in these machines making them very attractive to hackers. With access to these things it's much easier to pave the way for critical components of the system so we need to be extremely careful with work related machines. Here are some guidelines to follow:
