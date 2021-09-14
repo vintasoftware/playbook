@@ -5,7 +5,7 @@ Are you curious? Just start reading and [let us know](https://vinta.com.br/conta
   * [One - Culture & Practices](culture_and_practices.md)
     * [Who we are](culture_and_practices.md#who-we-are)
     * [Accountability](culture_and_practices.md#accountability)
-    * [Trainning](culture_and_practices.md#trainning)
+    * [Training](culture_and_practices.md#trainning)
     * [Technical Discipline](culture_and_practices.md#technical-discipline)
     * [Mentorship](culture_and_practices.md#mentorship)
     * [Communication Guidelines](culture_and_practices.md#communication-guidelines)
