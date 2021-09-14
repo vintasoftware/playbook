@@ -46,7 +46,7 @@ But beyond all of that, this is not just about one's well-being. Every time you 
 
 Vinta cares about everyone's well being, and we expect that everyone is also looking out for each other. We founded Vinta because we validated that’s possible to make great software with work-life balance. That’s why we’ll always be very vocal about the importance of the consultant posture and all quality-related processes we have. Make sure that your work will allow you and your teammates to have a good work-life balance. The great news is that, by doing this, you will automatically be doing an elite level job and ensuring happy customers.
 
-# Trainning
+# Training
 
 One of the main value propositions Vinta has for employees is an environment that seeks constant improvement. This means that the company is always questioning the way we do things and looking for where things can be done better or more efficiently. But it also means we are continually pushing everyone to grow. A business can only be as good as the collective sum of the people that makes it. This is especially true for a consultancy business, and it's particularly crucial to Vinta because our goal is to be a team of experts that values communication and transparency with our customers.
 
