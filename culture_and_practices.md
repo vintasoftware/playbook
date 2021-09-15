@@ -1,12 +1,12 @@
 # Who we are
 
-Vinta is a software consultancy focused on web projects. We like to work with Python and JavaScript tools, but we have an open mind to experiment and play with other languages and tools. Django and React are our specialties and we love working with APIs.
+Vinta is a software consultancy focused on web projects. We like to work with Python and JavaScript, but we have an open mind to experiment and play with other languages and tools. Django and React are our specialties and we love working with APIs.
 
 ## Our philosophy
 - People, not processes nor code, are the most important thing in software engineering.
 - The client should always be aware of what is happening, be it good or bad.
-- There is no such a thing as the best language or an only way to do things. Each project is unique, and requires its own tools.
-- Code should be clean and tested so programmers feel happy and confident to work on.
+- There is no such thing as the best language or an only way to do things. Each project is unique, and requires its own tools.
+- Code should be clean and tested so programmers feel happy and confident to work on it.
 - Refactoring is a recurrent need and should be regarded as any feature in the backlog.
 - Because of the above, automated tests are a must. As long as you write them, choose whatever process you like the most.
 - Code should be deployed early and often.
@@ -19,7 +19,7 @@ Vinta is a software consultancy focused on web projects. We like to work with Py
 - To keep a welcoming, safe, and healthy workplace so we all exchange experiences.
 - To fight for mutual respect among everyone in the company regardless of gender, political position, sexual orientation, religious choice and race, so we all see one another as equals.
 - To aid anyone to approve talks and attend conferences, so we all share what we’ve come to learn.
-- To encourage open source contributions, so both we all and those we don't know grow together.
+- To encourage open source contributions, so everyone, regardless if we know them or not, grows together.
 - To provide tooling and an environment that fosters growth and sharing.
 
 ## Our expectations
@@ -44,7 +44,7 @@ One might think that it's impossible to provide this kind of exceptional support
 
 But beyond all of that, this is not just about one's well-being. Every time you are forgiving while reviewing a pull request, every test you don't do because it's time-consuming, every piece of doc you don't write, and every technical debt you let go, you are risking your teammates' work-life balance. We never know what or where things will break, and we never know who will be the person that will need to say “excuse me” to friends/family and investigate what is going on.
 
-Vinta cares about everyone's well being, and we expect that everyone is also looking out for each other. We founded Vinta because we validated that’s possible to make great software with work-life balance. That’s why we’ll always be very vocal about the importance of the consultant posture and all quality-related processes we have. Make sure that your work will allow you and your teammates to have a good work-life balance. The great news is that, by doing this, you will automatically be doing an elite level job and ensuring happy customers.
+Vinta cares about everyone's well being, and we expect that everyone is also looking out for each other. We founded Vinta because we validated it’s possible to make great software with work-life balance. That’s why we’ll always be very vocal about the importance of the consultant posture and all quality-related processes we have. Make sure that your work will allow you and your teammates to have a good work-life balance. The great news is that, by doing this, you will automatically be doing an elite level job and ensuring happy customers.
 
 # Training
 
@@ -204,8 +204,8 @@ Work equipment is one of the main targets for attackers looking for a breach. Pr
 - Never access or download work-related files, software, etc. on a non work computer;
 - Computer hard drives must be fully encrypted;
 - Under no circumstances install pirate software or software from untrustworthy sources;
-- Lock devices before leaving it unassisted.
-- Configure devices it to lock automatically after 5 minutes of inactivity; 
+- Lock devices before leaving them unassisted.
+- Configure devices so they lock automatically after 5 minutes of inactivity; 
 - Never leave work devices unassisted in a public or private place where it can be stolen or people could have access to it;
 - Delete all code and assets after off-boarding a project;
 
@@ -231,7 +231,7 @@ Weak passwords are another easy way for hackers to exploit systems. The good pra
 - Always generate random passwords with the length of at least 16 characters using the password manager;
 - In case you need to share a password, revoke and modify it as soon as possible;
 - Never send username and password in the same medium; 
-- If possible avoid sharing user accounts as it makes it harder to trace breaches;
+- If possible, avoid sharing user accounts as it makes it harder to trace breaches;
 - Passwords must be changed at least once every 180 days;
 
 # Built at Vinta
@@ -259,7 +259,7 @@ We love checklists. That's why we created a bunch of great checklists to guide d
 # Sharing
 
 ## Conferences
-Community is not only about producing open-source software (and playbooks), conferences are part of it as well. People are encouraged to give back as much as they can. With the interest of developing further exchange with other professionals, Vinta will buy tickets for any technical conferences deemed worthy by the employees, and if one of ours approves a talk in a conference, whether it's local or international, she/he is granted a bonus for their further collaboration in sustaining the community we are a part of. Keeping an eye on conference's submission deadlines helps everyone in doing so.
+Community is not only about producing open-source software (and playbooks), conferences are part of it as well. People are encouraged to give back as much as they can. With the interest of developing further exchange with other professionals, Vinta will buy tickets for any technical conferences deemed worthy by the employees, and if one of ours approves a talk in a conference, whether it's local or international, they are granted a bonus for their further collaboration in sustaining the community we are a part of. Keeping an eye on conference's submission deadlines helps everyone in doing so.
 
 ## Blogposts
 We keep our blog updated. It helps twofold, we train people on how to write passing on what they've learned, and people from the community see Vinta as a reference, checking us for tips often. That's why whoever learns anything gets incentives to write it down. We count on everyone to keep an eye and say: "I think that's worth a blogpost!" whether in our day-to-day or in a weekly meeting.
