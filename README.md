@@ -18,6 +18,7 @@ Are you curious? Just start reading and [let us know](https://vinta.com.br/conta
     * [Sprint Planning](processes_and_frameworks.md#sprint-planning)
     * [User Story Hydration](processes_and_frameworks.md#user-story-hydration)
     * [Estimation](processes_and_frameworks.md#estimation)
+    * [RICE prioritization](processes_and_frameworks.md#rice-prioritization)
     * [Daily meeting](processes_and_frameworks.md#daily-meeting)
     * [Retrospective Meetings](processes_and_frameworks.md#retrospective-meetings)
     * [Onboarding](processes_and_frameworks.md#onboarding)
