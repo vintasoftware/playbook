@@ -13,7 +13,7 @@ Usually, the product manager role is filled by someone on the client's side. The
   - Together with the development team.
   - Warn team about changes ASAP to avoid development work loss.
 - Be aware of the development team needs, such as new developers, designers, QAs, etc.
-- Planning and syncing project major releases among development and business teams.
+- Plan and sync project major releases among development and business teams.
 - Provide and analyze metrics and data from development team aiming to support product strategy.
 - Validate technical team decisions that impact product strategy.
 - Find, analyze, and sync strategic partners.
@@ -21,16 +21,16 @@ Usually, the product manager role is filled by someone on the client's side. The
 
 # Project Manager
 
-- A Project Manager's most important duty is to manage client's expectations and keep them realistic. We realize most of the problems in software development come from communication issues, and the Project Manager at Vinta is the 'Communication Person'. The Project Manager should always track the deliverables for the next sprint and, if any problems are to appear, features must be simplified, development strategies re-evaluated, and priorities re-defined, always sided with the client. That's easier said than done in some cases, but surely brings benefits for us and the clients.
-- The Project Manager will be the main point of contact with the client. It's good for everyone to have an open communication channel directly with the client, but the Project Manager should be aware of all project-related decisions. However, regarding assigned tasks, each developer is free to discuss and validate it directly with the client. Should the client ask the developer to do another task, this needs to be tracked and communicated to the Project Manager. Maybe the manager knows better the priority, even better than the client, so s/he needs to step in.
-- Project Manager should encourage everyone to manually test all features before validating them with the client.
-- Project Manager should remember developers to report daily on what they are working on.
-- Project Manager should make sure there are no ownership gaps in the project. When everybody is responsible for some parts of the process, there might be gaps where no one acts. The project manager must be aware of those gaps and address them with the team. Critical aspects of the project such as support, deploys, QA, security, etc must have a person clearly responsible. Project Manager should also inform the client who's responsible for each aspect. This kind of ownership gives team members responsibility and autonomy.
-- Project Manager should ensure the project's documentation is up-to-date and make sure it's shared with the Client.
+- A Project Manager's most important duty is to manage clients' expectations and keep them realistic. We realize most of the problems in software development come from communication issues, and the Project Manager at Vinta is the 'Communication Person'. The Project Manager should always track the deliverables for the next sprint and, if any problems are to appear, features must be simplified, development strategies re-evaluated, and priorities re-defined, always sided with the client. That's easier said than done in some cases, but surely brings benefits for us and the clients.
+- The Project Manager will be the main point of contact with the client. It's good for everyone to have an open communication channel directly with the client, but the Project Manager should be aware of all project-related decisions. However, regarding assigned tasks, each developer is free to discuss and validate it directly with the client. Should the client ask the developer to do another task, it will need to be tracked and communicated to the Project Manager. There might be occasions when the manager will know the priority better, even more so than the client, so they might need to step in.
+- The Project Manager should encourage everyone to manually test all features before validating them with the client.
+- The Project Manager should remind developers to report daily on what they are working on.
+- The Project Manager should make sure there are no ownership gaps in the project. When everybody is responsible for some parts of the process, there might be gaps where no one acts. The project manager must be aware of those gaps and address them with the team. Critical aspects of the project such as support, deploys, QA, security, etc must have a person who's clearly responsible. The Project Manager should also inform the client who's responsible for each aspect. This kind of ownership gives team members responsibility and autonomy.
+- The Project Manager should ensure the project's documentation is up-to-date and make sure it's shared with the Client.
 
 # Technical career paths
 
-Pushing careers onto people follows dissatisfaction. The traditional big old-school corporate career ladder is built in such a way that requires the most technically experienced people to fit  into management roles if they want to keep growing in their career. This approach forces people that excel in their technical jobs into roles that frequently don’t align with their desired career path or skills, often leading to frustration for both employee and company. 
+Pushing careers onto people generates dissatisfaction. The traditional big old-school corporate career ladder is built in such a way that requires the most technically experienced people to fit  into management roles if they want to keep growing in their career. This approach forces people that excel in their technical jobs into roles that frequently don’t align with their desired career path or skills, often leading to frustration for both employee and company. 
 
 This is why at Vinta we adopt a "Y" shaped career structure for developers and designers. We want to enable people to keep growing and earning more money even if they choose not to go down the management road.
 
@@ -38,13 +38,13 @@ We name these two possible career paths: Expert and Lead.
 
 **Everyone starts on the "Expert" path.** Acquiring the traits of an expert is essential to becoming a great leader. Leaders need a lot of experience because they are the ones who will have the ultimate say in technical decisions. Our advice is to specially in the beginning of the career, focus 100% on developing the skills of the expert path. As you grow, you will learn more about what is the job of a lead, and if you are interested in this other path you should then start working on its specific traits.
 
-**You own your career.** It’s our value that you decide for yourself your next career steps - no one knows better what you want for your future than yourself, so you are accountable for your own career development. Vinta will provide you with guidance, tooling and structure through mentors, 1:1 with your manager and leadership, skip levels sessions, and quarter feedbacks for you to grow, but ultimately you are the one in charge to take the first step to sync with your leaders, collect feedback and assess the skills you need to develop in order to move to the next level. We can’t achieve excellence in service if we wait on others. 
+**You own your career.** It’s our value that you decide for yourself your next career steps - no one knows better what you want for your future than yourself, so you are accountable for your own career development. Vinta will provide you with guidance, tooling and structure through mentors, 1:1 with your manager and leadership, skip levels sessions, and quarterly feedback for you to grow, but ultimately you are the one in charge to take the first step to sync with your leaders, collect feedback and assess the skills you need to develop in order to move to the next level. We can’t achieve excellence in service if we wait on others. 
 
 **You need to be vocal.** Communicate to your leaders what career path you want to pursue, actively ask and offer to take on activities that will help you grow in that direction, dedicate time to investigate how you work, take notes of your difficulties and consult people on the ideas you have. Ask your mentor for advice on how to develop the skills you are lacking. It's also important that your peers recognize your skills, so don't be shy in showing them the things you do.
 
 **Leadership roles require exceptional self management, accountability and alignment skills**. These are very important traits for every professional but are inherently required for good leaders. If you chose a lead career path, one of the ways you can show that you are a good fit for the role is by managing your own career development. We expect that you keep working on improving technically while you continuously learn and take on leadership activities. 
 
-While you can always keep taking on more ownership and practicing tech leadership skills, there are a limited number of leadership roles in a company. Be patient, if you keep doing a good job and keep aligning expectations, eventually an opportunity will arise.
+While you can always keep taking on more ownership and practicing tech leadership skills, there is a limited number of leadership roles in a company. Be patient, if you keep doing a good job and keep aligning expectations, an opportunity will eventually arise.
 
 # Developer Expert
 
@@ -62,7 +62,7 @@ Good reporting skills are a must. Managers should not need to ask you about the 
 ## Communication and People Skills
 The fact that you are seeking a technical role does not exempt you from having great people skills. In fact these are required and one of the main traits a professional of any area should work on. 
 
-Clear and honest communication, politeness, humbleness, and regard are all abilities that will make your and the whole team job much easier and pleasant. 
+Clear and honest communication, politeness, humbleness, and regard are all abilities that will make your and the whole team's jobs much easier and pleasant. 
 
 Additionally, great communication enables proper decision-making. Tech Leads need assistance from experts to translate technical challenges into the language of trade-offs and product vision to support product leadership in correcting course and prioritizing tasks. Developing software is a team work exercise, there’s no way you can develop great products without great communication among your developer peers, designers, managers, customers and users.
 
@@ -74,7 +74,7 @@ Everyone has a different career path, there’s always someone who can learn fro
 There are limitless ways you can help other people growing, some examples are: sharing articles, pair programming, giving talks, reviewing code, and giving feedback.
 
 ## Risk Awareness and Mitigation
-Mind about risk, and mind even more about mitigating them. A big part of the job of a software engineer is evaluating risk. There are infinite ways to write code to get a task done, our job is to evaluate the possibilities and choose the one that better fits the constraints at that particular moment (also considering that they might change in the future). 
+Mind about risks, and mind even more about mitigating them. A big part of the job of a software engineer is evaluating risk. There are infinite ways to write code to get a task done, our job is to evaluate the possibilities and choose the one that better fits the constraints at that particular moment (also considering that they might change in the future). 
 
 Each project also has its own inherent risks that are constantly changing as it grows in team size, user base and data size. Every decision has pros, cons and a risk. We need to weigh everything in, decide how we want to proceed and communicate all of this to peers and stakeholders so they are also aware of what motivated that decision. 
 
@@ -83,14 +83,14 @@ Mitigation is a mandatory concern: there’s no such a thing as zero risk. There
 ## Problem Solving Attitude
 Point problems alongside their solutions. It’s practically impossible to attest the correctness of any minimally complex software. There will always be bugs, unpredictable user behavior, and uncovered edge cases.
 
-There’s always something to improve in the test suit, code linting, tooling, documentation and deploy pipeline. Experienced developers understand that this is all part of the process and invest energy pushing the team into improving these things. 
+There’s always something to improve in the test suite, code linting, tooling, documentation and deploy pipeline. Experienced developers understand that this is all part of the process and invest energy pushing the team into improving these things. 
 
 Complaining produces no productive outcome and brings down team morale. A better attitude is to report the issues early on when you find them and bring attention to the things you consider risky. An even better attitude is to run a quick assessment and propose solutions as you report the problems.
 
 ## Code Ownership
 All developers in the team own the development process. Everyone is responsible to ensure the quality of the code, the documentation, logging, the use of development assisting tools, the code review process, tests, the bugs and even the unknown unknowns. 
 
-experts deeply care about the codebase they are working on and are constantly looking for problems (and potential problems) and doing improvements regardless of who wrote the code. 
+Experts care deeply about the codebase they are working on and are constantly looking for problems (and potential problems) and doing improvements regardless of who wrote the code. 
 
 Experts not only fix what is broken - they build into the architecture, pipelines, and tooling measures to prevent developers from making mistakes and to get alerted when things break. They are constantly asking questions like: "what could have I done to prevent this problem from happening?", "why wasn’t this caught during the code review?", "why wasn’t this knowledge passed along?",  "why was there no test to catch this case?". Experts own the code and are accountable when things go well and when they go bad.
 
@@ -112,7 +112,7 @@ Because software development is an ever (and rapidly) changing area, they also n
 Recognition is also key here: it's important that team members and the customer recognize you as a reference in your areas of expertise. Both should feel confident that we have the required competences to achieve the project's technical challenges.
 
 ## Software Discipline
-Software discipline is a broad term that encapsulates many practices that, when applied, tend to produce good software. They are skills that often can’t be enforced by anyone other than the programmer that is writing the code. Some examples are: TDD, writing comprehensible documentation, refactoring and logging. 
+Software discipline is a broad term that encapsulates many practices that, when applied, tend to produce good software. They are skills that often can’t be enforced by anyone other than the programmer that is writing the code. Some examples are: TDD, writing comprehensive documentation, refactoring and logging. 
 
 Developer Experts are expected to have these practices internalized in their modus operandi of writing software. Keeping up with the market best practices is also encompassed here.
 
@@ -125,7 +125,7 @@ Managing software complexity is also key here, all architecture decisions should
 
 Technical Leadership is a relatively new role in the world of software development. There's little structured content about it available in either books or blog posts. Most content is presented as reports on the goals and experiences of individuals or companies. This is a natural process as the industry adapts and learns what combination of attributions are best suited for the role, quite similar to what happened to the now much less obscure role of DevOps engineer. In the spirit of learning from feedback and collaboration, we want to be part of the debate by sharing what it means to be a Tech Lead at Vinta.
 
-For us, Tech Leads are accountable for various monitoring and guidance activities for a wide-range of perspectives, from systems to individuals. They need to have technology and architecture fluency to support business goals from a technical standpoint, as well as to keep up with co-workers' individual needs and goals. There are two big cornerstones to the role: People and Technology. I'd say they are equally important and will probably require about the same mental effort on daily activities. 
+For us, Tech Leads are accountable for various monitoring and guidance activities for a wide-range of perspectives, from systems to individuals. They need to have technology and architecture fluency to support business goals from a technical standpoint, as well as to keep up with co-workers' individual needs and goals. There are two big cornerstones to the role: People and Technology. We'd say they are equally important and will probably require about the same mental effort on daily activities. 
 
 The Tech Lead of a project is not necessarily the most technically experienced person in the team and forcing such a thing is not wise. Primarily because the team would be losing productive time from someone that could be best allocated as a full-time programmer and also because that person might not be interested or willing to act on the People part of the job. So a Tech Lead is someone that can both smoothly deal with people and that has a very good understanding of the project in business and technical terms.
 
@@ -134,7 +134,7 @@ Here is the breakdown of the most important activities Vinta expects from a pers
 ## The People Cornerstone
 
 ### Communication
-Tech leads need to have an open and safe channel with team members. The goal is to build a relationship where people feel that they have the [psychological safety](https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/) to impact the project. But at the same time they trust the Tech Lead's final decisions and will do their best to make them successful. Keeping up that kind of communication should also provide a better understanding about each team member's strengths and needs, allowing for a clearer overview of the team. It's not possible to be a good leader without knowing who you are leading.
+Tech Leads need to have an open and safe channel with team members. The goal is to build a relationship where people feel that they have the [psychological safety](https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/) to impact the project. But at the same time they trust the Tech Lead's final decisions and will do their best to make them successful. Keeping up that kind of communication should also provide a better understanding about each team member's strengths and needs, allowing for a clearer overview of the team. It's not possible to be a good leader without knowing who you are leading.
 
 ### Project Leadership
 Technical decisions should always be backed by business goals. The language or framework choice for a particular project should be based on the knowledge of the current project's status and the vision of the business' next steps. The same goes for technical debts and refactorings: the decision to tackle them should be backed by precise project or business-related goals, e.g.: "this will help us to be more productive in the medium-term", or "there will be a change in feature X so we need to refactor this part of the code for it to be more flexible". This means that Tech Leads need to keep up with the other project leaders. They need to be in sync with areas such as business, marketing and finance so they can take better technical decisions based on those. Keep in mind that other leaders will need inputs from the Tech Lead to better accomplish their work as well. It's the Tech Lead's job to push for the technical tasks to get included and accounted for during product planning. Communicating technical risks and negotiating trade-offs are very important activities here.
@@ -146,7 +146,7 @@ In-company mentorship programs are a great way to help people grow their careers
 Pairing is a great tool to pass knowledge on within a team. Teams that don't do full time pairing should be encouraged to pair from time to time. The more you mix people around, the better. Junior developers should pair with more experienced developers and experienced people should pair with each other now and then. Due to their understanding of the codebase and architecture, Tech Leads should dedicate some of their time to pairing. This has some of the same goals as mentoring but from a more hands-on perspective.
 
 ### Connecting People / Knowledge Matching
-Time is limited and it's not always possible to be available to assist teammates. That means Tech Leads should be smart about when to directly jump in and help or when someone else can be assigned. To do this it's very important that she knows not only what are the strengths of the people in the team but also build a strong network of people in the company that can assist on specific subjects. This will allow her to optimize how can people meet and help each other. Matching the right people is a great way to improve the performance of the team while also accelerating individual growth.
+Time is limited and it's not always possible to be available to assist teammates. That means Tech Leads should be smart about when to directly jump in and help or when someone else can be assigned. To do this, it's very important they know not only what are the strengths of the people in the team but also build a strong network of people in the company that can assist on specific subjects. This will allow them to optimize how can people meet and help each other. Matching the right people is a great way to improve the performance of the team while also accelerating individual growth.
 
 ### Managing Ownership
 As we'll see later in "The Technology Cornerstone", there are many activities which the Tech Lead is ultimately accountable for (from a business perspective), but other people can be responsible to work on them. Those people should have the autonomy to execute key technical activities beyond feature development, but always receiving timely feedback from the Tech Lead to ensure continuous improvement. The Tech Lead must empower people to be owners of key aspects of the software product, like security or backups. That ownership can also rotate periodically to avoid creating gatekeepers or increasing risk due to concentrated skills. Rotating roles can also force people to document better, create processes, and consolidate knowledge. Additionally, the Tech Lead must ensure no activity is being forgotten, i.e., there are no ownership gaps.
@@ -184,10 +184,10 @@ Growing is painful, so preparing for growth can avoid a lot of stressful situati
 - Documenting and enforcing quality-ensuring processes (downtime recovery, error postmortems, QA, deploy and release, end-user support, …)
 - Other [non-functional requirements](http://evolutionarytesting.blogspot.com/2012/12/non-functional-requirements-checklist.html)
 
-Note that the Tech Lead isn't the sole responsible for those activities, but she's the one Accountable (the A in the [RACI matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix)) for them. If anything goes wrong, the blame ultimately goes to the Tech Lead, because from a business perspective she's the one that should ensure the proper execution of tech-related activities.
+Note that the Tech Lead isn't the sole responsible for those activities, but they're the one Accountable (the A in the [RACI matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix)) for them. If anything goes wrong, the blame ultimately goes to the Tech Lead, because from a business perspective they're the one that should ensure the proper execution of tech-related activities.
 
 ### Support and Monitor Customer Success
-Happy customers is the goal of the best products. There's no point in having a great codebase, with the perfect architecture, if customers are not satisfied with the product. Customer Success (CS) is often the role of a full time person (or a whole team, depending on the size of the product) so it's not something a Tech Lead can keep up all by herself. But it is her job to make sure the people doing it have the tools and the data to support their work. This involves adding functionalities that will facilitate the CS job, adding as many metrics and logs as possible to the product (especially to the critical flows and key transactions). Besides the service-level metrics and logs, [UX KPIs](https://designmodo.com/ux-kpi/) like *Time on Task* are other important Customer Success goals that Tech Leads can help the CS person to track and improve. Also, the Tech Lead should empower the team to answer questions and solve bugs swiftly (by ensuring good communication channels and processes, for example).
+Happy customers is the goal of the best products. There's no point in having a great codebase, with the perfect architecture, if customers are not satisfied with the product. Customer Success (CS) is often the role of a full time person (or a whole team, depending on the size of the product) so it's not something a Tech Lead can keep up all by themselves. But it is their job to make sure the people doing it have the tools and the data to support their work. This involves adding functionalities that will facilitate the CS job, adding as many metrics and logs as possible to the product (especially to the critical flows and key transactions). Besides the service-level metrics and logs, [UX KPIs](https://designmodo.com/ux-kpi/) like *Time on Task* are other important Customer Success goals that Tech Leads can help the CS person to track and improve. Also, the Tech Lead should empower the team to answer questions and solve bugs swiftly (by ensuring good communication channels and processes, for example).
 
 ### Code Reviews
 A great way to keep up with all parts of the system and mentor coworkers is by reviewing PRs. PRs are a great place to give feedback, identify when architecture is tilting to the wrong side and keep a good overview of different parts of the codebase. Tech Leads should do as much PR reviewing as possible but doing all or close to all reviews is considered a bad practice. Everyone in the team should be reviewing each other's code for the same reasons previously mentioned, with the added bonus that it's a good way for less experienced people to learn.
@@ -196,14 +196,14 @@ A great way to keep up with all parts of the system and mentor coworkers is by r
 Tools get outdated and new improved stuff is constantly released. Many times those can improve code quality, speed up development or automatize some process. Tech Leads should keep an eye on those and systematically experiment and review if they are useful in the team's context.
 
 ### Guide through Crises
-Crises will eventually arise in all projects. It's important that Tech Leads are prepared for them because many times there will be people in the team that are not. Keeping calm and thinking straight during those situations is required and will also give the confidence the team needs to sail smoothly through crises. Tech Leads should know who among the team are the best to tackle the situation while also asserting how many people should be deviated from their planned tasks to work on it.
+Crises will eventually arise in all projects. It's important that Tech Leads are prepared for them because many times there will be people in the team that are not. Keeping calm and thinking straight during those situations is required and will also give the confidence the team needs to sail smoothly through crises. Tech Leads should know who, among the team, are the best to tackle the situation while also asserting how many people should be deviated from their planned tasks to work on it.
 
 ### Tackle Tasks
 Last but not least, Tech Leads should keep actively working in project tasks. The hard part of this is actually choosing the right kind of task that will fit the schedule. Tech Leads need to be very smart so they keep up with technical work without leaving aside all the other important activities. It's normally a good idea to look for challenging tasks with a stretched deadline. What is the best kind of task will vary according to the current project needs, but the key thing is to keep working on things that you enjoy and that you will be proud of at the end of the day. There's no such thing as a non technical Tech Lead. 
 
 # Development Internship
 
-We know it’s tough to start working at the tech industry. At Vinta, we developed our process to prepare anyone for a full-stack job using Python and Javascript. We've compiled all the courses, relevant content, philosophy, activities, and tips from our interns to help you go all the way through our tech stack.
+We know it’s tough to start working at the tech industry. At Vinta, we developed our process to prepare anyone for a full-stack job using Python and JavaScript. We've compiled all the courses, relevant content, philosophy, activities, and tips from our interns to help you go all the way through our tech stack.
 
 ## Philosophy behind the process
 We always hire interns with a clear goal (we also make that goal clear to them from day one), that is to hire them as juniors in a year time. The whole process is designed to maximize learning opportunities, knowledge sharing, and professional development. In order to do that, we believe three things are essential:
