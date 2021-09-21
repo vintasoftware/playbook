@@ -90,6 +90,36 @@ Keep in mind that we need to avoid biasing the members' decisions in order to re
 ## Avoid Nitpicking
 Estimations of individual tasks do **not** need to be precise. The goal of estimating is to have well-defined Sprints (bundles of tasks). Variance of task estimations vs. actual effort is natural and should not be addressed. But the estimated vs. actual effort variance of a Sprint should be low. It's fine if tasks are estimated incorrectly. It's bad when a Sprint is estimated incorrectly. The former doesn't necessarily cause the latter, because estimations SHOULD vary both UP and DOWN. Therefore, although there could be high variance per task, there should be low variance per Sprint (bundle of tasks). 
 
+# RICE prioritization
+
+Rice is a tool to help us in that process to take into account our level of uncertainty, risks, and product value related to the features. It's a moment to learn more about some features and client needs. Rice prioritization should take place after the estimates and before the next sprint planning. The output is a prioritized backlog to be tackled in the next couple of sprints.
+
+## How-to
+1. Include all the new features inside the RICE prioritization score sheet.
+    - Estimate these features.
+2. Prioritize all the new features, adding the scores (as optional include the development team).
+    - At this moment is pretty essential to use tracked metrics data.
+    - If you don't have metrics data, you can perform queries on the system as well.
+    - Discuss the risks, certainty, value, and usage of the features.
+3. After the prioritization, sort all the features on the table from the highest to the lowest scores.
+    - As a suggestion, mark features that need design interaction in a different color to help the client understanding. 
+    - For these, the effort score should come from the design estimates.
+4. Delivery the sheet to the client, at least two days before the client prioritization meeting discussion.
+    - The client needs to analyze the prioritization that took place and provide what they think should be worked first.
+    - They should mark their selected features to be worked first in a different column.
+5. Discuss with the client, on the client prioritization meeting, what should be the next priorities.
+    - The idea of this meeting is to get more context from the client in case of discrepancies between the team and client prioritization.
+    - Check with the client in case older features should be removed from the sheet. 
+    - Remember to bring to the discussion concerns that you discussed with the team on the development RICE meeting.
+    - Update the scores in case the client provides more context.
+6. With all prioritized, prepare the next sprint!
+
+## What to do when team prioritization differs from client prioritization?
+- Review your scores and ask the client to clarify the feature needs. Maybe you forgot something. In case so, update the ratings to reflect better the new understanding.
+- Rice is a moment to learn. Take these moments to understand the client's view and decisions for the project's future.
+- Sometimes you are going to need to work in quick projects, leaving the system more meaningful before start big projects. Sometimes you are going to need to include some low features that fit well on the sprint. Other times, you need to ship some critical feature to get a new customer.
+- Don't panic! Remember that this is more a moment to learn than a hard rule.
+
 # Daily meeting
 
 The Daily meeting is a short, time-boxed meeting held every working day to provide faster feedback and enable quick adjustments to the sprint flow. It aims to align team members around short-term goals, allowing them identify and address challenges that prevent priority work completion.
