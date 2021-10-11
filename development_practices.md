@@ -1,41 +1,41 @@
 # Code Quality
 
 - Code is the main source of truth, so it's important to keep it easy to read and understand. If you can’t avoid your code being complex, use comments and docs. 
-- Consider readability while doing code reviews, if it could be easier to understand it should be improved.
-- Be considerative when designing abstractions and generalizations. Wrong abstractions can be very costly to maintain. You can read more about this topic in [this article from Sandi Metz](https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction).
+- Consider readability while doing code reviews, if it could be easier to understand, it should be improved.
+- Be considerate when designing abstractions and generalizations. Wrong abstractions can be very costly to maintain. You can read more about this topic in [this article from Sandi Metz](https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction).
 - Setup project linters and formatters in your IDE or text editor. 
-- Always fix linting errors; In case a particular rule does not applies to a file or a specific code, relax the rule it in the lowest level possible and comment the motivation to do so;
+- Always fix linting errors; In case a particular rule does not apply to a file or specific piece of code, relax the rule it in the lowest level possible and comment the motivation for doing so;
 
 # Testing
 
 - All code should be tested [ideally using TDD];
-- You can have more unit tests than integration ones but always make sure you have integration tests in place. They're more stable and tend to stay valid on refactoring (see [Test Pyramid](https://martinfowler.com/bliki/TestPyramid.html));
+- You can have more unit tests than integration ones, but always make sure you have integration tests in place. They're more stable and tend to stay valid on refactoring (see [Test Pyramid](https://martinfowler.com/bliki/TestPyramid.html));
 - When refactoring, avoid changing existing integration tests. Sometimes it will be necessary to do so though.
-- If you’re introducing new services or pieces of code that contains business logic, you should unit test them. Unit tests help us finding where the problems are when we introduce new bugs.
-- On the frontend, prioritize integration tests. Most tests should be related to what the users see, so you should refer to pieces of the interface to check or interact with identifiers that are visible to users like labels and a11y attributes. This helps maintaining the frontend tests more stable over time.
-- Every time you’re fixing a bug, write a regression test (write the test first to capture the bug and only then fix it). This will help you ensuring you’ve fixed the correct underlying issue. It also helps to prevent the bug from being introduced again in the future.
-- Coverage should be above 80%. If your project has more coverage then be careful not to lower it with new code. If your project has less coverage than the threshold, try to always increase the coverage with the new code that you’re shipping.
+- If you’re introducing new services or pieces of code that contain business logic, you should unit test them. Unit tests help us find where the problems are when we introduce new bugs.
+- On the frontend, prioritize integration tests. Most tests should be related to what the users see, so you should refer to pieces of the interface to check or interact with identifiers that are visible to users like labels and a11y attributes. This helps to maintain the frontend tests more stable over time.
+- Every time you’re fixing a bug, write a regression test (write the test first to capture the bug and only then fix it). This will help you ensure you’ve fixed the correct underlying issue. It also helps to prevent the bug from being introduced again in the future.
+- Coverage should be above 80%. If your project has more coverage, be careful not to lower it with new code. If your project has less coverage than the threshold, try to always increase the coverage with the new code that you’re shipping.
 
 ## Test Driven Development (TDD)
-The TDD methodology defines a 3 step cycle to aid software development, they are often described as  RED →  GREEN →  REFACTOR cycle. This process is simple enough and easy to remember but it carries a bunch of insights and benefits to the software development process. 
+The TDD methodology defines a 3-step cycle to aid software development, they are often described as  RED →  GREEN →  REFACTOR cycle. This process is simple enough and easy to remember but it carries a bunch of insights and benefits to the software development process. 
 
 ### Breaking down the problem into smaller steps
 TDD reduces the anxiety of working with big features. Instead of trying to write a full solution to the problem, you can calm down and focus on smaller bits of it. Remember: you just need to write enough code to make the test pass. Focus on that single thing, then move on to another small thing and before you notice it you will have a complete solution.
 
 ### Building on solid ground
-As you repeat the cycle you will gradually build a robust test suit that backs up all the work you’ve done so far. There’s far less risk of accidentally breaking things. By ensuring the test first fails and then passes you are also ensuring that the code you wrote does exactly what it was intended for. It will also free you up to be more adventurous with your refactoring and enable you to try different architecture approaches. 
+As you repeat the cycle, you will gradually build a robust test suite that backs up all the work you’ve done so far. There’s far less risk of accidentally breaking things. By ensuring the test first fails and then passes you are also ensuring that the code you wrote does exactly what it was intended for. It will also free you up to be more adventurous with your refactoring and enable you to try different architecture approaches. 
 
-### Know were it broke
+### Know where it broke
 Because tests are focused on small parts of your code you will know straight away where to fix things when something breaks.
 
 ### TDD is not about testing
-Despite the benefit of producing a robust test suit, the TDD process is a methodology to assist writing code, not tests. Test are nice side-effects of it. 
+Despite the benefit of producing a robust test suite, the TDD process is a methodology to assist writing code, not tests. Test are nice side-effects of it. 
 
 ### TDD requires discipline
 It’s very likely that you will have a hard time in the first few times you try to do TDD. It will possibly seem unnatural or boring. Until you get used to it you will need a bit of faith, your mind will eventually adapt to it and you will start noticing the benefits. Do not give up, keep forcing yourself, it will pay off! 
 
 ### The feedback loop
-One of the things that will help in this process is the feedback loop, the sense of making progress. One caveat is that it will only work if you keep the cycles short. It’s rewarding to strike through a bunch of quick wins and it will help you feeling productive and happy with your work, but you will loose it all if you start writing tests that require too much code to pass or if tests take long to run.
+One of the things that will help in this process is the feedback loop, the sense of making progress. One caveat is that it will only work if you keep the cycles short. It’s rewarding to strike through a bunch of quick wins and it will help you feeling productive and happy with your work, but you will lose it all if you start writing tests that require too much code to pass or if tests take long to run.
 
 # Pair Programming
 
@@ -47,7 +47,7 @@ Pair programming essentially means that two people write code together on one sc
 It consists of one person ‘driving’, taking the keyboard and coding or doing the work, while the other one is ‘navigating.’ The Navigator’s job is to pay attention to the work being done by the driver while keeping the big picture in mind. They should guide the driver in the right direction. The driver must explain verbally every decision they make; otherwise, the navigator might lose interest and may stop paying attention. It’s healthy to switch roles every X minutes.
 
 ### Ping-Pong
-This technique embraces Test-Driven Development (TDD) and is perfect for a clearly defined task implemented in a test-driven way. A good strategy for this approach is to have one person writing the tests while the other tries to pass them. As in the previous approach, you should be switching roles often.
+This technique embraces Test-Driven Development (TDD) and is perfect for a clearly defined task implemented in a test-driven way. A good strategy for this approach is to have one person writing the tests while the other tries to get them to pass. As in the previous approach, you should be switching roles often.
 
 ### Strong-Style
 This technique is handy for knowledge transfer, described in much more detail by [Llewellyn Falco](https://llewellynfalco.blogspot.com/2014/06/llewellyns-strong-style-pairing.html). The rule: "For an idea to go from your head into the computer, it MUST go through someone else's hands.” In this style, the navigator is usually the person much more experienced with the setup or task at hand, while the driver is a novice (with the language, the tool, the codebase, ...). The experienced person mostly stays in the navigator role and guides the novice.
@@ -75,8 +75,8 @@ Code Review is an integrated software development process that helps identify bu
 ## How-to
 - You must check if the PR is under 400 lines of code;
 - You must look at every line of code that you have been assigned to review;
-- Read thoroughly feature description to check if everything is implemented;
-- You must comment on any issue (see Checklist below);
+- Read the feature description thoroughly to check if everything is implemented;
+- You must comment on any issue (see checklist below);
 - Each project must have a PR template and use the GitHub feature of PR templates to add the section Checklist to it;
 - Run code and use it as the end user would. Double check requested feature’s description;
 - Changes should have a narrow, well-defined, self-contained scope that they cover exhaustively;
@@ -131,7 +131,7 @@ The key here is to not over nor under do ADRs. Too little and you are probably m
 - ADRs are a process for everyone in the team, not just the Tech Lead.
 - Submit ADRs for team review and feedback.
 - Bring ADRs to team meetings for discussion and for syncing the team about changes.
-- Share ADRs with customers for validation (after it was reviewed by the team). They can help you confirming the decision is aligned with business goals and identifying issues early on. Make sure to level up what ADRs are worth sharing accordingly to the customer technical level.
+- Share ADRs with customers for validation (after it was reviewed by the team). They can help you confirm the decision is aligned with business goals and identify issues early on. Make sure to level up what ADRs are worth sharing accordingly to the customer's technical level.
 
 # Technical Documentation Writing Guidelines
 
@@ -150,7 +150,7 @@ The key here is to not over nor under do ADRs. Too little and you are probably m
 ## Backups
 Application backups are both a critical component that need proper securing and an important way to recover data in the case of an exploit.
 - Backups of all system data must happen automatically and in time windows where they won't harm application performance;
-- They must be stored in an separated infrastructure from the the application and access should be limited to a small group of system admins;
+- They must be stored in a separate infrastructure from the application and access should be limited to a small group of system admins;
 - Backups must never be downloaded to a local machine;
 - Run backup restoring tests with a frequency of at least once every two months;
 
@@ -158,8 +158,8 @@ Application backups are both a critical component that need proper securing and 
 Security should be considered in every step of the software development process. The following list covers the basics and most important practices but this is a whole field of study that you should be aware of and get educated on as you grow in your career.
 - Data from the frontend must never be trusted and should always be checked for permissions and submitted through validations / sanitizations on the backend;
 - Logs should be extensively used and stored in a centralized place;
-- Logs should include auditable user activity data but they should not include Personally Identifiable Information (PII);
-- Code sent to the browser must be obfuscated and all comments should stripped out;
+- Logs should include auditable user activity data, but they should not include Personally Identifiable Information (PII);
+- Code sent to the browser must be obfuscated and all comments should be stripped out;
 - Error messages sent to the frontend must not contain sensitive information about the application (paths, traces, debug messages, software version…);
 - Never commit key/secrets in the code;
 - Never do cryptography yourself. Always rely on existing mechanisms, libraries, and tools;
