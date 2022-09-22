@@ -123,8 +123,6 @@ Managing software complexity is also key here, all architecture decisions should
 
 # Tech Lead
 
-Technical Leadership is a relatively new role in the world of software development. There's little structured content about it available in either books or blog posts. Most content is presented as reports on the goals and experiences of individuals or companies. This is a natural process as the industry adapts and learns what combination of attributions are best suited for the role, quite similar to what happened to the now much less obscure role of DevOps engineer. In the spirit of learning from feedback and collaboration, we want to be part of the debate by sharing what it means to be a Tech Lead at Vinta.
-
 For us, Tech Leads are accountable for various monitoring and guidance activities for a wide-range of perspectives, from systems to individuals. They need to have technology and architecture fluency to support business goals from a technical standpoint, as well as to keep up with co-workers' individual needs and goals. There are two big cornerstones to the role: People and Technology. We'd say they are equally important and will probably require about the same mental effort on daily activities. 
 
 The Tech Lead of a project is not necessarily the most technically experienced person in the team and forcing such a thing is not wise. Primarily because the team would be losing productive time from someone that could be best allocated as a full-time programmer and also because that person might not be interested or willing to act on the People part of the job. So a Tech Lead is someone that can both smoothly deal with people and that has a very good understanding of the project in business and technical terms.
