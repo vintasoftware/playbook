@@ -1,4 +1,4 @@
-# Chapter 3: This is How We Work
+# Chapter Three: This is How We Work
 
 ## Management
 
