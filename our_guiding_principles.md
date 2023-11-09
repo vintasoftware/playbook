@@ -1,4 +1,4 @@
-# Chapter 1: Our Guiding Principles
+# Chapter One: Our Guiding Principles
 
 ## About Our Playbook
 
