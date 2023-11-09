@@ -1,4 +1,4 @@
-# Chapter 2: Each Client is Unique
+# Chapter Two: Each Client is Unique
 
 ## Personalized Services
 At Vinta, we cherish the distinctive goals and challenges of each client. Our commitment to personalized service means adapting and delivering tailored solutions. By understanding and mirroring these nuances, we go beyond being mere service providers. 
