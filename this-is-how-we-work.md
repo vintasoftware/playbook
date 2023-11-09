@@ -18,8 +18,8 @@ Throughout the years, Vinta has leaned on Agile principles to sustain its manage
 That framework is true to our values and flexible to adapt to our client's needs. It has Kanban as a basis, and enables our teams to work with continuous delivery enabled, as we'll constantly be shipping value. This framework proposes a straightforward structure of how the work will be organized in boards operated by the team, offering transparency to our client. Within this framework, our clients can also expect some structured routine meetings to ensure we have a constant alignment with our stakeholders.
 
 Additionally, our team also conducts a series of internal ceremonies such as strategy syncs to make sure that the team is up to date with the client's vision, daily or weekly progress review meetings where we assess our team's progress, tech review meetings, design review meetings, feature kickoff meetings, and more.
-Influencing Product Strategy 
 
+### Influencing Product Strategy 
 
 In addition to the tactical work and operational duties associated with the role of a project manager, Vinta's managers are also well-versed in the product management domain. They possess the knowledge to offer guidance on strategic matters and can have a hands-on approach when it comes to shaping product strategy and supporting our clients with roadmap decisions. 
 
@@ -35,11 +35,11 @@ Whether it's a startup seeking to make its mark or a mature company looking to i
 
 To ensure the success of our strategic work, we:
 
-Collaboration and Real-Time Communication: Utilizing reliable communication tools and task management systems, we foster a collaborative environment. This ensures real-time updates, feedback, and discussions, keeping our projects organized and on track, facilitating quick decision-making, and maintaining project momentum. We maintain open lines of communication with our clients, actively involving them in the design process to ensure that the final design meets their vision and expectations. This collaborative approach ensures alignment and satisfaction.
+- Collaboration and Real-Time Communication: Utilizing reliable communication tools and task management systems, we foster a collaborative environment. This ensures real-time updates, feedback, and discussions, keeping our projects organized and on track, facilitating quick decision-making, and maintaining project momentum. We maintain open lines of communication with our clients, actively involving them in the design process to ensure that the final design meets their vision and expectations. This collaborative approach ensures alignment and satisfaction.
 
-Data-Driven and Informed Design: Leveraging data to inform our design decisions, we work closely with developers to implement analytics and gather user feedback. This approach enables us to measure the success of our design solutions and make continuous improvements, ensuring that our designs are always aligned with user needs and business objectives.
+- Data-Driven and Informed Design: Leveraging data to inform our design decisions, we work closely with developers to implement analytics and gather user feedback. This approach enables us to measure the success of our design solutions and make continuous improvements, ensuring that our designs are always aligned with user needs and business objectives.
 
-Comprehensive Design Documentation: We create detailed design specifications, style guides, and pattern libraries, providing a single source of truth for product design. This ensures consistency across the team and clarity in design decisions, facilitating a smoother design-development collaboration."
+- Comprehensive Design Documentation: We create detailed design specifications, style guides, and pattern libraries, providing a single source of truth for product design. This ensures consistency across the team and clarity in design decisions, facilitating a smoother design-development collaboration."
 
 
 ### Our philosophy: User-centered and scalable design.
