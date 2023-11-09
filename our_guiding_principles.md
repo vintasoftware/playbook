@@ -23,12 +23,14 @@ We elevate our consultancy by maintaining highly skilled teams, fostering adapta
 Our vision is to establish ourselves as an industry leader in software development, renowned for our practical approach and tangible impact. We aim to maintain our reputation as one of the leading software consultancies in LATAM, where we consistently support CTOs and MVP entrepreneurs in creating and sustaining web applications. This vision is deeply rooted in our commitment to open-source principles. At Vinta, we are structured to promote these values, emphasizing transparency in our business practices and active contributions to well-known projects, thereby giving back to the community.
 We envision a future where an increasing number of clients will join this network, influenced by our philosophy and our vision of how software should be developed.
 
-##Values
+## Values
 Adaptability
 Adaptability is a fundamental value at Vinta. We are unwavering in our commitment to promptly address evolving project requirements and client needs, consistently seeking to offer optimal solutions. Our wholehearted dedication to adaptability allows us to pivot and adjust our strategies, enabling us to meet changing objectives and overcome unexpected challenges. Ultimately, adaptability stands as the primary factor in guaranteeing client satisfaction and forging long-lasting, enduring partnerships.
+
 Deep Tech Know-How
 While it may sound like an obvious concept, possessing a profound understanding of how software functions and recognizing its vulnerabilities and limitations has been the defining factor that distinguishes Vinta as a top-tier development consultancy, setting us apart in the market. We deliberately eschew the use of every available technology stack; instead, we intentionally specialize in a specific niche. Our exclusive focus on Python, Django, and React for over a decade has undeniably been a crucial element in our ability to provide solutions for complex challenges.
 Our expertise empowers us to foresee and address issues early on, resulting in time savings, reduced risk, and higher project success rates. We are committed to delivering robust and scalable solutions, drawing on our extensive technical knowledge.
+
 Lower Workload
 One of the early lessons we learned is that having a deep understanding of your client's needs is just as important as possessing extensive technical knowledge. While clients often approach a software house seeking a specific solution, what they genuinely require is a partnership with individuals who can, in various ways, lighten their workload and enhance their capacity to process and make more informed decisions.
 We excel in tackling various technical challenges, offering valuable assistance to our clients. By proactively identifying their pain points, we reduce their long-term burden, minimizing the management workload generally required to maintain software. This approach helps to comprehend and prioritize core challenges, enabling them to focus on improving the product and achieving their business objectives.
