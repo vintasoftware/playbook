@@ -1,173 +1,228 @@
-# Code Quality
+# Management
+## Seamless Team Management
+When launching a new project, whether it's initiating an MVP or integrating as a staff augmentation team, we inquire about our clients' preferred management approaches before offering our recommendations.
 
-- Code is the main source of truth, so it's important to keep it easy to read and understand. If you can’t avoid your code being complex, use comments and docs. 
-- Consider readability while doing code reviews, if it could be easier to understand, it should be improved.
-- Be considerate when designing abstractions and generalizations. Wrong abstractions can be very costly to maintain. You can read more about this topic in [this article from Sandi Metz](https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction).
-- Setup project linters and formatters in your IDE or text editor. 
-- Always fix linting errors; In case a particular rule does not apply to a file or specific piece of code, relax the rule it in the lowest level possible and comment the motivation for doing so;
+The management framework for each project is determined by agreements reached with our clients at the project's outset. In our consulting work, we typically advocate for our team to take full ownership of the adopted management approach. Additionally, we propose the autonomy to designate an internal leader who translates our client's vision into a tactical plan while coordinating the team's efforts.
 
-# Testing
+Depending on team size and project scope, we may assign a project manager responsible for ensuring the team progresses toward our client's vision efficiently. Having a dedicated project manager on our side eliminates the need for clients to invest effort in project management.
 
-- All code should be tested [ideally using TDD];
-- You can have more unit tests than integration ones, but always make sure you have integration tests in place. They're more stable and tend to stay valid on refactoring (see [Test Pyramid](https://martinfowler.com/bliki/TestPyramid.html));
-- When refactoring, avoid changing existing integration tests. Sometimes it will be necessary to do so though.
-- If you’re introducing new services or pieces of code that contain business logic, you should unit test them. Unit tests help us find where the problems are when we introduce new bugs.
-- On the frontend, prioritize integration tests. Most tests should be related to what the users see, so you should refer to pieces of the interface to check or interact with identifiers that are visible to users like labels and a11y attributes. This helps to maintain the frontend tests more stable over time.
-- Every time you’re fixing a bug, write a regression test (write the test first to capture the bug and only then fix it). This will help you ensure you’ve fixed the correct underlying issue. It also helps to prevent the bug from being introduced again in the future.
-- Coverage should be above 80%. If your project has more coverage, be careful not to lower it with new code. If your project has less coverage than the threshold, try to always increase the coverage with the new code that you’re shipping.
+<br>
 
-## Test Driven Development (TDD)
-The TDD methodology defines a 3-step cycle to aid software development, they are often described as  RED →  GREEN →  REFACTOR cycle. This process is simple enough and easy to remember but it carries a bunch of insights and benefits to the software development process. 
+## Continuous Delivery & Flexibility to Changes
+Throughout the years, Vinta has leaned on Agile principles to sustain its management toolbox. While we mainly followed Scrum, we started to notice there were components in the framework that weren’t ideal for us because they didn't allow the flexibility required by our different client profiles. That’s why we decided to come up with our own modernized management framework version, the one that's been adopted by all of our ongoing projects: The Vinta Management Framework.
 
-### Breaking down the problem into smaller steps
-TDD reduces the anxiety of working with big features. Instead of trying to write a full solution to the problem, you can calm down and focus on smaller bits of it. Remember: you just need to write enough code to make the test pass. Focus on that single thing, then move on to another small thing and before you notice it you will have a complete solution.
+That framework is true to our values and flexible to adapt to our client's needs. It has Kanban as a basis, and enables our teams to work with continuous delivery enabled, as we'll constantly be shipping value. This framework proposes a straightforward structure of how the work will be organized in boards operated by the team, offering transparency to our client. Within this framework, our clients can also expect some structured routine meetings to ensure we have a constant alignment with our stakeholders.
 
-### Building on solid ground
-As you repeat the cycle, you will gradually build a robust test suite that backs up all the work you’ve done so far. There’s far less risk of accidentally breaking things. By ensuring the test first fails and then passes you are also ensuring that the code you wrote does exactly what it was intended for. It will also free you up to be more adventurous with your refactoring and enable you to try different architecture approaches. 
+Additionally, our team also conducts a series of internal ceremonies such as strategy syncs to make sure that the team is up to date with the client's vision, daily or weekly progress review meetings where we assess our team's progress, tech review meetings, design review meetings, feature kickoff meetings, and more.
 
-### Know where it broke
-Because tests are focused on small parts of your code you will know straight away where to fix things when something breaks.
+<br>
 
-### TDD is not about testing
-Despite the benefit of producing a robust test suite, the TDD process is a methodology to assist writing code, not tests. Test are nice side-effects of it. 
+## Influencing Product Strategy
+In addition to the tactical work and operational duties associated with the role of a project manager, Vinta's managers are also well-versed in the product management domain. They possess the knowledge to offer guidance on strategic matters and can have a hands-on approach when it comes to shaping product strategy and supporting our clients with roadmap decisions. 
 
-### TDD requires discipline
-It’s very likely that you will have a hard time in the first few times you try to do TDD. It will possibly seem unnatural or boring. Until you get used to it you will need a bit of faith, your mind will eventually adapt to it and you will start noticing the benefits. Do not give up, keep forcing yourself, it will pay off! 
+<br>
 
-### The feedback loop
-One of the things that will help in this process is the feedback loop, the sense of making progress. One caveat is that it will only work if you keep the cycles short. It’s rewarding to strike through a bunch of quick wins and it will help you feeling productive and happy with your work, but you will lose it all if you start writing tests that require too much code to pass or if tests take long to run.
+# Design
+## Adaptive Design Operations
+At Vinta, we recognize that design is not merely an aesthetic choice but a strategic tool that can be leveraged according to the maturity level of each client.
 
-# Pair Programming
+For New Ventures, design is about rapidly validating market fit and user appeal, often with limited resources. Our operations are built to adapt, providing the agility these early-stage companies need to pivot and iterate quickly. For Established Businesses, design becomes a tool for scaling and refining, ensuring that as they grow, their digital products remain cutting-edge and user-centric.
 
-Pair programming essentially means that two people write code together on one screen. It is a very collaborative way of working and involves a lot of communication. While a pair of developers work on a task together, they do not only write code, they also plan and discuss their work. They clarify ideas on the way, discuss approaches, and come to better solutions.
+Whether it's a startup seeking to make its mark or a mature company looking to innovate, our design operations flex to meet the distinct challenges and goals at each stage of the business lifecycle.
 
-## Pair programming styles
+To ensure the success of our strategic work, we:
 
-### Driver-Navigator
-It consists of one person ‘driving’, taking the keyboard and coding or doing the work, while the other one is ‘navigating.’ The Navigator’s job is to pay attention to the work being done by the driver while keeping the big picture in mind. They should guide the driver in the right direction. The driver must explain verbally every decision they make; otherwise, the navigator might lose interest and may stop paying attention. It’s healthy to switch roles every X minutes.
+- Collaboration and Real-Time Communication: Utilizing reliable communication tools and task management systems, we foster a collaborative environment. This ensures real-time updates, feedback, and discussions, keeping our projects organized and on track, facilitating quick decision-making, and maintaining project momentum. We maintain open lines of communication with our clients, actively involving them in the design process to ensure that the final design meets their vision and expectations. This collaborative approach ensures alignment and satisfaction.
 
-### Ping-Pong
-This technique embraces Test-Driven Development (TDD) and is perfect for a clearly defined task implemented in a test-driven way. A good strategy for this approach is to have one person writing the tests while the other tries to get them to pass. As in the previous approach, you should be switching roles often.
+- Data-Driven and Informed Design: Leveraging data to inform our design decisions, we work closely with developers to implement analytics and gather user feedback. This approach enables us to measure the success of our design solutions and make continuous improvements, ensuring that our designs are always aligned with user needs and business objectives.
 
-### Strong-Style
-This technique is handy for knowledge transfer, described in much more detail by [Llewellyn Falco](https://llewellynfalco.blogspot.com/2014/06/llewellyns-strong-style-pairing.html). The rule: "For an idea to go from your head into the computer, it MUST go through someone else's hands.” In this style, the navigator is usually the person much more experienced with the setup or task at hand, while the driver is a novice (with the language, the tool, the codebase, ...). The experienced person mostly stays in the navigator role and guides the novice.
+- Comprehensive Design Documentation: Comprehensive Design Documentation: We create detailed design specifications, style guides, and pattern libraries, providing a single source of truth for product design. This ensures consistency across the team and clarity in design decisions, facilitating a smoother design-development collaboration.
 
-## Challenges
-- Pairing requires practice. While pair programming has many benefits, it also requires practice and might not work smoothly from the start.
-- Pairing can be exhausting. When working alone, you can take breaks whenever you want, and your mind can drift off or shut down for a bit when it needs to. Pairing forces you to keep focus for potentially longer stretches of time and find common ground with the other person's rhythm and ways of thinking. The increased focus is one of the benefits of pairing and makes it quite intense and exhausting.
-- Intense collaboration can be hard. 
-  - Working so closely with another person for long stretches of time is intense. It would be best if you communicated constantly, and it requires empathy and interpersonal skills. 
-  - You might have differences in techniques, knowledge, skills, extraversion, personalities, or approaches to problem-solving. Some combinations of those might not match well and give you a rocky start. In that case, you need to invest some time to improve collaboration and make it a mutual learning experience instead of a struggle.
-- Pairing with lots of unknowns.
-  - When you work on a large topic where both of you don't know how to solve a problem, the usual pairing styles often don't work. Let's say you need to use technology for the first time or try out a new approach or pattern. Researching and experimenting together works in some constellations. Still, it can also be frustrating because we all have different approaches to figuring out how things work, and we read and learn at different paces.
-  - When there are many unknowns, e.g., you’re working with new technology, think about doing a spike to explore the topic and learn about the technology before you actually start working.
-- No time for yourself.
-  - Being in a constant conversation with each other can be pretty energy draining. Most people also need some time on their own throughout the day. That is especially true for introverts.
-  - Keep the pair programming to a maximum of 4 hours per day.
-  - When a pair feels that they don't have the collective knowledge to approach a problem, split up to read up and share back, then continue implementation.
-- Pairing requires vulnerability.
-  - Vulnerability is often connected with weakness, and in most modern cultures, the display of strength is the norm. But as the researcher Brené Brown has laid out in several talks and books, vulnerability is actually a crucial ingredient for innovation and change.
 
-# Code Review
+<br>
 
-Code Review is an integrated software development process that helps identify bugs and defects before the testing phase. This is often overlooked as an ongoing practice during the development phase, but countless studies show it's an effective quality assurance strategy.
 
-## How-to
-- You must check if the PR is under 400 lines of code;
-- You must look at every line of code that you have been assigned to review;
-- Read the feature description thoroughly to check if everything is implemented;
-- You must comment on any issue (see checklist below);
-- Each project must have a PR template and use the GitHub feature of PR templates to add the section Checklist to it;
-- Run code and use it as the end user would. Double check requested feature’s description;
-- Changes should have a narrow, well-defined, self-contained scope that they cover exhaustively;
-- If you are not in the middle of a focused task, you should do a code review shortly after it comes in;
+## Our Philosophy: User-centered and Scalable Design
+Central to our design philosophy is a user-centered approach. We tailor our methods to meet business needs and resources, utilizing user personas, user journeys, and usability testing to forge intuitive and engaging user experiences. Our aim is not only to meet but to exceed user expectations, crafting designs that are both functional and captivating.
 
-## Cultivate Healthy Reviews
+Furthermore, our designs are crafted with future growth in mind, ensuring that they can evolve and adapt as the product expands. By considering future features and enhancements from the start, we lay a foundation for long-term success. An important part of scaling design successfully involves maintaining clear, organized documentation, and we achieve this through two main strategies:
 
-Code reviews are powerful means to improve code quality, establish best practices, and spread knowledge. However, they can come to nothing or harm interpersonal relations when they are done wrong. Hence, it’s important to pay attention to the human aspects of code reviews understanding they require a certain mindset and phrasing techniques to be successful.
+- Choosing the Right Design System: Whether it's a proprietary design system tailored to a unique brand identity or a third-party design system for faster implementation, we help our clients choose the best fit for their needs. Our expertise with tools like Figma enhances our ability to create, collaborate, and maintain consistency across projects, ensuring quality and efficiency.
 
-## Tips on receiving reviews
-- Making mistakes is accepted, and admitting them is desired;
-- You != Your code;
-- Be humble. You are not perfect, and you can also improve.
+- Managing design debt: As design projects accumulate, we stay vigilant in tracking and managing design debt, ensuring that all design work is completed efficiently, and maintaining the integrity of the design operation.
 
-## Tips on commenting
-- Be kind and thankful;
-- Mind the [IKEA effect](https://phauer.com/2018/code-review-guidelines/#mind-the-ikea-effect), people value things that require assembly more than pre-assembled things. This means you might place a too high value on your own code, for example, preventing its replacement by an external library;
-- Mind the [OIR-Rule](https://phauer.com/2018/code-review-guidelines/#mind-the-oir-rule-of-giving-feedback) (Observation, Impact, Request) of giving feedback. Describe your Observation (this method is too large), explain the Impact (it doesn’t follow the pattern of small methods the project has), and make a Request (could you please break it up on the part that saves the file?)
-- Explain your reasoning;
-- Balance giving explicit directions with just pointing out problems and letting the developer decide;
-- Encourage developers to simplify code or add code comments instead of just explaining the complexity to you.
-- Use I-Messages: "I suggest...", "I think...", "I believe...", "I would...", "It's hard for me to...", "For me, it seems like...", "The way I see it...";
 
-# Architectural Decision Records (ADRs)
+<br>
 
-> “An architecture decision record is a short text file in a format similar to an Alexandrian pattern. [...] Each record describes a set of forces and a single decision in response to those forces.” - [Michael Nygard, November 2011](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions.html)
 
-An ADR is a file that describes and documents an architectural decision within a project. They follow a simple and well defined format agreed by the team and should be stored in a place that can be easily accessed by all stakeholders. It’s very important that they follow a lightweight process so they can be easily integrated into the day to day of developers.
+# Development
+## Code Quality
+Code is the primary source of truth for us. We keep it easy to read and understand. At the start of each project, we reach an agreement with the client on the code quality threshold that makes sense for them. From then on, we enforce it during code reviews, testing, linters, and other tools and practices we’ll list in this section.
 
-## Immutability
-Once an ADR is created it should never be deleted. The information in an ADR that was rejected or superseded by a more recent one still important and should be always available for further reference. We should be able to learn from mistakes and be able to review why something was rejected or deprecated.
+We understand that projects shift between the need for speed and focusing on code quality. Neglecting speed impacts competitiveness, while overlooking code quality results in missed opportunities and lost sprints on bug fixes. That's why our code is designed to be either easily maintainable for quick development or easily removable for smooth refactoring when a more robust solution is required.
 
-## Size
-As a reference, you should try to keep ADRs no longer than 2 pages in Google Docs.
+This section will now focus on the practices to reach and maintain the level of code quality your project needs:
 
-## What should generate an ADR?
-The key here is to not over nor under do ADRs. Too little and you are probably missing some important decisions, too much you are probably documenting things that are not worthy of an ADR. Here are some examples of things that should normally trigger the writing of an ADR, this list should be used as a guideline but teams are free to fine tune it to their context:
-- Decisions made during team meeting / pairing;
-- Any strategic decision;
-- New feature architecture;
-- New code formatting style;
-- New programming pattern;
-- New library / tool / integration (what were the options? why was this chosen over the others?);
+- Testing
+- Code review
+- Documentation
+- Security
 
-## What should NOT generate an ADR?
-- Changes that are too small / too local or that are not architectural concerns;
-- Things that do not need to be synced among all team members;
-- Code details;
 
-## Good Practices
-- Link ADRs to relevant user stories. They can give more context and also be used for validation.
-- ADRs are a process for everyone in the team, not just the Tech Lead.
-- Submit ADRs for team review and feedback.
-- Bring ADRs to team meetings for discussion and for syncing the team about changes.
-- Share ADRs with customers for validation (after it was reviewed by the team). They can help you confirm the decision is aligned with business goals and identify issues early on. Make sure to level up what ADRs are worth sharing accordingly to the customer's technical level.
+<br>
 
-# Technical Documentation Writing Guidelines
 
-- Lots of: parameter tables, steps-by-steps, internal links to sections and external links, script examples, configuration examples, screenshots, warnings, caveats, things to watch for, etc;
-- Use Markdown;
-- Use [tables](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/organizing-information-with-tables);
-- Use [ordered lists](https://guides.github.com/features/mastering-markdown/);
-- Use [section anchor links](https://gist.github.com/rachelhyman/b1f109155c9dafffe618);
-- Set the language of fenced code to [enable syntax highlighting](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/creating-and-highlighting-code-blocks#syntax-highlighting );
-- Add [images](https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github);
-- Put warnings, use [emojis](https://github.com/scotch-io/All-Github-Emoji-Icons) :warning:;
-- Define [principles](https://www.writethedocs.org/guide/writing/docs-principles/) such as ARID: Accept (some) Repetition In Documentation;
+## Testing
+A robust test coverage is essential to any successful digital product. The types of tests we use vary, but we commonly focus more on unit tests rather than integration ones, while ensuring a good portion of integration tests are in place. Tests not only guarantee the code is working correctly but also guide developers on the expected behavior of a piece of code. Throughout our work, we write several tests to [fulfill various roles](https://martinfowler.com/bliki/TestPyramid.html). Usually, we use TDD, changing our approach whenever a different one would fit the client’s needs better.
 
-# Software Development Security
+We strive for elevated test coverage, but we also understand that, after we meet a particular bar (each client has their bar), the product benefits more from improved and more comprehensive tests than from increased coverage.
 
-## Backups
-Application backups are both a critical component that need proper securing and an important way to recover data in the case of an exploit.
-- Backups of all system data must happen automatically and in time windows where they won't harm application performance;
-- They must be stored in a separate infrastructure from the application and access should be limited to a small group of system admins;
-- Backups must never be downloaded to a local machine;
-- Run backup restoring tests with a frequency of at least once every two months;
+<br>
 
-## Web Application Development
-Security should be considered in every step of the software development process. The following list covers the basics and most important practices but this is a whole field of study that you should be aware of and get educated on as you grow in your career.
-- Data from the frontend must never be trusted and should always be checked for permissions and submitted through validations / sanitizations on the backend;
-- Logs should be extensively used and stored in a centralized place;
-- Logs should include auditable user activity data, but they should not include Personally Identifiable Information (PII);
-- Code sent to the browser must be obfuscated and all comments should be stripped out;
-- Error messages sent to the frontend must not contain sensitive information about the application (paths, traces, debug messages, software version…);
-- Never commit key/secrets in the code;
-- Never do cryptography yourself. Always rely on existing mechanisms, libraries, and tools;
-- All system resources should check for user authentication and permissions;
-- Application administrative areas must be hidden and restricted to power users;
-- Code dependencies should be automatically monitored for updates and security issues;
-- Server operational system and packages should be monitored for updates and security issues;
-- Alerts on security issues must be issued as soon as they’re identified (not only at commit/push time);
-- Production applications must use TLS/HTTPS;
-- Use a Web Application Firewall (WAF) to protect from common attacks and DDoS;
-- Watch for unusual patterns in your metrics such as CPU, memory, disk usage, and bandwidth usage;
+## Shipping Early and Often
+At Vinta, we make the cycle from defining requirements to putting changes in front of production users as short and painless as possible. It doesn’t mean we will be intransigent or unable to plug with your team or existing processes. It does mean that we’ll strive to deploy in the smallest batch possible to avoid delays and cluttering natural to big releases. One such practice we can apply if aligned with your team, is pushing unfinished work behind feature flags to production rather than having long-running undeployed branches, for example.
+
+We’ve reached this level due to our pragmatic testing culture and our infrastructure skills. We can discuss these smaller deliveries internally while keeping it all transparent to our clients. We can also involve the client in these discussions if that would be valuable for a business objective or to show an investor.
+
+<br>
+
+## Code Review
+Code reviews are potent means to improve code quality, establish best practices, and spread knowledge within the team. We have battle-tested code review guidelines. They help us to guarantee a more resilient project in the long run, as specific knowledge will never be in the hands of a single team member. They also empower every developer to deploy valuable code to production, no matter the maturity level.
+
+### How-to
+We review every piece of code that goes to production over several aspects. Here are some of the checks we run to make sure you don’t need to worry about it:
+
+- Correctness - Does the solution behave strictly as intended?
+- Style - Is the style of the code familiar to the team?
+- Naming - Did the developer choose clear names for variables, classes, methods, and other parts of the code?
+- Complexity - Is the solution more complex than it should be?
+- Security - Are there any security issues?
+- Conciseness - Has the developer implemented things that might be needed in the future with no explicit need now?
+- Testability - Does the code have a correct and well-designed unit, integration, or end-to-end tests?
+- Comments - Are the comments clear and valuable?
+- Configurability - Are the configurable values stored in places such as XML settings files or databases?
+- Documentation - Has the developer also updated relevant documentation?
+- Performance - Does the solution have performance bottlenecks?
+- Risk of Failure - Does the solution work well on edge scenarios on the infrastructure?
+
+<br>
+
+## Technical Debt
+We know that no process is fail-proof, and every team will introduce technical debt as the project becomes increasingly complex. We also understand that business objectives determine the priority of fixing them. Naturally, businesses will oscillate between periods when speed is more important and others when delays to ensure quality will be the way to go. We’ve worked on both ends of the spectrum and are comfortable adapting processes and practices depending on the client’s best interests.
+
+<br>
+
+## Technical Documentation
+Efficient documentation is what keeps people working at a nice pace even as the project grows in complexity. Code in production is more important than documenting, for sure. However, investing time to document guarantees speedy deliveries and less time spent solving issues later on.
+
+We have described an array of our practices and philosophy about technical documentation [in this blogpost](https://www.vinta.com.br/blog/dont-rely-on-memory-knowledge-management-for-engineering-teams) one of our partners wrote. 
+
+<br>
+
+## How we deal with incidents in production
+We monitor a multitude of aspects of our software. Even then, incidents or emergencies are bound to happen in production, requiring our immediate attention. During these situations, we understand that always keeping the client informed is paramount. They should have a transparent view of where our investigation is leading us and a time frame for resolving the issue. We also allocate specific roles and responsibilities during the crisis.
+
+When investigating the occurrence, the first step in the investigation is to assess the impact of the incident, we first take a closer look at:
+
+- Which services did it hit?
+- Which SLOs did it affect?
+- How many users has it impacted?
+- Are users reporting the issue?
+- Is there data loss?
+- Is this a security issue?
+- Is it a problem with an external service?
+
+Then, we look for a way to diminish the severity of the impact as soon as possible. If a recently deployed feature is causing the issue, we can make a rollback, for instance. After that, we start an incident report, where the client (and whomever they decide to share it with) can see what we are trying to fix the issue in real time. After solving the problem, we do more thorough research and write a postmortem document. This final document assesses the incident's root cause and what we need to do so it won’t happen again.
+
+<br>
+
+## Software Development Security
+### Processes For Security
+We take several precautions to ensure the security of every project we work on. We understand security measures are mandatory inclusions in every project. Here are some of our processes on that matter:
+
+- We renew domain names regularly;
+- We train non-technical and technical employees against phishing attacks;
+- All machines are password-protected and have encrypted hard drives;
+- All supporting services use Two-factor Authentication;
+- We handle all cloud services' passwords with a password manager for solid password generation and protection;
+- We don't share accounts between employees.
+- Backups of all system data happen automatically and in time windows where they won't harm application performance;
+- We store them in a separate infrastructure from the application, and access is limited to a small group of system admins;
+- We never download backups to a local machine;
+- We run Backup restoring tests with a frequency of at least once every two months;
+
+<br>
+
+
+### Coding Measures For Security
+- Real-time monitoring for detecting outdated software libraries and tools;
+- Automated tests to check for common security vulnerabilities;
+- Compliance with accessibility and payment gateways;
+- Separate testing, staging, and production environments;
+- Protected branches on all of our project’s versioning;
+- Database encrypted at rest using industry-grade AES-256, block-level storage encryption;
+- Sensitive fields (such as Tax ID No.) are encrypted in the database using a Symmetric-key Algorithm;
+- Read-only access for any third-party partner that will access the database;
+- All communication is encrypted via 2048-bit SSL, including file transfers;
+- All login attempts are logged and monitored;
+- Users go through email verification and account-level verification. Sophisticated passwords to enhance account security are also required;
+- Password hashed with PBKDF2 algorithm, a password stretching mechanism recommended by NIST (National Institute of Standards and Technology). All passwords are hashed and salted with 10,000+ iterations for complete security;
+- We use secure industry-standard third parties like Stripe with direct integration from the user frontend to the third-party backend to avoid storing credit card data.
+- Frontend data is never trusted and constantly checked for permissions and submitted through validations/sanitizations on the backend;
+- Logs are extensively used and stored in a centralized place;
+- Logs include auditable user activity data, but they don’t include Personally Identifiable Information (PII);
+- We obfuscate code sent to the browser and strip out all comments;
+- Error messages sent to the frontend don’t contain sensitive information about the application (paths, traces, debug messages, software version, or any other);
+- We never commit keys/secrets in the code;
+- We never do cryptography ourselves. We always rely on existing mechanisms, libraries, and tools;
+- All system resources check for user authentication and permissions;
+- Application administrative areas are hidden and restricted to power users;
+- We automatically monitor code dependencies for updates and security issues;
+- Alerts on security issues are issued as soon as they’re identified (not only at commit/push time);
+- Production applications use TLS/HTTPS;
+- We use a Web Application Firewall (WAF) to protect from common attacks and DDoS;
+- We watch for unusual patterns in your metrics, such as CPU, memory, disk usage, and bandwidth usage;
+
+<br>
+
+We strictly follow the security guidelines of the tools and open-source frameworks we use, such as PostgreSQL documentation, Django documentation, Python security guidelines, and Stripe security documentation. In addition, we perform upgrades as necessary to ensure the highest level of security.
+
+Here are the links to the security documentation for these tools and frameworks:
+
+- [PostgreSQL documentation](https://www.postgresql.org/files/documentation/pdf/10/postgresql-10-A4.pdf);
+- [Django documentation](https://buildmedia.readthedocs.org/media/pdf/django/latest/django.pdf);
+- [Python security guidelines](https://buildmedia.readthedocs.org/media/pdf/python-security-ewdurbin/latest/python-security-ewdurbin.pdf);
+- [Stripe security documentation](https://stripe.com/docs/security).
+
+<br>
+
+# Measuring Success
+To be cost-effective, software companies must measure whether their investments in developing new features or products yield the expected return. Vinta employs an end-to-end development process that includes measuring the impact of what we ship through the analysis of product metrics.
+
+Product metrics incorporate a time component and comparison model, allowing us to determine if product decisions had a quantifiable impact. Not analyzing metrics means operating blindly, leading to missing opportunities to enhance products and user experiences, and may also result in money loss.
+
+Furthermore, product metrics empower software companies to demonstrate their value to stakeholders, whether they are investors, customers, or internal teams. Tangible data showcases the impact and performance of the product, fostering trust and confidence, which can attract more investment and customer loyalty.
+
+As opinionated consultants, the Vinta team collaborates with stakeholders to define the appropriate metrics for measuring the success of their deliveries before initiating the development of any product or specific features. Our goal is to assist clients in making more informed decisions by transforming metric results into actionable insights that can shape the future of their products. 
+
+
+<br>
+
+# Embedded Customer Service
+In a competitive market, companies need to be aware of what makes them indispensable to their customers. For many of them, especially startups that are looking to increase their presence in the market, support is a huge differentiating factor.
+
+According to Zendesk’s 2020 CX Trends Report, 74% of customers feel loyal to a particular brand or company. Younger generations and Americans are the most loyal to their favorite brands. Right after price, customer service comes as one of the main players in the top attributes when customers are queried about brand loyalty.
+
+Our support package is offered as a part of our regular consultancy and staff augmentation services. All of our engineers are able to work in support and our team leaders are capable of implementing a support structure and best practices from scratch if our clients do not yet have one, including:
+
+- Setting up and managing major ticketing management systems;
+- Implementing a system for categorizing customer conversations (triage) to extract UX insights and identify common points of confusion;
+- Maintaining status pages to keep end-users informed;
+- Implementing structured incident reporting processes;
+- Conducting transparent post-mortems with incident timelines, impact analysis, root causes, and prevention steps;
+- Utilizing battle-tested prioritization frameworks based on ticket severity and SLA;
+- Developing documentation writing methods and templates for an effective help center.
+
+<br>
+
+We follow a multi-channel approach, leverage custom work to ensure our clients’ companies provide tailored solutions to their customers as a differentiator and most importantly, ensure that each and every service we provide is flexible enough to fit our clients’ needs.
