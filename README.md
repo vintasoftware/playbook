@@ -1,5 +1,5 @@
 # Explore the Vinta Approach to Software Development
-From the CEO's desk, Felipe Farias, to the heart of our development team, this playbook is a journey through a decade of growth, innovation, and invaluable insights. 🌟
+From the CEO's desk, [Felipe Farias](https://github.com/felipefarias), to the heart of our development team, this playbook is a journey through a decade of growth, innovation, and invaluable insights. 🌟
 
 Join us as we share our principles, experiences, and the secrets behind crafting successful digital products. Dive in and explore the playbook now! 
 
